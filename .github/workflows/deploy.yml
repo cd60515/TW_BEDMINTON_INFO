@@ -18,6 +18,9 @@ concurrency:
 
 jobs:
   deploy:
+    # 私人 repo（免費方案）無法使用 Pages。公開 repo 並開啟 Pages 後，
+    # 到 Settings → Secrets and variables → Actions → Variables 新增 PAGES_ENABLED = true 即會開始部署。
+    if: vars.PAGES_ENABLED == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
