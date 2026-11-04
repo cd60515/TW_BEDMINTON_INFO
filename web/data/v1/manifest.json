@@ -1,0 +1,101 @@
+{
+  "apiVersion": "v1",
+  "generatedAt": "2026-11-05T07:17:44+08:00",
+  "counts": {
+    "venues": 1435,
+    "videos": 96,
+    "lessons": 18,
+    "groups": 0,
+    "ptt": 14
+  },
+  "links": {
+    "total": 178,
+    "ok": 153,
+    "restricted": 19,
+    "broken": 0,
+    "checkedAt": "2026-11-05T07:11:14+08:00"
+  },
+  "files": {
+    "community_venues.json": {
+      "sha": "a64f8f5b6b9d0123",
+      "bytes": 62,
+      "updatedAt": "2026-11-05T07:00:00+08:00",
+      "count": 0
+    },
+    "gear.json": {
+      "sha": "e65d4de9fdb89c4a",
+      "bytes": 6870,
+      "updatedAt": "2026-11-05T07:00:00+08:00",
+      "count": null
+    },
+    "groups.json": {
+      "sha": "a8866105075653bf",
+      "bytes": 291,
+      "updatedAt": "2026-11-05T07:00:00+08:00",
+      "count": 0
+    },
+    "lessons.json": {
+      "sha": "b571225a605b833e",
+      "bytes": 14199,
+      "updatedAt": "2026-11-05T07:00:00+08:00",
+      "count": 18
+    },
+    "link_status.json": {
+      "sha": "23b60d1006ad0510",
+      "bytes": 42299,
+      "updatedAt": "2026-11-05T07:11:14+08:00",
+      "count": null
+    },
+    "ptt.json": {
+      "sha": "2cbfdbbc3e5a05c0",
+      "bytes": 5154,
+      "updatedAt": "2026-11-05T07:03:16+08:00",
+      "count": 14
+    },
+    "shops.json": {
+      "sha": "a64f8f5b6b9d0123",
+      "bytes": 62,
+      "updatedAt": "2026-11-05T07:00:00+08:00",
+      "count": 0
+    },
+    "sources.json": {
+      "sha": "3675064e57655443",
+      "bytes": 1471,
+      "updatedAt": "2026-11-05T07:00:00+08:00",
+      "count": 5
+    },
+    "videos.json": {
+      "sha": "49727719065c801b",
+      "bytes": 28340,
+      "updatedAt": "2026-11-05T07:00:00+08:00",
+      "count": 96
+    },
+    "venues/index.json": {
+      "sha": "02f9c4a8cda7ef23",
+      "bytes": 2470,
+      "updatedAt": "2026-11-05T06:56:40+08:00",
+      "count": null
+    },
+    "venues/all.json": {
+      "sha": "0fd2b4fb54fa0427",
+      "bytes": 371469,
+      "updatedAt": "2026-11-05T07:17:44+08:00",
+      "count": 1435
+    },
+    "iplay": {
+      "updatedAt": "2026-11-05T06:56:40+08:00"
+    },
+    "ptt": {
+      "updatedAt": "2026-11-05T07:03:16+08:00"
+    },
+    "youtube": {
+      "updatedAt": "2026-11-05T07:00:00+08:00"
+    },
+    "community": {
+      "updatedAt": "2026-11-05T07:00:00+08:00"
+    },
+    "editorial": {
+      "updatedAt": "2026-11-05T07:00:00+08:00"
+    }
+  }
+}

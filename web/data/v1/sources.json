@@ -1,0 +1,10 @@
+{
+  "updatedAt": "2026-11-05T07:00:00+08:00",
+  "items": [
+    {"id": "iplay", "name": "教育部體育署 全國運動場館資訊網 iPlay", "url": "https://iplay.sports.gov.tw/", "type": "政府開放資料 API", "covers": "全台羽球場館（地址、電話、座標、租借與開放狀態）", "schedule": "每週一", "script": "scripts/fetch_venues.py"},
+    {"id": "ptt", "name": "PTT 羽球板", "url": "https://www.ptt.cc/bbs/Badminton/index.html", "type": "公開論壇索引（僅標題與連結）", "covers": "零打揪人、二手買賣、羽球新聞", "schedule": "每 6 小時", "script": "scripts/fetch_ptt.py"},
+    {"id": "youtube", "name": "YouTube 公開教學影片", "url": "https://www.youtube.com/", "type": "嵌入公開影片（oEmbed 驗證）", "covers": "20 個主題的教學影片", "schedule": "每月 1 日重新搜尋＋每週驗證", "script": "scripts/refresh_videos.py"},
+    {"id": "community", "name": "社群提交（GitHub Issues）", "url": "https://github.com/cd60515/TW_BEDMINTON_INFO/issues/new/choose", "type": "使用者投稿＋人工審核", "covers": "零打團、私人球館、球具店、錯誤回報", "schedule": "審核後即時", "script": "scripts/issue_intake.py"},
+    {"id": "editorial", "name": "編輯團隊整理", "url": "https://github.com/cd60515/TW_BEDMINTON_INFO", "type": "人工撰寫", "covers": "教學課程、球具選購指南、交易安全", "schedule": "不定期", "script": ""}
+  ]
+}

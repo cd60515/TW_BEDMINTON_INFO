@@ -1,0 +1,15 @@
+name: ✅ 確認零打團仍在運作
+description: 團主確認後，該團會重新計算 60 天有效期限
+title: "[確認] "
+labels: ["type:confirm", "needs-review"]
+body:
+  - type: input
+    id: group_id
+    attributes: {label: "團編號", description: "從網站點擊按鈕會自動帶入"}
+    validations: {required: true}
+  - type: input
+    id: group_name
+    attributes: {label: "團名"}
+  - type: textarea
+    id: changes
+    attributes: {label: "需要更新的資訊（沒有可留空）", placeholder: "例：改為每週四 19:30-22:00、費用調整為 220 元"}

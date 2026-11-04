@@ -1,0 +1,6 @@
+{
+  "updatedAt": "2026-11-05T07:00:00+08:00",
+  "ttlDays": 60,
+  "note": "社群提交的零打團。由 GitHub Issue 表單提交並經維護者標記 approved 後，自動寫入此檔。confirmedAt 超過 ttlDays 未再確認者，前台自動標示為過期並隱藏。",
+  "items": []
+}

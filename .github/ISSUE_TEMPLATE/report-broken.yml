@@ -1,0 +1,21 @@
+name: 🩹 回報錯誤或失效資料
+description: 場館資訊錯誤、影片無法播放、連結失效、零打團已解散…
+title: "[回報] "
+labels: ["type:report"]
+body:
+  - type: input
+    id: item
+    attributes: {label: "哪一筆資料？", placeholder: "例：臺北市大安運動中心"}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: "相關網址"}
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 問題類型
+      options: [連結失效, 資訊錯誤, 場館已關閉, 零打團已解散, 影片無法播放, 其他]
+    validations: {required: true}
+  - type: textarea
+    id: detail
+    attributes: {label: "說明（正確資訊是什麼？）"}

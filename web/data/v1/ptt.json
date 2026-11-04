@@ -1,0 +1,172 @@
+{
+  "source": "PTT 羽球板",
+  "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
+  "updatedAt": "2026-11-05T07:03:16+08:00",
+  "keepDays": {
+    "group": 45,
+    "market": 21,
+    "news": 14
+  },
+  "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1793633506.A.1AC.html",
+      "title": "[Live] 2026 韓國公開賽賽事討論區",
+      "tag": "Live",
+      "cat": "news",
+      "city": "",
+      "author": "adamsuit",
+      "postedAt": "2026-11-02T23:31:46+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1793615736.A.20F.html",
+      "title": "[新聞] 運動漫畫「不惑羽球」原型　葉宏蔚：希望大家記住我",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "hihihihehehe",
+      "postedAt": "2026-11-02T18:35:36+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1793066243.A.74F.html",
+      "title": "[Live] 2026 海洛公開賽賽事討論區",
+      "tag": "Live",
+      "cat": "news",
+      "city": "",
+      "author": "adamsuit",
+      "postedAt": "2026-10-27T09:57:23+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1793017181.A.BD1.html",
+      "title": "[揪人] 長期（六）三重運動中心 1200-1400",
+      "tag": "揪人",
+      "cat": "group",
+      "city": "新北市",
+      "author": "seen",
+      "postedAt": "2026-10-26T20:19:41+08:00",
+      "group": {
+        "weekdays": [
+          6
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "venue": "三重運動中心",
+        "longTerm": true
+      }
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1793008934.A.9FC.html",
+      "title": "[揪人] 長期（日）永吉國中0820-1220",
+      "tag": "揪人",
+      "cat": "group",
+      "city": "",
+      "author": "naomilove",
+      "postedAt": "2026-10-26T18:02:14+08:00",
+      "group": {
+        "weekdays": [
+          0
+        ],
+        "start": "08:20",
+        "end": "12:20",
+        "venue": "永吉國中",
+        "longTerm": true
+      }
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1793008814.A.F4A.html",
+      "title": "[揪人] 長期（四）南港高中1930-2130",
+      "tag": "揪人",
+      "cat": "group",
+      "city": "臺北市",
+      "author": "naomilove",
+      "postedAt": "2026-10-26T18:00:14+08:00",
+      "group": {
+        "weekdays": [
+          4
+        ],
+        "start": "19:30",
+        "end": "21:30",
+        "venue": "南港高中",
+        "longTerm": true
+      }
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792987177.A.305.html",
+      "title": "[分享] 台灣羽球紀錄片《奪牌之路 誰羽爭鋒》",
+      "tag": "分享",
+      "cat": "news",
+      "city": "",
+      "author": "ronytw",
+      "postedAt": "2026-10-26T11:59:37+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792984526.A.149.html",
+      "title": "[新聞] 80年漫長等待 終於又有地主男單冠軍",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "charles0939",
+      "postedAt": "2026-10-26T11:15:26+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792984346.A.298.html",
+      "title": "[新聞] 安洗瑩太狂了！法國公開賽三連霸 本季第",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "charles0939",
+      "postedAt": "2026-10-26T11:12:26+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792939847.A.374.html",
+      "title": "[新聞] 安洗瑩法國公開賽三連霸50連勝寫歷史新",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "iamshana",
+      "postedAt": "2026-10-25T22:50:47+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792856852.A.C98.html",
+      "title": "[新聞] 完全統治！安洗瑩力拚本季第10冠 今年",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "iamshana",
+      "postedAt": "2026-10-24T23:47:32+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792732817.A.3D9.html",
+      "title": "[新聞] 亞帕運羽球》不敵中國勁敵 方振宇摘下銀牌寫個人生涯最佳",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "hihihihehehe",
+      "postedAt": "2026-10-23T13:20:17+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792674475.A.D0A.html",
+      "title": "[新聞] 太意外！山口茜遭印度女將以直落二淘汰",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "iamshana",
+      "postedAt": "2026-10-22T21:07:55+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1792425556.A.DBB.html",
+      "title": "[揪人] 10/24、25南港運動中心0800-1200",
+      "tag": "揪人",
+      "cat": "group",
+      "city": "臺北市",
+      "author": "naomilove",
+      "postedAt": "2026-10-19T23:59:16+08:00",
+      "group": {
+        "weekdays": [],
+        "start": "08:00",
+        "end": "12:00",
+        "venue": "南港運動中心",
+        "longTerm": false
+      }
+    }
+  ]
+}

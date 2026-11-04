@@ -1,0 +1,9 @@
+node_modules/
+ios/App/Pods/
+ios/App/App/public/
+ios/DerivedData/
+.DS_Store
+__pycache__/
+*.pyc
+reports/
+.claude/

@@ -1,0 +1,59 @@
+name: Community intake
+# 維護者在投稿 Issue 加上 `approved` 標籤後，自動把表單內容寫入資料檔並上線。
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    outputs:
+      ok: ${{ steps.run.outputs.ok }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply submission
+        id: run
+        continue-on-error: true
+        env:
+          # 以環境變數傳入，避免 Issue 內容被當成 shell 指令執行
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+        run: python scripts/issue_intake.py
+      - name: Validate & commit
+        if: steps.run.outputs.ok == 'true'
+        run: |
+          python scripts/validate.py
+          python scripts/build_manifest.py
+          git config user.name "twb-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data
+          git diff --cached --quiet || { git commit -m "data: 社群投稿 #${{ github.event.issue.number }}"; git push; }
+      - name: Reply
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SUMMARY: ${{ steps.run.outputs.summary }}
+          OK: ${{ steps.run.outputs.ok }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUM" --body "${SUMMARY:-❌ 處理失敗，請查看 Actions 紀錄}"
+          if [ "$OK" = "true" ]; then gh issue close "$NUM"; fi
+
+  deploy:
+    needs: intake
+    if: needs.intake.outputs.ok == 'true'
+    uses: ./.github/workflows/deploy.yml

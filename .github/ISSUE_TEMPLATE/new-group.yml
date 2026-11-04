@@ -1,0 +1,99 @@
+name: 🤝 登錄零打團
+description: 免費登錄你的零打／臨打團，審核通過後自動上架
+title: "[零打團] "
+labels: ["type:group", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝登錄！審核通過後會自動出現在網站「零打團」頁面。**60 天內未確認的團會自動下架**，屆時在網站上按「確認仍在運作」即可延長。
+        ⚠️ 本表單內容會公開，請勿填寫私人手機號碼以外不想公開的資料。
+  - type: input
+    id: name
+    attributes: {label: "團名", placeholder: "例：週三大安晚場羽球團"}
+    validations: {required: true}
+  - type: dropdown
+    id: city
+    attributes:
+      label: 縣市
+      options:
+        - 臺北市
+        - 新北市
+        - 基隆市
+        - 桃園市
+        - 新竹市
+        - 新竹縣
+        - 苗栗縣
+        - 臺中市
+        - 彰化縣
+        - 南投縣
+        - 雲林縣
+        - 嘉義市
+        - 嘉義縣
+        - 臺南市
+        - 高雄市
+        - 屏東縣
+        - 宜蘭縣
+        - 花蓮縣
+        - 臺東縣
+        - 澎湖縣
+        - 金門縣
+        - 連江縣
+    validations: {required: true}
+  - type: input
+    id: district
+    attributes: {label: "行政區", placeholder: "例：大安區"}
+  - type: input
+    id: venue
+    attributes: {label: "場館名稱", placeholder: "例：臺北市大安運動中心"}
+    validations: {required: true}
+  - type: checkboxes
+    id: weekdays
+    attributes:
+      label: 每週打球日
+      options:
+        - label: 星期一
+        - label: 星期二
+        - label: 星期三
+        - label: 星期四
+        - label: 星期五
+        - label: 星期六
+        - label: 星期日
+  - type: input
+    id: start
+    attributes: {label: "開始時間", placeholder: "19:00"}
+    validations: {required: true}
+  - type: input
+    id: end
+    attributes: {label: "結束時間", placeholder: "22:00"}
+    validations: {required: true}
+  - type: checkboxes
+    id: levels
+    attributes:
+      label: 適合程度
+      options:
+        - label: 新手
+        - label: 初階
+        - label: 中階
+        - label: 中高階
+        - label: 高階
+  - type: input
+    id: fee
+    attributes: {label: "費用", placeholder: "例：每人 200 元（含球）"}
+  - type: input
+    id: shuttle
+    attributes: {label: "用球", placeholder: "例：勝利 Master No.1"}
+  - type: input
+    id: contact
+    attributes: {label: "聯絡方式（網址）", description: "LINE 社群邀請連結、FB 社團或報名表單網址", placeholder: "https://"}
+    validations: {required: true}
+  - type: textarea
+    id: note
+    attributes: {label: "備註", placeholder: "例：場地 2 面、需事先報名、男女不拘"}
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: 確認
+      options:
+        - label: 我是團主或經團主同意登錄，資料正確並同意公開於網站
+          required: true

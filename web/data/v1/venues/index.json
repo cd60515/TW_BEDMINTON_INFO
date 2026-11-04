@@ -1,0 +1,118 @@
+{
+  "source": "教育部體育署 全國運動場館資訊網 iPlay",
+  "sourceUrl": "https://iplay.sports.gov.tw/",
+  "cities": {
+    "臺北市": {
+      "slug": "taipei",
+      "count": 155,
+      "updatedAt": "2026-11-05"
+    },
+    "新北市": {
+      "slug": "new-taipei",
+      "count": 131,
+      "updatedAt": "2026-11-05"
+    },
+    "基隆市": {
+      "slug": "keelung",
+      "count": 27,
+      "updatedAt": "2026-11-05"
+    },
+    "桃園市": {
+      "slug": "taoyuan",
+      "count": 130,
+      "updatedAt": "2026-11-05"
+    },
+    "新竹市": {
+      "slug": "hsinchu-city",
+      "count": 34,
+      "updatedAt": "2026-11-05"
+    },
+    "新竹縣": {
+      "slug": "hsinchu-county",
+      "count": 48,
+      "updatedAt": "2026-11-05"
+    },
+    "苗栗縣": {
+      "slug": "miaoli",
+      "count": 35,
+      "updatedAt": "2026-11-05"
+    },
+    "臺中市": {
+      "slug": "taichung",
+      "count": 145,
+      "updatedAt": "2026-11-05"
+    },
+    "彰化縣": {
+      "slug": "changhua",
+      "count": 82,
+      "updatedAt": "2026-11-05"
+    },
+    "南投縣": {
+      "slug": "nantou",
+      "count": 61,
+      "updatedAt": "2026-11-05"
+    },
+    "雲林縣": {
+      "slug": "yunlin",
+      "count": 64,
+      "updatedAt": "2026-11-05"
+    },
+    "嘉義市": {
+      "slug": "chiayi-city",
+      "count": 20,
+      "updatedAt": "2026-11-05"
+    },
+    "嘉義縣": {
+      "slug": "chiayi-county",
+      "count": 42,
+      "updatedAt": "2026-11-05"
+    },
+    "臺南市": {
+      "slug": "tainan",
+      "count": 121,
+      "updatedAt": "2026-11-05"
+    },
+    "高雄市": {
+      "slug": "kaohsiung",
+      "count": 148,
+      "updatedAt": "2026-11-05"
+    },
+    "屏東縣": {
+      "slug": "pingtung",
+      "count": 58,
+      "updatedAt": "2026-11-05"
+    },
+    "宜蘭縣": {
+      "slug": "yilan",
+      "count": 35,
+      "updatedAt": "2026-11-05"
+    },
+    "花蓮縣": {
+      "slug": "hualien",
+      "count": 38,
+      "updatedAt": "2026-11-05"
+    },
+    "臺東縣": {
+      "slug": "taitung",
+      "count": 30,
+      "updatedAt": "2026-11-05"
+    },
+    "澎湖縣": {
+      "slug": "penghu",
+      "count": 11,
+      "updatedAt": "2026-11-05"
+    },
+    "金門縣": {
+      "slug": "kinmen",
+      "count": 20,
+      "updatedAt": "2026-11-05"
+    },
+    "連江縣": {
+      "slug": "lienchiang",
+      "count": 0,
+      "updatedAt": "2026-11-05"
+    }
+  },
+  "updatedAt": "2026-11-05T06:56:40+08:00",
+  "total": 1435
+}

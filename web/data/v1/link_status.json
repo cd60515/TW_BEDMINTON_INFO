@@ -1,0 +1,1252 @@
+{
+  "checkedAt": "2026-11-05T07:11:14+08:00",
+  "threshold": 2,
+  "urls": {
+    "https://www.victorsport.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：VICTOR 勝利"
+    },
+    "https://www.yonex.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：YONEX"
+    },
+    "https://www.lining.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：LI-NING 李寧"
+    },
+    "https://www.mizuno.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：MIZUNO 美津濃"
+    },
+    "https://www.babolat.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：Babolat"
+    },
+    "https://www.kumpoo.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：KUMPOO 薰風"
+    },
+    "https://www.momoshop.com.tw/search/searchShop.jsp?keyword=%E7%BE%BD%E7%90%83%E6%8B%8D": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：momo 購物網"
+    },
+    "https://24h.pchome.com.tw/search/?q=%E7%BE%BD%E7%90%83%E6%8B%8D": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：PChome 24h"
+    },
+    "https://www.decathlon.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：迪卡儂"
+    },
+    "https://shopee.tw/search?keyword=%E7%BE%BD%E7%90%83%E6%8B%8D": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：蝦皮購物"
+    },
+    "https://www.ruten.com.tw/find/?q=%E7%BE%BD%E7%90%83%E6%8B%8D": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：露天拍賣"
+    },
+    "https://tw.bid.yahoo.com/search/auction/product?p=%E7%BE%BD%E7%90%83%E6%8B%8D": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：Yahoo 奇摩拍賣"
+    },
+    "https://www.ptt.cc/bbs/Badminton/index.html": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "來源：PTT 羽球板"
+    },
+    "https://tw.carousell.com/search/%E7%BE%BD%E7%90%83%E6%8B%8D": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：旋轉拍賣 Carousell"
+    },
+    "https://www.facebook.com/marketplace/search?query=%E7%BE%BD%E7%90%83%E6%8B%8D": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "球具：Facebook Marketplace"
+    },
+    "https://iplay.sports.gov.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "來源：教育部體育署 全國運動場館資訊網 iPlay"
+    },
+    "https://www.youtube.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "來源：YouTube 公開教學影片"
+    },
+    "https://github.com/cd60515/TW_BEDMINTON_INFO/issues/new/choose": {
+      "s": "suspect",
+      "code": 404,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 1,
+      "label": "來源：社群提交（GitHub Issues）"
+    },
+    "https://github.com/cd60515/TW_BEDMINTON_INFO": {
+      "s": "suspect",
+      "code": 404,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 1,
+      "label": "來源：編輯團隊整理"
+    },
+    "https://cssc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市中山運動中心"
+    },
+    "https://wsjjsc.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市中正運動中心"
+    },
+    "https://xysc.teamxports.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市信義運動中心"
+    },
+    "https://nhsc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市內湖運動中心"
+    },
+    "http://www.btsport.org.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市北投運動中心"
+    },
+    "https://ngsc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市南港運動中心"
+    },
+    "http://www.slsc-taipei.org/News.aspx": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市士林運動中心"
+    },
+    "https://www.daansports.com.tw/zh_TW/index": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:10:33+08:00",
+      "fails": 0,
+      "label": "場館：臺北市大安運動中心"
+    },
+    "https://whsc.com.tw/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 1,
+      "label": "場館：臺北市萬華運動中心"
+    },
+    "https://www.dtsc-wdyg.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：臺北市大同運動中心"
+    },
+    "https://wssc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：臺北市文山運動中心"
+    },
+    "https://www.ymca-xssc.org/?lang=tw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：新生運動館"
+    },
+    "https://btresort.metro.taipei/Default.aspx": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：臺北捷運北投會館"
+    },
+    "https://vbs.sports.taipei/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：臺北體育館"
+    },
+    "http://www.scsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：三重國民運動中心"
+    },
+    "https://www.zhsc.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：中和國民運動中心"
+    },
+    "https://www.tcsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：土城國民運動中心"
+    },
+    "https://www.xzsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：新莊國民運動中心"
+    },
+    "https://lkcsc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：林口國民運動中心"
+    },
+    "https://www.ntcslsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：樹林國民運動中心"
+    },
+    "https://xzcsc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：汐止國民運動中心"
+    },
+    "https://wstssc.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：淡水國民運動中心"
+    },
+    "https://lzsc.chanchao.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：蘆洲國民運動中心"
+    },
+    "http://www.bqsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：板橋國民運動中心"
+    },
+    "https://yhcsc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：永和國民運動中心"
+    },
+    "https://www.facebook.com/shulinsports/": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：板樹體育館"
+    },
+    "http://www.t-sports.ntpc.gov.tw": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 1,
+      "label": "場館：新北市新莊體育館"
+    },
+    "https://www.wulai.ntpc.gov.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：信賢風雨操場"
+    },
+    "https://www.facebook.com/klccsc/": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：基隆市國民運動中心委由高線實業股份有限公司"
+    },
+    "https://www.stadium.klcg.gov.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：基隆市立體育館"
+    },
+    "https://iplay.sports.gov.tw/gyminfo/index/5908": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：基隆市七堵區七堵國小游泳池(館)"
+    },
+    "https://zlcsc.cyc.org.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：中壢國民運動中心"
+    },
+    "http://pzsc.chanchao.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：平鎮國民運動中心"
+    },
+    "http://www.lzsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：桃園市蘆竹國民運動中心"
+    },
+    "https://tycsc.cyc.org.tw": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：桃園國民運動中心"
+    },
+    "https://crcc.tycg.gov.tw/cp.aspx?n=19014": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：桃園市區域垃圾焚化廠回饋設施活動中心"
+    },
+    "https://www.dst.tycg.gov.tw/cl.aspx?n=11711": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：桃園市立綜合體育館"
+    },
+    "https://www.facebook.com/LuzhuBadminton": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：桃園市立蘆竹羽球館"
+    },
+    "https://zgcsc.cyc.org.tw": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：新竹市立竹光國民運動中心"
+    },
+    "https://www.zbsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：新竹縣竹北國民運動中心"
+    },
+    "https://www.facebook.com/p/%E6%96%B0%E7%AB%B9%E6%9D%B1%E9%8E%AE%E7%AB%8B%E7%BE%BD%E7%90%83%E9%A4%A8-61550564317062/": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：竹東鎮立羽球館"
+    },
+    "https://www.ntsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：臺中市南屯國民運動中心"
+    },
+    "http://tndcsc.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：臺中市北區國民運動中心"
+    },
+    "http://www.west.taichung.gov.tw/": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：大益活動中心"
+    },
+    "https://wsjbcsc.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：彰化縣彰北國民運動中心"
+    },
+    "http://town.chcg.gov.tw/hsiushui/07other/main.asp?main_id=2315": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：秀水鄉體育館"
+    },
+    "https://www.puli.gov.tw/": {
+      "s": "suspect",
+      "code": 302,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 1,
+      "label": "場館：埔里鎮立綜合球場"
+    },
+    "https://bggov.yunlin.gov.tw/": {
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-05T07:11:12+08:00",
+      "fails": 0,
+      "label": "場館：北港鎮立體育館"
+    },
+    "http://yijhu.cyhg.gov.tw/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 1,
+      "label": "場館：羽球場館"
+    },
+    "https://www.yhsports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：永華國民運動中心"
+    },
+    "https://www.facebook.com/jialiBadminton/": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：佳里區羽球館"
+    },
+    "https://sports.tainan.gov.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：臺南市立新營體育場"
+    },
+    "https://klyscwdyg.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：苓雅運動中心"
+    },
+    "https://sports.kcg.gov.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：左營活動中心"
+    },
+    "https://sports.kcg.gov.tw/index.aspx": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：四維羽球場"
+    },
+    "http://gushan.kcg.gov.tw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：南鼓山聯合里活動中心"
+    },
+    "http://www.pthg.gov.tw/sandimen/index.aspx": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：三地門鄕多功能體育館"
+    },
+    "https://www.pthg.gov.tw/stadium/Default.aspx": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：屏東縣立體育館"
+    },
+    "https://yilansports.com.tw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：宜蘭國民運動中心"
+    },
+    "https://toucheng.e-land.gov.tw/cp.aspx?n=6473": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：頭城鎮立體育館"
+    },
+    "https://hcs.hl.gov.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：花蓮縣立中正體育館"
+    },
+    "https://www.phs.gov.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：澎湖縣多功能綜合體育館"
+    },
+    "https://sport.kinmen.gov.tw/Default.aspx": {
+      "s": "restricted",
+      "code": -2,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "場館：金湖綜合體育館"
+    },
+    "https://www.youtube.com/watch?v=pIJ41aeyoyc": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：三種錯誤的羽球握拍，你握對了嗎？｜正手握拍｜  Badminton Foreha"
+    },
+    "https://www.youtube.com/watch?v=--VPf9MB_wE": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球握拍教學｜正手、反手這樣握才正確！"
+    },
+    "https://www.youtube.com/watch?v=LEJrLziPAWw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：《羽球初學必看》正反手如何握拍&發力？學會少走4年冤枉路｜安東羽球教練【早安練健"
+    },
+    "https://www.youtube.com/watch?v=u-3PrzsP2vs": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：一次搞懂羽球握拍, 正反手轉換訣竅｜握拍&握把布淺談｜Badmitnon Gri"
+    },
+    "https://www.youtube.com/watch?v=7CDtnuD4XZQ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：黃嘉欣羽球小教室_如何正確握拍20181129"
+    },
+    "https://www.youtube.com/watch?v=YzyEPCEIkcE": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：第一次發球就上手｜技術篇｜Serve Tech.｜葉師傅教羽球"
+    },
+    "https://www.youtube.com/watch?v=MtEY_sFGeQQ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：正拍發球｜羽毛球教學：教練教你發球的技巧，發球過高怎麼改善，同時遵守規則，避免發"
+    },
+    "https://www.youtube.com/watch?v=kReSKb_4WB0": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：掌握反拍發球該有的優勢和精準控制｜Backhand Short Service｜"
+    },
+    "https://www.youtube.com/watch?v=8yZeiT29c2Q": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：學打羽球如何做到好的發球？ 重點在於發球的弧度和線路的選擇  #羽毛球教学  #"
+    },
+    "https://www.youtube.com/watch?v=YAbmw4ssKKE": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：初學必看, 六點步伐快速上手｜Badminton Footwork｜安東羽球教室"
+    },
+    "https://www.youtube.com/watch?v=xp5XSFfW_jQ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：【會員影片試看】腳步是羽球的靈魂，羽球人必懂正確腳步觀念｜第一節：腳步觀念｜第二"
+    },
+    "https://www.youtube.com/watch?v=lcV__utm5LY": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：後退慢又打不到後場球？教練教你流暢後場步法｜羽球教學：對手突然打後場球，怎麼才能"
+    },
+    "https://www.youtube.com/watch?v=1aDX83W2Zh4": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：螺哥羽毛球步伐 | 12min专项步伐跟练 | 提升启动、转向与体能！| Bad"
+    },
+    "https://www.youtube.com/watch?v=5IM4QZyV_Lw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：人人都可以輕鬆學會的基本技術──「 初階 」後場步法｜Elementary Ba"
+    },
+    "https://www.youtube.com/watch?v=sB-TVcnpmxU": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：高遠球打不遠？教你怎麼發力｜Badminton Double Defend｜安東"
+    },
+    "https://www.youtube.com/watch?v=myLWilMJAug": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：殺球沒力 ? 高遠球打不遠 ? 只要發力正確任何人都可以！"
+    },
+    "https://www.youtube.com/watch?v=IJzoidyudMk": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：【慢一拍】高遠球打不遠？以為是沒力，後來才發現不是"
+    },
+    "https://www.youtube.com/watch?v=klF5x_TlYTQ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：不用急  高遠球動作我一步步拆給你看"
+    },
+    "https://www.youtube.com/watch?v=LJICUHgLPDk": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：正手發高遠球教學|想要打好球從發球開始|初級基礎課程👍淺顯易懂獨特的的羽球教學👍"
+    },
+    "https://www.youtube.com/watch?v=lZSFU_OpbCw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球殺球，不用蠻力的技巧！｜羽球教練拆解殺球的基礎技巧｜羽毛球殺球的教學"
+    },
+    "https://www.youtube.com/watch?v=eV-VkfgjfLw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：殺球的六個力量運用，你的力量來自哪裡？｜Smash｜安東羽球教室｜"
+    },
+    "https://www.youtube.com/watch?v=R1Z9ASD310A": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球殺球，接挑起來的技巧！｜教練講解接羽球殺球的關鍵步驟｜羽毛球殺球這樣接"
+    },
+    "https://www.youtube.com/watch?v=9y8tZxipADw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球殺球技巧：扣殺重點在小臂，不是單純將手腕下壓｜羽球殺球的變化技巧｜羽毛球殺球"
+    },
+    "https://www.youtube.com/watch?v=Mfh4bsLXSJw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：殺球教學, 殺出必勝之路｜Badminton Smash｜安東羽球教室"
+    },
+    "https://www.youtube.com/watch?v=KuYWQzCQzuo": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：10分鐘教會你切球！｜Learn the Net Drop in 10 Minu"
+    },
+    "https://www.youtube.com/watch?v=elo0FyepEU4": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：【黃嘉欣羽球小教室】切球"
+    },
+    "https://www.youtube.com/watch?v=hxZZ5TgbWew": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球教學：正拍切球｜羽球教練的羽球技巧：羽球切球｜羽毛球教學：羽球切球｜讓對手長"
+    },
+    "https://www.youtube.com/watch?v=vnGEr-cOLY8": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：欺敵的滑拍切球｜教練詳解羽球切球的進階技巧：滑拍切球｜羽球教練的羽球切球進階教學"
+    },
+    "https://www.youtube.com/watch?v=x4Vne4XnYnQ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：掌握切球原理/摩擦和角度控制 ｜切球｜Badminton Drop Shot｜安"
+    },
+    "https://www.youtube.com/watch?v=dR-NXBW2m5c": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球小球，抓準角度這樣放！對手難接到。教練解說網前放小球的技巧｜網前小球的時機要"
+    },
+    "https://www.youtube.com/watch?v=b0EZKzLen7U": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球網前放小球，注意拍面高度與角度，降低掛網與被攻擊的風險｜羽球教學：手伸出去、"
+    },
+    "https://www.youtube.com/watch?v=kry1QHl6stg": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：[會員影片公開] 打好網前基礎必學｜第一節：網前原理｜第四章：前場技術篇｜安東羽"
+    },
+    "https://www.youtube.com/watch?v=riOX8H6KrsE": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：黃嘉欣羽球小教室_正拍放小球_20190809"
+    },
+    "https://www.youtube.com/watch?v=EUbtCS9kzHM": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：利用慣性放小球?｜原來是這麼一回事｜Net Shot｜葉師傅教羽球"
+    },
+    "https://www.youtube.com/watch?v=Xq1kNnO5tac": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：正手挑球｜Forehand  Lift｜安東羽球教室｜"
+    },
+    "https://www.youtube.com/watch?v=y3tSQkfTTDU": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：挑球挑得好，防守沒煩惱，隊友沒困擾， 省力挑球法教學｜反手挑球｜Backhand"
+    },
+    "https://www.youtube.com/watch?v=oUvE2D5iHu8": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：挑球挑不遠？ 挑球該用小臂還是內旋發力？｜正手挑球｜Badmitnon Fore"
+    },
+    "https://www.youtube.com/watch?v=g9ejLOVXT-Q": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球挑球的技巧｜教練解說羽球挑球訣竅｜羽球挑球技巧詳細動作｜羽毛球教學：挑球"
+    },
+    "https://www.youtube.com/watch?v=Yqnunx76BPs": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：[羽球教學]教練示範  撈球教學-羽球密碼"
+    },
+    "https://www.youtube.com/watch?v=cvztrM4U8A0": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：暴力正手拍/ 正手抽平球細節【中階技術】｜Badminton Forehand "
+    },
+    "https://www.youtube.com/watch?v=7RO7yumcDpg": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽毛球无敌平抽从0到1的秘诀！单双打万能抽档教学完整版！让你直接进入专业级别！进"
+    },
+    "https://www.youtube.com/watch?v=NFzirhB6Q0k": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：兩分鐘教你抽球＆平球推球發力的差別是什麼？｜羽球中場技術篇｜安東羽球"
+    },
+    "https://www.youtube.com/watch?v=3A22dThPUT0": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：不可錯過的「平球」細節解析大公開 ｜ Forehand & Backhand D"
+    },
+    "https://www.youtube.com/watch?v=Da5RGN1kf9o": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：这抽挡有毒！快到停不下来，双打中场平抽挡的快乐你感受过吗？｜羽毛球教学"
+    },
+    "https://www.youtube.com/watch?v=tEOn9o7Am50": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球過渡必學：反手長球，重點技巧大公開｜羽球教練解析：羽球反手長球技巧｜重點拆解"
+    },
+    "https://www.youtube.com/watch?v=5m2_gkfrF24": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：反拍總是打不遠？正確反手發力教學 【黃嘉欣羽球小教室】"
+    },
+    "https://www.youtube.com/watch?v=rryk8H653G8": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：反手高遠發不上力 ? 練了很久還是學不會？ 8 分鐘帶你找出關鍵點"
+    },
+    "https://www.youtube.com/watch?v=PoU68e_5OOo": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：超詳細反手後場發力細節教學！ 羽球反手後場漏洞百出，總發不上力？一個影片解決你的"
+    },
+    "https://www.youtube.com/watch?v=SFo3y5wpQnQ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：後場反手過渡別再只會放軟，職業選手更愛來「硬的」！揭曉化被動為主動的實戰秘訣//"
+    },
+    "https://www.youtube.com/watch?v=Q10iHOfXzik": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：基本輪轉概念，讓你不再當雷隊友──進攻/防守站位｜Doubles Rotatio"
+    },
+    "https://www.youtube.com/watch?v=7jbruieUFb4": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：不會雙打輪轉 ? 跑位純靠感覺 ?  8分鐘讓你學會雙打輪轉 !"
+    },
+    "https://www.youtube.com/watch?v=HtMyJatnImM": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：「教練！隊友又來搶我的球啦！」😡 三分鐘搞懂雙打跑位基礎&進階觀念 | 羽球學堂"
+    },
+    "https://www.youtube.com/watch?v=hqh_giVnCig": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：永恆不變的羽毛球雙打攻防站位規律，請大家一定要牢記！ #badminton #羽"
+    },
+    "https://www.youtube.com/watch?v=6ABaUmlycEM": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：配到左手搭檔怎麼辦|中間球誰要打|雙打小教室-基本走位輪轉"
+    },
+    "https://www.youtube.com/watch?v=2U9a77bqHIA": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：必看！羽毛球單打 直線、斜線如何選擇？"
+    },
+    "https://www.youtube.com/watch?v=Yrcg-jr1CDU": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：業餘如何打單打？練好單打腳步 ｜切球上網步伐｜Badmitnon Single "
+    },
+    "https://www.youtube.com/watch?v=pnfg25yF1U8": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：高階羽球選手都在用的「控場公式」，你卻一直被控制【KT聊戰術】| KT羽球"
+    },
+    "https://www.youtube.com/watch?v=RAVFdvHFE3I": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：超詳細羽毛球直線跟隨戰術解析！面對連貫速度快、體能優勢大的對手怎麼能進行防守反擊"
+    },
+    "https://www.youtube.com/watch?v=5PyyMkOCbDI": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：［紙上談兵］原來除了四角拉吊以外還有這麼多戰術打法！世界單打戰術分析"
+    },
+    "https://www.youtube.com/watch?v=eLhcyXofTio": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球簡易暖身操｜Body Stretching｜安東羽球教室｜"
+    },
+    "https://www.youtube.com/watch?v=x_wK49jekgU": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：10分鐘羽毛球熱身伸展運動 -脊醫王鳳恩 - 1(中/Eng Sub) Dr M"
+    },
+    "https://www.youtube.com/watch?v=yM9rbzQVmT8": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：[羽球教學]教練示範  打羽球前的暖身-羽球密碼"
+    },
+    "https://www.youtube.com/watch?v=cR_wLYXoRQU": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：你還在做這種熱身方法嗎？| 打羽毛球前必須做的熱身 | 提高運動表現 | 減少受"
+    },
+    "https://www.youtube.com/watch?v=FwD_ihA6a0w": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球人 | 職業選手教你如何在場上熱身"
+    },
+    "https://www.youtube.com/watch?v=dd6cjLDsaWM": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：螺哥羽毛球体能 | 15分钟羽毛球专项体能训练 | Huấn luyện thể"
+    },
+    "https://www.youtube.com/watch?v=KHhez9otTBw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：第一次在三健客備賽！羽球選手的重訓強度比你想像更狠🔥【全運會備戰系列EP.2】F"
+    },
+    "https://www.youtube.com/watch?v=DXbWHHKbxzA": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：暖身很重要！避免羽球運動傷害的步法，一定要練原地專項｜羽球專項步法教學｜羽球步法"
+    },
+    "https://www.youtube.com/watch?v=jyxs1RuBM8s": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：陈金羽毛球步伐 | 16min专项步伐跟练(基础版) | 提升灵敏和耐力 | B"
+    },
+    "https://www.youtube.com/watch?v=F2oIGAzv38c": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：反手高遠沒力？原來該練的是這些肌群 ! 這幾個動作讓你輕鬆打到底線"
+    },
+    "https://www.youtube.com/watch?v=CByxMKTxG34": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：完整的羽球雙打規則# 羽球雙打# 羽毛球雙打"
+    },
+    "https://www.youtube.com/watch?v=wR2D2Q65TI0": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽毛球单打发球规则详解，新手入坑必修课！"
+    },
+    "https://www.youtube.com/watch?v=jlsXfWUQYME": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：【羽球雙打規則新手懶人包】羽球雙打發球規則｜誰發球？站哪發球？發球範圍在哪？別再"
+    },
+    "https://www.youtube.com/watch?v=RxXZpqBiIsY": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽毛球双打发球规则详解，新手入门必修课！"
+    },
+    "https://www.youtube.com/watch?v=LS1Ni_RFCLc": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：久奈司JNICE羽球學堂 | 新手如何挑選羽球拍?？ 挑羽球拍要看重量、平衡、中"
+    },
+    "https://www.youtube.com/watch?v=em6OCKX4UFc": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：中價位羽球拍推薦【勝利篇】｜戴資穎出道戰拍💜｜高CP值選項🌟｜凱將開講｜凱將體育"
+    },
+    "https://www.youtube.com/watch?v=V9XHnH-ejc0": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽毛球要買貴的還是便宜的？"
+    },
+    "https://www.youtube.com/watch?v=DeqAHWN7IMI": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：羽球新手到底該不該用高階拍？｜羽球新手必看｜原來這種球拍誰都行｜"
+    },
+    "https://www.youtube.com/watch?v=7TD4pnpdzF0": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：【新手羽球裝備懶人包】第一隻羽球拍怎麼買？掌握五大重點 才不會花冤望錢！買適合自"
+    },
+    "https://www.youtube.com/watch?v=yDD1jyHvP1Q": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：［要不要系列EP1］要不要穿高磅｜磅數的迷思｜羽球拍磅數 ｜不要再穿這磅數｜原來"
+    },
+    "https://www.youtube.com/watch?v=NhcSiokG_ys": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：歡迎收看穿線密碼｜這集含金量很高｜阿哲準備上靠X羽球|朱教練不是很重要｜穿線Q&"
+    },
+    "https://www.youtube.com/watch?v=LROYY_oUWuQ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：球拍穿線問題,一次全看懂#羽球拍#羽球拍線#王齊麟#李哲輝"
+    },
+    "https://www.youtube.com/watch?v=hvcD7GJB9ts": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：专业穿线师深度解析:如何选择最适合的羽毛球拍磅数 | 从入门到精通 - ERR "
+    },
+    "https://www.youtube.com/watch?v=eX5ldvj9xBU": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：【一線入魂羽球概念店~小劇場】羽毛球新手須知~史上最正確購買羽球鞋須知～讓你告別"
+    },
+    "https://www.youtube.com/watch?v=EbNdVtq9GRk": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：看羽球密碼長知識｜羽球運動一定要穿羽球鞋｜台灣新國球｜羽球運動盛行｜別再穿休閒鞋"
+    },
+    "https://www.youtube.com/watch?v=cKNT_HGrqP8": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：体育运动 【羽毛球鞋测评】2026年9月羽毛球鞋年度盘点！20款热门球鞋怎么选、"
+    },
+    "https://www.youtube.com/watch?v=4A3UoE74DZY": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：要不要系列EP5｜要不要穿羽球鞋｜一秒認出羽球鞋｜高階羽球鞋竟然還有這特異功能｜"
+    },
+    "https://www.youtube.com/watch?v=wKUzgf-2wio": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：健康50 - 羽球的運動傷害與預防"
+    },
+    "https://www.youtube.com/watch?v=9Wqv0i1i4cs": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：打羽球 必做熱身！預防運動傷害 穩定踝 膝 髖關節 這樣動！ 健康2.0 精華 "
+    },
+    "https://www.youtube.com/watch?v=y8NCH0U4IQ8": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：SEM Taiwan 09/2021 羽球運動傷害預防計畫 Update by "
+    },
+    "https://www.youtube.com/watch?v=gS5YamTs4XM": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：運動傷害預防-培養打羽球的五個好習慣"
+    },
+    "https://www.youtube.com/watch?v=fvf3qzJOHtg": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：全新企劃｜運動傷害防護報你ㄗㄞFeat王博醫師｜為什麼會有運動傷害｜舊傷一直好不"
+    },
+    "https://www.youtube.com/watch?v=CHykVFOp_9E": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：Alfian/Fikri vs Liang/Wang | Intense exc"
+    },
+    "https://www.youtube.com/watch?v=XNXx963NXPM": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：HYLO Open 2026 | Top Smashes of the Week"
+    },
+    "https://www.youtube.com/watch?v=MaH_J70s2hw": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：Toft/Kudsk vs Gicquel/Delrue | An all-ou"
+    },
+    "https://www.youtube.com/watch?v=DfOFBAiT2XU": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：Jonatan Christie vs Lakshya Sen | Mainta"
+    },
+    "https://www.youtube.com/watch?v=1PfJqdMfVDs": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-05T07:11:14+08:00",
+      "fails": 0,
+      "label": "影片：Line Højmark Kjærsfeldt vs Pusarla V. Si"
+    }
+  }
+}

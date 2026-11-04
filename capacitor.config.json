@@ -1,0 +1,14 @@
+{
+  "appId": "tw.badminton.info",
+  "appName": "台灣羽球通",
+  "webDir": "web",
+  "ios": {
+    "contentInset": "never",
+    "scheme": "TWBadminton",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 800, "backgroundColor": "#0b7a5c", "showSpinner": false },
+    "StatusBar": { "style": "DEFAULT", "overlaysWebView": true }
+  }
+}

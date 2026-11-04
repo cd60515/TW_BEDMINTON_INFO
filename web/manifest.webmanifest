@@ -1,0 +1,23 @@
+{
+  "name": "台灣羽球通",
+  "short_name": "羽球通",
+  "description": "全台羽球一站通：教學影片、場館查詢、零打揪團、球具選購與二手買賣。",
+  "lang": "zh-Hant-TW",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f8f7",
+  "theme_color": "#0b7a5c",
+  "categories": ["sports", "education", "lifestyle"],
+  "icons": [
+    {"src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
+    {"src": "assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ],
+  "shortcuts": [
+    {"name": "找場館", "url": "./#/venues"},
+    {"name": "零打團", "url": "./#/groups"},
+    {"name": "教學", "url": "./#/learn"}
+  ]
+}

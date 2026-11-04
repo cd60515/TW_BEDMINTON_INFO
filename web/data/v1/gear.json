@@ -1,0 +1,83 @@
+{
+  "updatedAt": "2026-11-05T07:00:00+08:00",
+  "guides": [
+    {
+      "id": "racket", "icon": "🏸", "title": "球拍怎麼挑", "videoTopic": "racket",
+      "points": [
+        {"k": "重量（U 數）", "v": "數字越大越輕。3U 約 85–89g（力量型）、4U 約 80–84g（最泛用，新手首選）、5U 約 75–79g（輕快、女性與青少年）。"},
+        {"k": "平衡點", "v": "頭重（>295mm）利於殺球與後場；平衡（285–295mm）攻守兼備；頭輕（<285mm）揮拍快，適合雙打前場與防守。"},
+        {"k": "中桿硬度", "v": "軟桿容易彈、好發力，適合新手；硬桿控制精準、回饋快，需要較好的揮拍速度。"},
+        {"k": "握把（G 數）", "v": "數字越大越細。台灣常見 G5／G6，可再纏握把布調整。"},
+        {"k": "預算", "v": "入門 1,000–2,500 元已足夠；中階 2,500–4,500 元；高階 5,000 元以上。不建議新手直接買高階硬桿。"}
+      ]
+    },
+    {
+      "id": "string", "icon": "🧵", "title": "穿線與磅數", "videoTopic": "string",
+      "points": [
+        {"k": "磅數建議", "v": "新手 20–22 磅；一般球友 22–25 磅；進階 25–28 磅。磅數越高越好控但甜區越小、越吃力。"},
+        {"k": "線的特性", "v": "細線（0.65–0.68mm）彈性與擊球聲佳；粗線（0.70mm 以上）耐打。"},
+        {"k": "多久換線", "v": "每週打 2–3 次者約 2–3 個月換一次；斷線或球感明顯變鬆就該換。"},
+        {"k": "注意", "v": "請確認球拍標示的最高磅數，超過可能導致斷拍且不在保固範圍。"}
+      ]
+    },
+    {
+      "id": "shoes", "icon": "👟", "title": "羽球鞋", "videoTopic": "shoes",
+      "points": [
+        {"k": "為什麼一定要穿羽球鞋", "v": "膠底止滑、側向支撐強、鞋底低，能大幅降低扭傷。慢跑鞋鞋底高且軟，側向移動容易翻腳。"},
+        {"k": "尺寸", "v": "傍晚試穿、穿運動襪試穿，腳趾前保留約 0.5–1 公分，避免急停撞出黑指甲。"},
+        {"k": "寬楦", "v": "台灣腳型偏寬，可選擇 Wide 或寬楦款。"},
+        {"k": "專鞋專用", "v": "只在室內球場穿，鞋底才不會沾灰變滑。"}
+      ]
+    },
+    {
+      "id": "shuttle", "icon": "🪶", "title": "羽毛球（球）", "videoTopic": "racket",
+      "points": [
+        {"k": "羽毛 vs 尼龍", "v": "羽毛球飛行軌跡標準、手感好，比賽與零打團主流；尼龍球耐打便宜，適合戶外或初學練習。"},
+        {"k": "球速（號數）", "v": "依氣溫選擇：夏天高溫用較慢的球（如 76／77 號），冬天低溫用較快的球（78／79 號），以實際試打為準。"},
+        {"k": "保存", "v": "放在陰涼處，太乾燥羽毛易斷，可將球筒放在略有濕度的環境。"}
+      ]
+    },
+    {
+      "id": "accessories", "icon": "🎒", "title": "其他配件", "videoTopic": "injury",
+      "points": [
+        {"k": "握把布", "v": "毛巾布吸汗、龍骨布止滑，約 1–2 週換一次。"},
+        {"k": "護具", "v": "護踝、護膝、護腕在有舊傷時特別建議使用。"},
+        {"k": "球袋", "v": "具隔熱層的拍袋可避免球拍在車內高溫下變形。"}
+      ]
+    }
+  ],
+  "finder": {
+    "questions": [
+      {"id": "level", "q": "你的程度？", "opts": [["new", "剛開始打"], ["mid", "能穩定對打"], ["adv", "有比賽經驗"]]},
+      {"id": "style", "q": "你喜歡的打法？", "opts": [["attack", "後場進攻、愛殺球"], ["all", "攻守平衡"], ["speed", "前場速度、平抽擋"]]},
+      {"id": "power", "q": "你的手臂力量？", "opts": [["low", "偏小"], ["mid", "普通"], ["high", "很大"]]},
+      {"id": "budget", "q": "預算？", "opts": [["1", "2,500 元內"], ["2", "2,500–4,500 元"], ["3", "4,500 元以上"]]}
+    ]
+  },
+  "brands": [
+    {"id": "victor", "name": "VICTOR 勝利", "origin": "台灣", "url": "https://www.victorsport.com.tw/", "note": "台灣本土品牌，球拍、球鞋、羽毛球完整產品線。"},
+    {"id": "yonex", "name": "YONEX", "origin": "日本", "url": "https://www.yonex.com/", "note": "全球市佔最高的羽球品牌之一。"},
+    {"id": "lining", "name": "LI-NING 李寧", "origin": "中國", "url": "https://www.lining.com/", "note": "國際賽事常見品牌。"},
+    {"id": "mizuno", "name": "MIZUNO 美津濃", "origin": "日本", "url": "https://www.mizuno.com.tw/", "note": "球鞋、服飾與球拍。"},
+    {"id": "babolat", "name": "Babolat", "origin": "法國", "url": "https://www.babolat.com/", "note": "網球起家，也有羽球產品線。"},
+    {"id": "kumpoo", "name": "KUMPOO 薰風", "origin": "中國", "url": "https://www.kumpoo.com/", "note": "高 CP 值球拍與球鞋。"}
+  ],
+  "buy": [
+    {"id": "momo", "name": "momo 購物網", "type": "new", "url": "https://www.momoshop.com.tw/search/searchShop.jsp?keyword=%E7%BE%BD%E7%90%83%E6%8B%8D", "note": "新品、快速到貨"},
+    {"id": "pchome", "name": "PChome 24h", "type": "new", "url": "https://24h.pchome.com.tw/search/?q=%E7%BE%BD%E7%90%83%E6%8B%8D", "note": "新品、快速到貨"},
+    {"id": "decathlon", "name": "迪卡儂", "type": "new", "url": "https://www.decathlon.tw/", "note": "入門平價裝備"},
+    {"id": "shopee", "name": "蝦皮購物", "type": "both", "url": "https://shopee.tw/search?keyword=%E7%BE%BD%E7%90%83%E6%8B%8D", "note": "新品與二手皆有，注意賣家評價"},
+    {"id": "ruten", "name": "露天拍賣", "type": "both", "url": "https://www.ruten.com.tw/find/?q=%E7%BE%BD%E7%90%83%E6%8B%8D", "note": "二手拍與零件多"},
+    {"id": "yahoo", "name": "Yahoo 奇摩拍賣", "type": "both", "url": "https://tw.bid.yahoo.com/search/auction/product?p=%E7%BE%BD%E7%90%83%E6%8B%8D", "note": "二手拍賣"},
+    {"id": "ptt", "name": "PTT 羽球板", "type": "used", "url": "https://www.ptt.cc/bbs/Badminton/index.html", "note": "買賣推文專區，球友間交易"},
+    {"id": "carousell", "name": "旋轉拍賣 Carousell", "type": "used", "url": "https://tw.carousell.com/search/%E7%BE%BD%E7%90%83%E6%8B%8D", "note": "面交方便"},
+    {"id": "fb", "name": "Facebook Marketplace", "type": "used", "url": "https://www.facebook.com/marketplace/search?query=%E7%BE%BD%E7%90%83%E6%8B%8D", "note": "需登入 Facebook"}
+  ],
+  "safety": [
+    "優先選擇面交，現場檢查拍框、中桿與拍頭是否有裂痕。",
+    "查看球拍序號與防偽標籤，避免買到仿冒品；價格明顯低於行情要特別小心。",
+    "不要私下轉帳給陌生賣家，盡量使用平台的交易保障機制。",
+    "二手拍請確認是否曾修補、穿過的最高磅數與保固狀態。",
+    "任何要求你點擊不明連結、提供驗證碼或信用卡資料的，一律是詐騙，請撥 165 反詐騙專線。"
+  ]
+}

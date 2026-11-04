@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>台灣羽球通</title>
+  <meta name="description" content="全台羽球一站通：教學影片、場館查詢、零打揪團、球具選購與二手買賣，資料定期自動更新與檢查。">
+  <meta name="theme-color" content="#0b7a5c" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1412" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="羽球通">
+  <meta name="format-detection" content="telephone=no">
+  <meta property="og:title" content="台灣羽球通">
+  <meta property="og:description" content="全台羽球一站通：教學、場館、零打、球具。">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icon-180.png">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+</head>
+<body>
+  <a class="sr-only" href="#main">跳到主要內容</a>
+  <header class="topbar">
+    <div class="topbar-in">
+      <a class="logo" href="#/"><span class="logo-mark">🏸</span>台灣羽球通</a>
+      <nav class="topnav" aria-label="主選單">
+        <a href="#/learn" data-nav="learn">教學</a>
+        <a href="#/videos" data-nav="videos">影片</a>
+        <a href="#/venues" data-nav="venues">場館</a>
+        <a href="#/groups" data-nav="groups">零打團</a>
+        <a href="#/gear" data-nav="gear">球具</a>
+        <a href="#/market" data-nav="market">二手</a>
+      </nav>
+      <div class="top-actions">
+        <a class="icon-btn" href="#/search" aria-label="搜尋" title="搜尋">🔍</a>
+        <a class="icon-btn" href="#/favorites" aria-label="我的收藏" title="我的收藏">★</a>
+        <button class="icon-btn" id="themeBtn" aria-label="切換深淺色" title="切換深淺色">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1"><div class="skeleton"></div></main>
+
+  <footer class="footer" id="footer">
+    <p>台灣羽球通是開源、免費、非營利的羽球資訊平台。場館資料來自教育部體育署 iPlay 開放資料；揪團與買賣索引自公開論壇，點擊後連回原始來源。資訊可能變動，出發前請以場館或團主公告為準。</p>
+    <p><a href="#/about">資料來源與更新狀態</a> · <a href="https://github.com/cd60515/TW_BEDMINTON_INFO" target="_blank" rel="noopener">GitHub</a> · <a href="https://github.com/cd60515/TW_BEDMINTON_INFO/issues/new/choose" target="_blank" rel="noopener">回報 / 投稿</a> · <a href="#/privacy">隱私權</a></p>
+  </footer>
+
+  <nav class="tabbar" aria-label="分頁">
+    <a href="#/" data-tab="home"><span class="ti">🏠</span>首頁</a>
+    <a href="#/learn" data-tab="learn"><span class="ti">🎓</span>教學</a>
+    <a href="#/venues" data-tab="venues"><span class="ti">📍</span>場館</a>
+    <a href="#/groups" data-tab="groups"><span class="ti">🤝</span>零打</a>
+    <a href="#/more" data-tab="more"><span class="ti">☰</span>更多</a>
+  </nav>
+
+  <script src="vendor/leaflet/leaflet.js" defer></script>
+  <script type="module" src="assets/js/app.js"></script>
+  <noscript><p style="padding:16px">請開啟 JavaScript 以使用台灣羽球通。</p></noscript>
+</body>
+</html>
