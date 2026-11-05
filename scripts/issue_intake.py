@@ -18,7 +18,10 @@ LABELS = {
     "結束時間": "end", "適合程度": "levels", "費用": "fee", "用球": "shuttle", "聯絡方式（網址）": "contact", "備註": "note",
     "團編號": "group_id", "需要更新的資訊（沒有可留空）": "changes", "球館名稱": "name", "地址": "address", "電話": "tel",
     "官網或預約網址": "website", "場地數量": "courts", "租金與營業時間等備註": "note", "店名": "name", "網站或粉專": "website", "服務": "services",
+    "Threads 貼文網址": "url", "時間": "when", "場館": "venue", "摘要": "summary",
 }
+THREADS_URL = re.compile(r"^https://(www\.)?threads\.(com|net)/@[\w.]+/post/[\w-]+/?(\?.*)?$")
+THREADS_KEEP_DAYS = 21
 TIME = re.compile(r"^([01]?\d|2[0-3])[:：]?([0-5]\d)$")
 
 
@@ -87,6 +90,29 @@ def main():
             data["updatedAt"] = now_iso()
             save("groups.json", data)
             msg = f"已確認「{hit['name']}」仍在運作，有效期限重新計算。" + ("（更新內容請維護者手動修改）" if f.get("changes") else "")
+
+    elif "type:threads" in labels:
+        url = (f.get("url") or "").strip().split("?")[0]
+        if not THREADS_URL.match(url):
+            errors.append("請提供 Threads 單篇貼文網址（https://www.threads.com/@帳號/post/…）")
+        if f.get("city") not in CITIES:
+            errors.append("請選擇縣市")
+        summary = clean(f.get("summary"), 140)
+        if not summary:
+            errors.append("請填寫摘要")
+        if not errors:
+            import datetime
+            from fetch_ptt import parse_group
+            data = load("threads.json", {"items": []})
+            cutoff = (datetime.date.today() - datetime.timedelta(days=THREADS_KEEP_DAYS)).isoformat()
+            items = [x for x in data["items"] if x["url"] != url and x.get("postedAt", "")[:10] >= cutoff]
+            when, venue = clean(f.get("when"), 40), clean(f.get("venue"), 30)
+            items.insert(0, {"url": url, "text": summary, "when": when, "venue": venue, "city": f["city"],
+                             "postedAt": now_iso(), "issue": int(num),
+                             "group": parse_group(f"[揪人] {when} {venue}")})
+            data.update({"updatedAt": now_iso(), "source": "球友分享", "keepDays": THREADS_KEEP_DAYS, "items": items})
+            save("threads.json", data)
+            msg = f"已上架 Threads 揪團（{f['city']} {venue}），{THREADS_KEEP_DAYS} 天後自動下架。"
 
     elif "type:venue" in labels or "type:shop" in labels:
         is_venue = "type:venue" in labels

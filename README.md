@@ -9,7 +9,7 @@
 | 🎓 教學 | 6 大類 18 堂課（握拍 → 戰術 → 體能），附步驟、常見錯誤、練習法、學習進度 | 編輯撰寫 | 人工 |
 | ▶️ 影片 | 20 個主題、近百部中文教學影片 | YouTube（oEmbed 驗證可嵌入） | 每月自動搜尋＋每週驗證 |
 | 📍 場館 | 全台 22 縣市：1,435 處公立／學校場館＋數百處民營羽球館（含 24 小時球館）；地址、電話、粉專、預約連結、地圖、導航、Google 評論 | 教育部體育署 iPlay、Overture Maps、OpenStreetMap、網路整理 | 每週自動同步 |
-| 🤝 零打團 | 近期開團場次（日期、時段、場館、程度、費用、用球、報名連結）、全台 LINE 羽球社群、PTT／Threads 揪人貼文、社群登錄、球隊俱樂部 | 羽球臨打情報站、GRASS、LINE 社群公開頁、PTT、Threads 官方 API、GitHub 表單、Overture Maps | 每 6 小時 |
+| 🤝 零打團 | 近期開團場次（日期、時段、場館、程度、費用、用球、報名連結）、全台 LINE 羽球社群、PTT／Threads 揪人貼文、社群登錄、球隊俱樂部 | 羽球臨打情報站、GRASS、LINE 社群公開頁、PTT、球友分享的 Threads 連結、GitHub 表單、Overture Maps | 每 6 小時 |
 | 🏸 球具 | 選購指南、30 秒球拍規格推薦、品牌官網、購物通路、全台實體球具專賣店（可依縣市篩選） | 編輯撰寫、Overture Maps、社群推薦 | 每週＋投稿 |
 | ♻️ 二手 | 各大二手平台入口、PTT 買賣文、交易防詐提醒 | 各平台搜尋連結、PTT | 每 6 小時 |
 
@@ -97,7 +97,7 @@ python3 scripts/fetch_ptt.py && python3 scripts/fetch_venues.py && python3 scrip
 只讀取 robots.txt 允許的公開頁面或官方 API，只存摘要並連回原始頁面報名：
 - **羽球臨打情報站**、**GRASS**：近期開團場次，過期自動下架。
 - **LINE 社群**：只讀社群的公開介紹（名稱、成員數、介紹），不讀群組內的訊息。
-- **Threads**：只用 Meta 官方 API，需要申請 token，見 [docs/THREADS.md](docs/THREADS.md)。
+- **Threads**：由球友分享貼文連結並審核後顯示，不爬取 Threads（其 robots.txt 禁止），見 [docs/THREADS.md](docs/THREADS.md)。
 
 ## 為什麼不直接抓 Google 地圖？
 

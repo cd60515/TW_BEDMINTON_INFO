@@ -1,0 +1,51 @@
+name: 🧵 分享 Threads 揪團貼文
+description: 在 Threads 看到羽球零打／揪團貼文？貼上網址分享給大家，審核後顯示在網站上並連回原文
+title: "[Threads] "
+labels: ["type:threads", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        網站只會顯示你填的摘要，並連回 Threads 原文，報名請在原文聯絡團主。分享的貼文 21 天後自動下架。
+  - type: input
+    id: url
+    attributes: {label: "Threads 貼文網址", placeholder: "https://www.threads.com/@帳號/post/…"}
+    validations: {required: true}
+  - type: dropdown
+    id: city
+    attributes:
+      label: 縣市
+      options:
+        - 臺北市
+        - 新北市
+        - 基隆市
+        - 桃園市
+        - 新竹市
+        - 新竹縣
+        - 苗栗縣
+        - 臺中市
+        - 彰化縣
+        - 南投縣
+        - 雲林縣
+        - 嘉義市
+        - 嘉義縣
+        - 臺南市
+        - 高雄市
+        - 屏東縣
+        - 宜蘭縣
+        - 花蓮縣
+        - 臺東縣
+        - 澎湖縣
+        - 金門縣
+        - 連江縣
+    validations: {required: true}
+  - type: input
+    id: when
+    attributes: {label: "時間", placeholder: "例：每週三 19:00-22:00、11/15（六）14:00-16:00"}
+  - type: input
+    id: venue
+    attributes: {label: "場館", placeholder: "例：大安運動中心"}
+  - type: textarea
+    id: summary
+    attributes: {label: "摘要", description: "用自己的話簡單說明（程度、費用、缺幾人），不要整篇複製", placeholder: "例：中階雙打，缺 2 人，每人 200 元含球"}
+    validations: {required: true}

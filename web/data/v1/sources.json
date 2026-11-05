@@ -66,12 +66,12 @@
     },
     {
       "id": "threads",
-      "name": "Threads（Meta 官方 API）",
-      "url": "https://www.threads.net/",
-      "type": "官方關鍵字搜尋 API（需 token）",
+      "name": "Threads（球友分享）",
+      "url": "https://github.com/cd60515/TW_BEDMINTON_INFO/issues/new?template=share-threads.yml",
+      "type": "球友投稿貼文連結＋審核（不爬取 Threads）",
       "covers": "Threads 上的羽球揪團貼文",
-      "schedule": "每 6 小時（設定 token 後啟用）",
-      "script": "scripts/fetch_threads.py"
+      "schedule": "審核後即時，21 天後下架",
+      "script": "scripts/issue_intake.py"
     },
     {
       "id": "youtube",

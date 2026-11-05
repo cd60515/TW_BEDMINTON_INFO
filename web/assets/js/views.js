@@ -417,8 +417,10 @@ function lineCard(c) {
     <div class="actions">${ext(c.url, '加入社群', 'btn sm primary')}${isFinite(d) ? html`<span class="small muted" style="align-self:center">最近活躍：${d <= 0 ? '今天' : d + ' 天前'}</span>` : ''}</div></article>`;
 }
 function threadsCard(t) {
-  return html`<article class="card"><div class="row"><span class="badge info">Threads</span>${t.city ? html`<span class="badge">${t.city}</span>` : ''}<span class="spacer"></span><span class="small muted">${ago(t.postedAt)}</span></div>
-    <p style="margin:8px 0 0">${t.text}</p><div class="actions">${ext(t.url, '看原文並聯絡', 'btn sm primary')}</div></article>`;
+  return html`<article class="card"><div class="row"><span class="badge info">🧵 Threads</span>${t.city ? html`<span class="badge">${t.city}</span>` : ''}<span class="spacer"></span><span class="small muted">${ago(t.postedAt)}分享</span></div>
+    ${t.venue ? html`<h3 style="margin-top:8px">${t.venue}</h3>` : ''}
+    ${t.when ? html`<div class="meta"><span>⏰ ${t.when}</span></div>` : ''}
+    <p style="margin:6px 0 0">${t.text}</p><div class="actions">${ext(t.url, '看原文並聯絡', 'btn sm primary')}</div></article>`;
 }
 
 export async function groups(el, params) {
@@ -441,7 +443,7 @@ export async function groups(el, params) {
   const lg = line.items.filter((c) => (!city || c.city === city || !c.city) && match(q, c.name, c.desc));
   const cg = comm.items.filter((g) => (showExpired || daysAgo(g.confirmedAt) <= ttl) && okCity(g.city) && okWd(g.weekdays) && match(q, g.name, g.venue, g.note));
   const pg = ptt.items.filter((i) => i.cat === 'group' && okCity(i.city) && okWd(i.group?.weekdays) && match(q, i.title));
-  const tg = threads.items.filter((t) => okCity(t.city) && match(q, t.text));
+  const tg = threads.items.filter((t) => daysAgo(t.postedAt) <= (threads.keepDays || 21) && okCity(t.city) && match(q, t.text, t.venue));
   const cl = clubs.items.filter((c) => okCity(c.city) && match(q, c.name, c.address));
   const expiredN = comm.items.filter((g) => daysAgo(g.confirmedAt) > ttl).length;
   const shown = Number(params.get('n')) || 24;
@@ -463,8 +465,10 @@ export async function groups(el, params) {
         ${cg.length ? html`<div class="grid g2">${cg.map((g) => groupCard(g, ttl))}</div>` : html`<p class="muted small">還沒有團主登錄，成為第一個吧！</p>`}</section>
       <section class="section"><div class="section-h"><h2>PTT 羽球板揪人（${pg.length}）</h2>${ext(ptt.sourceUrl, '前往 PTT', '')}</div>
         ${pg.length ? html`<div class="grid g2">${pg.map(pttGroupCard)}</div>` : html`<p class="muted small">近期沒有符合條件的揪人文</p>`}</section>
-      <section class="section"><div class="section-h"><h2>Threads 揪團貼文（${tg.length}）</h2></div>
-        ${tg.length ? html`<div class="grid g2">${tg.map(threadsCard)}</div>` : html`<p class="muted small">Threads 串接已準備好，啟用 Meta 官方 API 後就會自動出現 Threads 上的揪團貼文。</p>`}</section>`;
+      <section class="section"><div class="section-h"><h2>球友分享的 Threads 揪團（${tg.length}）</h2>
+          <a class="btn sm" href="${issueUrl('share-threads.yml', { city })}" target="_blank" rel="noopener">🧵 分享 Threads 貼文</a></div>
+        <p class="small muted">在 Threads 看到羽球揪團？貼上網址分享給大家，審核後會出現在這裡並連回原文，${threads.keepDays || 21} 天後自動下架。</p>
+        ${tg.length ? html`<div class="grid g2">${tg.map(threadsCard)}</div>` : html`<p class="muted small">還沒有人分享，成為第一個吧！</p>`}</section>`;
   } else {
     body = html`<p class="small muted">固定球隊常開放新成員加入，可透過粉專或電話詢問。資料來自 Overture Maps 開放商家資料，每週更新。</p>
       ${cl.length ? html`<div class="grid g3">${cl.slice(0, shown).map((c) => placeCard(c, c.type))}</div>${more(cl.length)}` : empty('📭', '這個縣市還沒有收錄的俱樂部')}`;
