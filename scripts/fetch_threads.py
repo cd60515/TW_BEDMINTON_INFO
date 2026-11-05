@@ -38,7 +38,13 @@ def main():
         try:
             dbg = json.loads(get("https://graph.threads.net/v1.0/debug_token", {"input_token": token, "access_token": token}, timeout=30))
             d = dbg.get("data", {})
-            print("token 權限：", d.get("scopes"), "｜到期：", d.get("expires_at"), "｜有效：", d.get("is_valid"))
+            exp = d.get("expires_at") or 0
+            left = (exp - time.time()) / 86400 if exp else None
+            print("token 權限：", d.get("scopes"), "｜剩餘天數：", round(left, 1) if left is not None else "未知")
+            if "threads_keyword_search" not in (d.get("scopes") or []):
+                print("::warning::token 缺少 threads_keyword_search 權限，請依 docs/THREADS.md 重新產生")
+            if left is not None and left < 10:
+                print(f"::warning::Threads token 剩 {left:.1f} 天到期，請依 docs/THREADS.md 更新 GitHub Secret THREADS_ACCESS_TOKEN")
         except Exception as e:
             print("debug_token：", explain(e), file=sys.stderr)
     except Exception as e:
