@@ -1,19 +1,20 @@
 {
   "apiVersion": "v1",
-  "generatedAt": "2026-11-05T07:17:44+08:00",
+  "generatedAt": "2026-11-05T08:28:39+08:00",
   "counts": {
-    "venues": 1435,
+    "venues": 1496,
     "videos": 96,
     "lessons": 18,
+    "private": 61,
     "groups": 0,
     "ptt": 14
   },
   "links": {
-    "total": 178,
-    "ok": 153,
-    "restricted": 19,
-    "broken": 0,
-    "checkedAt": "2026-11-05T07:11:14+08:00"
+    "total": 184,
+    "ok": 158,
+    "restricted": 23,
+    "broken": 3,
+    "checkedAt": "2026-11-05T08:28:18+08:00"
   },
   "files": {
     "community_venues.json": {
@@ -41,10 +42,16 @@
       "count": 18
     },
     "link_status.json": {
-      "sha": "23b60d1006ad0510",
-      "bytes": 42299,
-      "updatedAt": "2026-11-05T07:11:14+08:00",
+      "sha": "5134a5a7380f4175",
+      "bytes": 43576,
+      "updatedAt": "2026-11-05T08:28:18+08:00",
       "count": null
+    },
+    "private_venues.json": {
+      "sha": "6a3165dabbb49dd6",
+      "bytes": 29639,
+      "updatedAt": "2026-11-05T08:26:38+08:00",
+      "count": 61
     },
     "ptt.json": {
       "sha": "2cbfdbbc3e5a05c0",
@@ -59,10 +66,10 @@
       "count": 0
     },
     "sources.json": {
-      "sha": "3675064e57655443",
-      "bytes": 1471,
+      "sha": "190314743b8d977e",
+      "bytes": 2079,
       "updatedAt": "2026-11-05T07:00:00+08:00",
-      "count": 5
+      "count": 6
     },
     "videos.json": {
       "sha": "49727719065c801b",
@@ -77,13 +84,16 @@
       "count": null
     },
     "venues/all.json": {
-      "sha": "0fd2b4fb54fa0427",
-      "bytes": 371469,
-      "updatedAt": "2026-11-05T07:17:44+08:00",
-      "count": 1435
+      "sha": "1549c354a83c5bee",
+      "bytes": 390166,
+      "updatedAt": "2026-11-05T08:28:39+08:00",
+      "count": 1496
     },
     "iplay": {
       "updatedAt": "2026-11-05T06:56:40+08:00"
+    },
+    "osm": {
+      "updatedAt": "2026-11-05T08:26:38+08:00"
     },
     "ptt": {
       "updatedAt": "2026-11-05T07:03:16+08:00"

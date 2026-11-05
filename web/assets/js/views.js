@@ -2,17 +2,36 @@ import {
   html, raw, safeUrl, $, $$, store, favs, progress, platform, api, linkMap,
   WEEK, ago, daysAgo, fmtDate, distKm, match, toast, issueUrl, CONFIG,
 } from './core.js';
+import { chubi, greeting } from './mascot.js';
+import { icon } from './icons.js';
 
 const CITIES = ['臺北市', '新北市', '基隆市', '桃園市', '新竹市', '新竹縣', '苗栗縣', '臺中市', '彰化縣', '南投縣', '雲林縣',
   '嘉義市', '嘉義縣', '臺南市', '高雄市', '屏東縣', '宜蘭縣', '花蓮縣', '臺東縣', '澎湖縣', '金門縣', '連江縣'];
 const KIND = { 'sports-center': '運動中心', public: '公有場館', school: '學校', park: '運動公園', private: '民營球館' };
+// 空狀態的啾比姿勢（emoji 參數對應到啾比表情與道具）
+const POSE = { '🔍': ['wow', 'glass'], '🤔': ['sad', 'none'], '📭': ['sleep', 'none'], '🎬': ['wow', 'none'], '🏟️': ['wow', 'pin'],
+  '🌱': ['love', 'racket'], '🤝': ['sleep', 'none'], '☆': ['happy', 'tube'], '🏸': ['sad', 'none'] };
 const LEVELS = { new: '新手', low: '初階', mid: '中階', high: '中高階', pro: '高階' };
 
 /* ================= shared UI pieces ================= */
 const favBtn = (type, id, snap) => html`<button class="fav ${favs.has(type, id) ? 'on' : ''}" data-fav="${type}" data-id="${id}" data-snap="${JSON.stringify(snap)}" aria-label="收藏" title="收藏">${favs.has(type, id) ? '★' : '☆'}</button>`;
 const ext = (url, label, cls = 'btn sm') => (safeUrl(url) ? html`<a class="${cls}" href="${safeUrl(url)}" target="_blank" rel="noopener" data-ext>${label}</a>` : '');
 const linkBadge = (state) => (state === 'broken' ? html`<span class="badge bad" title="排程檢查發現此連結無法開啟">⚠ 連結可能失效</span>` : '');
-const empty = (icon, msg, extra = '') => html`<div class="empty"><div class="big">${icon}</div><p>${msg}</p>${extra}</div>`;
+const empty = (pose, msg, extra = '') => {
+  const [mood, prop] = POSE[pose] || ['happy', 'none'];
+  return html`<div class="empty">${raw(chubi({ mood, prop, size: 110 }))}<p>${msg}</p>${extra}</div>`;
+};
+/** 啾比羽毛成長：學會的課程越多，頭上的羽毛越多（16 根長齊＝完整羽毛球） */
+function growCard(done, total) {
+  const f16 = Math.round((done / total) * 16);
+  const visible = Math.max(1, Math.round((f16 / 16) * 9));
+  const line = f16 >= 16 ? '🎉 16 根羽毛全長齊了！你是一顆完整的羽毛球！'
+    : f16 === 0 ? '啾比頭上只有 1 根羽毛… 學會一堂課就幫他長毛！'
+      : `啾比已經長出 ${f16} / 16 根羽毛，再學 ${total - done} 堂就長齊了！`;
+  return html`<div class="card grow">${raw(chubi({ mood: f16 >= 16 ? 'love' : done ? 'happy' : 'sad', prop: f16 >= 16 ? 'trophy' : 'cap', feathers: visible, size: 74 }))}
+    <div class="info"><div class="row"><b>我的學習進度</b><span class="spacer"></span><span class="small muted">${done} / ${total} 堂</span></div>
+    <div class="progress" style="margin:8px 0 6px"><i style="width:${Math.round((done / total) * 100)}%"></i></div><div class="small muted">${line}</div></div></div>`;
+}
 const head = (title, sub) => html`<div class="page-head"><h1>${title}</h1>${sub ? html`<p>${sub}</p>` : ''}</div>`;
 const selectOpts = (list, cur, allLabel) => html`${allLabel ? html`<option value="">${allLabel}</option>` : ''}${list.map((o) => {
   const [v, l] = Array.isArray(o) ? o : [o, o];
@@ -60,33 +79,41 @@ export async function home(el) {
   const news = ptt.items.filter((i) => i.cat === 'news').slice(0, 5);
   const health = manifest.links || {};
   const done = Object.keys(progress.all()).length;
+  const [mood, hello] = greeting();
+  const feathers = [8, 30, 55, 78].map((l, i) => `<svg class="feather" style="left:${l}%;top:${i * 7}%;animation-delay:${i * 2.1}s" viewBox="0 0 16 26"><path d="M8 26C3 18 1 9 4 2q4-3 8 0c3 7 1 16-4 24z"/></svg>`).join('');
   el.innerHTML = html`
   <section class="hero">
-    <h1>全台羽球，一站搞定</h1>
-    <p>教學影片、找球場、找零打團、挑球具，資料每週自動更新與檢查。</p>
-    <form class="search" action="#/search" data-search><label class="sr-only" for="q">搜尋</label>
-      <input id="q" name="q" type="search" placeholder="搜尋場館、教學、影片、品牌…（例：大安運動中心、殺球）" autocomplete="off" enterkeyhint="search"></form>
-    <div class="hero-stats">
-      <div><b>${venues.items.length.toLocaleString()}</b>羽球場館</div>
-      <div><b>${lessons.items.length}</b>堂課程</div>
-      <div><b>${manifest.counts?.videos || '—'}</b>部教學影片</div>
-      <div><b>22</b>縣市</div>
+    <svg class="court" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="#fff" stroke-width="2">
+      <rect x="10" y="10" width="380" height="180"/><path d="M200 10v180M10 30h380M10 170h380M150 10v180M250 10v180M10 100h140M250 100h140"/></g></svg>
+    ${raw(feathers)}
+    <button class="hero-mascot" data-poke aria-label="戳戳啾比" style="background:none;border:0;padding:0">${raw(chubi({ mood, prop: 'racket', size: 170 }))}</button>
+    <div class="hero-in">
+      <div><span class="bubble">啾比：${hello}</span></div>
+      <h1>全台羽球，一站搞定</h1>
+      <p>教學影片、找球場、找零打團、挑球具，資料每週自動更新與檢查。</p>
+      <form class="search" action="#/search" data-search><label class="sr-only" for="q">搜尋</label>
+        <input id="q" name="q" type="search" placeholder="搜尋場館、教學、影片、品牌…（例：大安運動中心、殺球）" autocomplete="off" enterkeyhint="search"></form>
+      <div class="score" aria-label="網站數據">
+        <div><b>${venues.items.length.toLocaleString()}</b><span>羽球場館</span></div>
+        <div><b>${String(lessons.items.length).padStart(2, '0')}</b><span>堂課程</span></div>
+        <div><b>${manifest.counts?.videos || '—'}</b><span>教學影片</span></div>
+        <div><b>21</b><span>分一局</span></div>
+      </div>
     </div>
   </section>
 
   <section class="section"><div class="grid g4">
-    ${[['#/learn', '🎓', '教學課程', '從握拍到戰術'], ['#/videos', '▶️', '教學影片', '20 個主題精選'], ['#/venues', '📍', '找場館', '全台・地圖・導航'], ['#/groups', '🤝', '零打團', '臨打揪團即時看'],
-      ['#/gear', '🏸', '球具指南', '選拍・磅數・球鞋'], ['#/market', '♻️', '二手買賣', '平台與防詐提醒'], ['#/favorites', '★', '我的收藏', '常去球場一鍵開'], ['#/about', '🛰️', '資料狀態', '來源與健康度']]
-      .map(([href, i, t, s]) => html`<a class="card link tile" href="${href}"><span class="ti">${i}</span><b>${t}</b><span>${s}</span></a>`)}
+    ${[['#/learn', 'learn', 't-green', '教學課程', '從握拍到戰術'], ['#/videos', 'video', 't-coral', '教學影片', '20 個主題精選'], ['#/venues', 'venue', 't-sky', '找場館', '公立＋民營・地圖導航'], ['#/groups', 'group', 't-sun', '零打團', '臨打揪團即時看'],
+      ['#/gear', 'gear', 't-grape', '球具指南', '選拍・磅數・球鞋'], ['#/market', 'market', 't-teal', '二手買賣', '平台與防詐提醒'], ['#/favorites', 'star', 't-pink', '我的球筒', '收藏常去的球場'], ['#/chubi', 'bolt', 't-ink', '認識啾比', '本站吉祥物']]
+      .map(([href, ic, c, t, sub]) => html`<a class="card link tile ${c}" href="${href}"><span class="ti">${raw(icon(ic, 26))}</span><b>${t}</b><span>${sub}</span></a>`)}
   </div></section>
 
   <section class="section">
     <div class="section-h"><h2>📍 我附近的羽球場</h2><a href="#/venues?sort=near">看全部</a></div>
-    <div id="near"><button class="btn primary" data-near>使用我的位置找球場</button> <span class="small muted">位置只在你的裝置上計算，不會上傳。</span></div>
+    <div id="near"><button class="btn primary" data-near>${raw(icon('venue', 16))} 使用我的位置找球場</button> <span class="small muted">位置只在你的裝置上計算，不會上傳。</span></div>
   </section>
 
-  ${done ? html`<section class="section"><div class="card"><div class="row"><b>學習進度</b><span class="spacer"></span><span class="small muted">${done} / ${lessons.items.length} 堂</span></div>
-    <div class="progress" style="margin-top:8px"><i style="width:${Math.round(done / lessons.items.length * 100)}%"></i></div></div></section>` : ''}
+  ${done ? html`<section class="section">${growCard(done, lessons.items.length)}</section>` : ''}
 
   <section class="section">
     <div class="section-h"><h2>🤝 最新零打揪團</h2><a href="#/groups">更多</a></div>
@@ -113,6 +140,7 @@ export async function home(el) {
       box.innerHTML = html`<div class="grid g3">${near.map((v) => venueCard(v, {}))}</div>`.s;
     } catch (err) { box.innerHTML = html`<div class="callout warn">${err.message}，你也可以 <a href="#/venues">依縣市查詢</a>。</div>`.s; }
   });
+  $('[data-poke]', el).addEventListener('click', () => window.dispatchEvent(new CustomEvent('chubi:smash')));
 }
 
 /* ================= SEARCH ================= */
@@ -147,8 +175,7 @@ export async function learn(el, params) {
   const items = data.items.filter((l) => (!cat || l.category === cat) && (!lv || l.level === lv));
   const done = Object.keys(progress.all()).filter((id) => data.items.some((l) => l.id === id)).length;
   el.innerHTML = html`${head('羽球教學', '依程度循序漸進，每堂課搭配圖文重點、常見錯誤、練習方法與精選影片。')}
-    <div class="card" style="margin-bottom:14px"><div class="row"><b>我的學習進度</b><span class="spacer"></span><span class="small muted">${done} / ${data.items.length} 堂</span></div>
-      <div class="progress" style="margin-top:8px"><i style="width:${Math.round(done / data.items.length * 100)}%"></i></div></div>
+    <div style="margin-bottom:14px">${growCard(done, data.items.length)}</div>
     <div class="chips" role="tablist">${[['', '全部'], ...data.categories.map((c) => [c.id, `${c.icon} ${c.name}`])].map(([id, n]) => html`<a class="chip ${cat === id ? 'on' : ''}" href="#/learn?cat=${id}${lv ? '&level=' + lv : ''}">${n}</a>`)}</div>
     <div class="chips">${['', ...data.levels].map((l) => html`<a class="chip ${lv === l ? 'on' : ''}" href="#/learn?level=${l}${cat ? '&cat=' + cat : ''}">${l || '所有程度'}</a>`)}</div>
     ${cat ? '' : html`<div class="grid g3" style="margin:6px 0 18px">${data.categories.map((c) => html`<a class="card link" href="#/learn?cat=${c.id}"><div style="font-size:26px">${c.icon}</div><b>${c.name}</b><div class="small muted">${c.desc}</div></a>`)}</div>`}
@@ -179,7 +206,11 @@ export async function lesson(el, id) {
       <div><h2>精選教學影片</h2><div class="grid">${vids.map((v) => videoCard(v))}</div>
         <p class="small muted">影片由 YouTube 創作者提供，版權屬原作者。<a href="#/videos?topic=${l.videoTopic}">看更多「${videos.topics[l.videoTopic]}」影片 →</a></p></div>
     </div>`.s;
-  $('[data-learned]', el).addEventListener('click', () => { const on = progress.toggle(l.id); toast(on ? '太棒了！已標記學會 🎉' : '已取消標記'); lesson(el, id); });
+  $('[data-learned]', el).addEventListener('click', () => {
+    const on = progress.toggle(l.id);
+    toast(on ? '啾！學會了，啾比長出新羽毛 🪶' : '啾比的羽毛掉了一根…', on ? 'love' : 'sad');
+    lesson(el, id);
+  });
 }
 
 /* ================= VIDEOS ================= */
@@ -206,8 +237,9 @@ function venueCard(v, lm) {
       ${favBtn('venue', v.id, { name: v.name, city: v.city, district: v.district })}</div>
     <div class="row" style="margin-top:6px"><span class="badge brand">${KIND[v.kind] || ''}</span>
       ${v.rent === '付費' ? html`<span class="badge info">可付費租借</span>` : v.rent === '免費' ? html`<span class="badge ok">免費租借</span>` : html`<span class="badge">不對外租借</span>`}
-      ${v.open && v.open !== '不開放' ? html`<span class="badge">${v.open}</span>` : ''}</div>
-    <p class="small muted" style="margin:8px 0 0">${v.address}</p>
+      ${v.open && v.open !== '不開放' ? html`<span class="badge">${v.open}</span>` : ''}
+      ${v.sourceName === '網路整理' ? html`<span class="badge warn" title="由網路資料整理，尚未經場館確認">待查證</span>` : ''}${v.sourceName === '社群投稿' ? html`<span class="badge ok">球友推薦</span>` : ''}</div>
+    <p class="small muted" style="margin:8px 0 0">${v.address || '地址待補，可用名稱導航'}${v.note ? html`<br>${v.note}` : ''}</p>
     <div class="actions">${ext(platform.navUrl(v), '🧭 導航')}${v.tel ? html`<a class="btn sm" href="tel:${v.tel.replace(/[^\d#+]/g, '').replace('#', ',')}">📞 電話</a>` : ''}${ext(web, '🌐 官網')}<a class="btn sm ghost" href="#/venue/${v.id}">詳細</a></div>
   </article>`;
 }
@@ -228,7 +260,7 @@ export async function venues(el, params) {
   const shown = Math.min(list.length, Number(params.get('n')) || 30);
   const set = (k, v) => { const p = new URLSearchParams(params); if (v === '' || v == null) p.delete(k); else p.set(k, v); if (k === 'city') p.delete('district'); p.delete('n'); location.hash = '#/venues?' + p; };
 
-  el.innerHTML = html`${head('羽球場館', raw(`全台 <b>${data.items.length.toLocaleString()}</b> 處含羽球場的場館，資料來自教育部體育署 iPlay，每週自動同步。`))}
+  el.innerHTML = html`${head('羽球場館', raw(`全台 <b>${data.items.length.toLocaleString()}</b> 處含羽球場的場館，公立場館來自教育部體育署 iPlay、民營球館來自 OpenStreetMap 與網路整理，每週自動同步。`))}
     <div class="filters">
       <select class="field" data-k="city" aria-label="縣市" ${st.sort === 'near' ? 'disabled' : ''}>${selectOpts(CITIES, st.city, '全部縣市')}</select>
       <select class="field" data-k="district" aria-label="行政區" ${st.sort === 'near' ? 'disabled' : ''}>${selectOpts(districts, st.district, '全部行政區')}</select>
@@ -282,7 +314,8 @@ export async function venue(el, id) {
   const all = await api('venues/all.json');
   const v0 = all.items.find((x) => x.id === id);
   if (!v0) { el.innerHTML = empty('🤔', '找不到此場館，可能已下架或改名', html`<a class="btn" href="#/venues">回場館列表</a>`).s; return; }
-  const [city, lm] = await Promise.all([api(`venues/${all.slugs[v0.city]}.json`).catch(() => ({ items: [] })), linkMap()]);
+  const isGov = id.startsWith('iplay-');
+  const [city, lm] = await Promise.all([isGov ? api(`venues/${all.slugs[v0.city]}.json`).catch(() => ({ items: [] })) : Promise.resolve({ items: [] }), linkMap()]);
   const v = { ...v0, ...(city.items.find((x) => x.id === id) || {}) };
   el.innerHTML = html`<p class="small"><a href="#/venues">場館</a> › <a href="#/venues?city=${v.city}">${v.city}</a> › ${v.district}</p>
     <div class="row" style="align-items:flex-start"><div style="flex:1"><h1>${v.name}</h1>
@@ -294,7 +327,9 @@ export async function venue(el, id) {
         ${v.photo ? html`<img src="${safeUrl(v.photo)}" alt="${v.name}" loading="lazy" style="border-radius:10px;margin-bottom:12px;aspect-ratio:16/9;object-fit:cover;width:100%" onerror="this.remove()">` : ''}
         <dl class="kv"><dt>地址</dt><dd>${v.address}</dd>${v.tel ? html`<dt>電話</dt><dd><a href="tel:${v.tel.replace(/[^\d#+]/g, '').replace('#', ',')}">${v.tel}</a></dd>` : ''}
         ${v.website ? html`<dt>官網</dt><dd>${ext(v.website, v.website, '')}</dd>` : ''}<dt>設施</dt><dd>${v.facilities || '—'}</dd>
-        <dt>資料來源</dt><dd>${ext(v.source, '教育部體育署 iPlay', '')}<br><span class="small muted">同步於 ${fmtDate(city.updatedAt || all.generatedAt)}</span></dd></dl>
+        ${v.note ? html`<dt>備註</dt><dd>${v.note}</dd>` : ''}
+        <dt>資料來源</dt><dd>${v.source ? ext(v.source, isGov ? '教育部體育署 iPlay' : v.sourceName || '來源', '') : v.sourceName || '社群投稿'}<br><span class="small muted">同步於 ${fmtDate(city.updatedAt || all.generatedAt)}</span>
+          ${v.verified === false ? html`<br><span class="badge warn">待查證：資料由網路整理，出發前請先電話確認</span>` : ''}${v.approx ? html`<br><span class="small muted">📍 地圖位置為路段概略位置</span>` : ''}</dd></dl>
         <div class="actions" style="margin-top:14px">${ext(platform.navUrl(v), '🧭 導航', 'btn primary')}${ext(platform.gmapsUrl(v), '🗺 Google 地圖')}
           ${v.tel ? html`<a class="btn" href="tel:${v.tel.replace(/[^\d#+]/g, '').replace('#', ',')}">📞 撥打</a>` : ''}${ext(v.website, '🌐 官網／預約', 'btn')}
           <button class="btn" data-share>分享</button></div>
@@ -426,8 +461,13 @@ export async function market(el) {
 export async function favorites(el) {
   const f = favs.all();
   const v = Object.entries(f.venue || {}), vid = Object.entries(f.video || {}), gr = Object.entries(f.group || {});
-  el.innerHTML = html`${head('我的收藏', '收藏只存在這台裝置上，不需要註冊。')}
-    ${!v.length && !vid.length && !gr.length ? empty('☆', '還沒有收藏，在場館、影片、零打團旁按 ☆ 即可收藏', html`<a class="btn primary" href="#/venues">去找場館</a>`) : ''}
+  const total = v.length + vid.length + gr.length;
+  const tubes = Math.max(1, Math.ceil(total / 12));
+  el.innerHTML = html`${head('我的球筒', '一筒羽毛球有 12 顆，你收藏的東西也裝在球筒裡。只存在這台裝置，不需要註冊。')}
+    ${total ? html`<div class="card grow" style="margin-bottom:14px">${raw(chubi({ mood: 'love', prop: 'tube', size: 70 }))}<div class="info">
+      <b>${total ? `已收藏 ${total} 顆球` : '球筒空空的'}</b>${total > 12 ? html`<span class="small muted">（已經裝滿 ${tubes - 1} 筒，開了新的一筒！）</span>` : ''}
+      <div class="tube">${Array.from({ length: 12 }, (_, i) => html`<i class="${i < (total % 12 || 12) ? 'on' : ''}"></i>`)}</div></div></div>` : ''}
+    ${!v.length && !vid.length && !gr.length ? empty('☆', '球筒空空的～在場館、影片、零打團旁按 ☆，就能把它收進球筒', html`<a class="btn primary" href="#/venues">去找場館</a>`) : ''}
     ${v.length ? html`<section class="section"><h2>📍 場館</h2><div class="card"><div class="list">${v.map(([id, s]) => html`<div class="li"><div class="body"><a class="title" href="#/venue/${id}">${s.name}</a><div class="small muted">${s.city}${s.district || ''}</div></div>${favBtn('venue', id, s)}</div>`)}</div></div></section>` : ''}
     ${gr.length ? html`<section class="section"><h2>🤝 零打團</h2><div class="card"><div class="list">${gr.map(([id, s]) => html`<div class="li"><div class="body"><a class="title" href="#/groups?q=${encodeURIComponent(s.name)}">${s.name}</a><div class="small muted">${s.city}</div></div>${favBtn('group', id, s)}</div>`)}</div></div></section>` : ''}
     ${vid.length ? html`<section class="section"><h2>▶️ 影片</h2><div class="grid g3">${vid.map(([id, s]) => videoCard({ id, ...s }))}</div></section>` : ''}`.s;
@@ -437,7 +477,7 @@ export async function favorites(el) {
 export async function more(el) {
   el.innerHTML = html`${head('更多')}
     <div class="card"><div class="list">
-    ${[['#/videos', '▶️', '教學影片'], ['#/gear', '🏸', '球具指南與球拍推薦'], ['#/market', '♻️', '二手買賣'], ['#/favorites', '★', '我的收藏'], ['#/search', '🔍', '全站搜尋'], ['#/about', '🛰️', '資料來源與更新狀態'], ['#/install', '📱', '安裝到手機主畫面'], ['#/privacy', '🔒', '隱私權說明']]
+    ${[['#/chubi', '🏸', '認識吉祥物啾比'], ['#/videos', '▶️', '教學影片'], ['#/gear', '🏸', '球具指南與球拍推薦'], ['#/market', '♻️', '二手買賣'], ['#/favorites', '🧺', '我的球筒（收藏）'], ['#/search', '🔍', '全站搜尋'], ['#/about', '🛰️', '資料來源與更新狀態'], ['#/install', '📱', '安裝到手機主畫面'], ['#/privacy', '🔒', '隱私權說明']]
       .map(([h, i, t]) => html`<a class="li" href="${h}" style="padding:6px 0;color:var(--text)"><span style="font-size:22px;width:32px">${i}</span><span class="body title">${t}</span><span class="muted">›</span></a>`)}
     </div></div>
     <div class="card" style="margin-top:14px"><h3>一起讓資料更完整</h3><p class="small muted">任何人都可以登錄零打團、私人球館、球具店，或回報錯誤資料。</p>
@@ -481,4 +521,33 @@ export async function privacy(el) {
     <li>影片使用 youtube-nocookie.com 隱私加強模式，點擊播放前不會載入 YouTube。</li>
     <li>地圖圖磚由 OpenStreetMap 提供；點擊外部連結後即適用該網站的隱私政策。</li></ul></div>`.s;
 }
-export function notFound(el) { el.innerHTML = empty('🏸', '找不到這個頁面', html`<a class="btn primary" href="#/">回首頁</a>`).s; }
+export function notFound(el) {
+  el.innerHTML = html`<div class="empty net404"><div class="stage"><div class="netbox"></div>${raw(chubi({ mood: 'wow', size: 90 }))}</div>
+    <div class="big404">4 0 4</div><h2>啊！掛網了！</h2><p>啾比卡在網子上，這個頁面不存在。換個方向再打一次吧！</p>
+    <a class="btn primary" href="#/">發球回首頁</a></div>`.s;
+}
+export async function mascot(el) {
+  const poses = [['happy', 'none', '開心'], ['wink', 'racket', '準備發球'], ['cool', 'band', '夜場模式'], ['wow', 'glass', '找球場'],
+    ['love', 'tube', '收藏中'], ['happy', 'cap', '認真上課'], ['sleep', 'none', '打完睡覺'], ['sad', 'none', '掛網了']];
+  el.innerHTML = html`${head('認識啾比 Chubi', '台灣羽球通的吉祥物，一顆有點圓的羽毛球。')}
+    <div class="card profile">${raw(chubi({ mood: 'wink', prop: 'racket', size: 200 }))}
+      <div><dl class="kv" style="grid-template-columns:96px 1fr">
+        <dt>名字</dt><dd><b>啾比 Chubi</b>。「啾」是小鳥的叫聲，羽毛球的英文叫 birdie；「比」是比賽。唸快一點像 chubby，因為他真的很圓。</dd>
+        <dt>身體</dt><dd>軟木做的球頭，所以肚子圓滾滾、軟綿綿的。腰上的黃綠色腰帶是羽毛球的球頭膠帶。</dd>
+        <dt>頭髮</dt><dd>16 根鵝毛（真正的羽毛球就是 16 根），中間綁了兩圈黃色的線，是他最自豪的髮型。</dd>
+        <dt>個性</dt><dd>越被殺球越開心，飛得越快笑得越大聲。最怕的事情是「掛網」。</dd>
+        <dt>夢想</dt><dd>挑戰人類最快殺球紀錄：時速 565 公里。</dd>
+        <dt>口頭禪</dt><dd>「啾！」（好球）、「啾～」（辛苦了）、「啾…」（掛網了）</dd>
+        <dt>小祕密</dt><dd>戳他一下試試看。連戳 21 下會發生什麼事呢？</dd>
+      </dl><div class="actions"><button class="btn primary" data-poke>${raw(icon('bolt', 16))} 殺他一球！</button></div></div></div>
+    <section class="section"><h2>啾比的各種表情</h2><div class="poses">${poses.map(([m, p, t]) => html`<figure>${raw(chubi({ mood: m, prop: p, size: 60 }))}<figcaption>${t}</figcaption></figure>`)}</div></section>
+    <section class="section card"><h2>在網站裡找找啾比</h2><ul class="bullets">
+      <li>首頁的啾比會依時段跟你打招呼（凌晨還在滑手機，他會叫你去睡覺）。</li>
+      <li>學會的課程越多，啾比頭上的羽毛就越多，16 根全長齊有驚喜。</li>
+      <li>收藏放在「球筒」裡，一筒裝 12 顆，滿了就換新的一筒。</li>
+      <li>走錯頁面的時候，啾比會掛在網子上。</li>
+      <li>右下角的按鈕是一記高遠球，按了會飛回頂端。</li>
+      <li>在搜尋框輸入「殺球」看看會發生什麼事。</li>
+      <li>切換到深色的「夜場模式」，啾比會戴上墨鏡。</li></ul></section>`.s;
+  $('[data-poke]', el).addEventListener('click', () => window.dispatchEvent(new CustomEvent('chubi:smash')));
+}

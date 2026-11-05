@@ -1,0 +1,19 @@
+{
+  "note": "網路搜尋整理的民營羽球館種子名單。fetch_private_venues.py 會用 OpenStreetMap Nominatim 自動定位，定位不到的仍會列出（以地址/名稱導航）。新增球館請直接加一筆，或請球友用 Issue 表單投稿。",
+  "items": [
+    {"name": "中和羽道館", "city": "新北市", "address": "新北市中和區圓通路437-7號", "note": "參考場地費約 370 元/小時，有冷氣與盥洗設備（資料可能過時）", "ref": "https://www.pro360.com.tw/photo/photo-detail/161468"},
+    {"name": "我家羽球館", "city": "新北市", "address": "新北市板橋區大觀路二段1巷60-5號", "note": "參考場地費約 250 元/小時，有冷氣與盥洗設備（資料可能過時）", "ref": "https://www.pro360.com.tw/photo/photo-detail/161468"},
+    {"name": "和平羽球館", "city": "新北市", "address": "新北市板橋區重慶路355號", "note": "位於和平公園內 3 樓，參考場地費約 300 元/小時（資料可能過時）", "ref": "https://www.pro360.com.tw/photo/photo-detail/161468"},
+    {"name": "中和區公所羽球館", "city": "新北市", "address": "新北市中和區民安街135號", "kind": "public", "note": "參考場地費約 200 元/小時，有免費停車場（資料可能過時）", "ref": "https://www.pro360.com.tw/photo/photo-detail/161468"},
+    {"name": "北士羽球館", "city": "臺北市", "address": "臺北市北投區承德路七段1巷1號", "note": "參考場地費約 400 元/小時（資料可能過時）", "ref": "https://www.pro360.com.tw/photo/photo-detail/161468"},
+    {"name": "樂穎球館", "city": "新北市", "address": "新北市新莊區新樹路69-68號", "note": "2 樓", "ref": "https://grass.camp/find/taiwan/badminton"},
+    {"name": "葉羽羽球館", "city": "新北市", "address": "新北市新莊區西盛街395巷46號", "ref": "https://grass.camp/find/taiwan/badminton"},
+    {"name": "77羽球町", "city": "桃園市", "address": "", "note": "16 面國際標準場地＋2 面 VIP 包廂場", "ref": "https://tw.ysm.emarketing.yahoo.com/soeasy/client/tas20250117003.html"},
+    {"name": "士林故宮羽球館", "city": "臺北市", "address": "", "ref": "https://grass.camp/find/taiwan/badminton"},
+    {"name": "大墩羽球館 大慶館", "city": "臺中市", "address": "", "ref": "https://grass.camp/find/taichung/badminton"},
+    {"name": "優漾羽球館", "city": "臺中市", "address": "", "note": "西屯區", "ref": "https://grass.camp/find/taichung/badminton"},
+    {"name": "中豐羽球館", "city": "桃園市", "address": "", "note": "龍潭區", "ref": "https://grass.camp/find/taiwan/badminton"},
+    {"name": "GOAT羽球館", "city": "桃園市", "address": "", "ref": "https://grass.camp/find/taiwan/badminton"},
+    {"name": "雙和羽球館", "city": "新北市", "address": "", "ref": "https://grass.camp/find/taiwan/badminton"}
+  ]
+}

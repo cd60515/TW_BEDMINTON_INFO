@@ -14,6 +14,7 @@ BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
 RESTRICTED = {401, 403, 405, 406, 429, 451, 999}
 SKIP_HOSTS = ("facebook.com", "instagram.com", "line.me")  # 需登入，無法自動檢查
 FAIL_THRESHOLD = 2
+SELF_REPO = "https://github.com/cd60515/TW_BEDMINTON_INFO"
 
 
 def collect():
@@ -30,6 +31,9 @@ def collect():
         for v in load(f"venues/{slug}.json", {"items": []})["items"]:
             if v.get("website"):
                 urls[v["website"]] = f"場館：{v['name']}"
+    for v in load("private_venues.json", {"items": []})["items"]:
+        if v.get("website"):
+            urls[v["website"]] = f"民營球館：{v['name']}"
     for v in load("videos.json", {"items": []})["items"]:
         urls[f"https://www.youtube.com/watch?v={v['id']}"] = f"影片：{v['title'][:40]}"
     return urls
@@ -37,8 +41,8 @@ def collect():
 
 def probe(url):
     host = urllib.parse.urlparse(url).hostname or ""
-    if any(host.endswith(h) for h in SKIP_HOSTS):
-        return "restricted", 0
+    if any(host.endswith(h) for h in SKIP_HOSTS) or url.startswith(SELF_REPO):
+        return "restricted", 0  # 需登入的網站，或本專案自己的 repo（私人時匿名會看到 404）
     target = url
     if "youtube.com/watch" in url:
         target = "https://www.youtube.com/oembed?format=json&url=" + urllib.parse.quote(url, safe="")

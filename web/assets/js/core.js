@@ -4,6 +4,8 @@
 // 3) Platform 抽象層：Web 與 iOS（Capacitor）共用同一份程式碼
 // 4) 資料層：版本化 JSON API（web/data/v1），App 端優先抓遠端、失敗用內建資料
 
+import { chubi } from './mascot.js';
+
 export const CONFIG = {
   repo: 'https://github.com/cd60515/TW_BEDMINTON_INFO',
   site: 'https://cd60515.github.io/TW_BEDMINTON_INFO/',
@@ -72,7 +74,7 @@ export const platform = {
     const S = Cap()?.Plugins?.Share;
     if (this.isNative() && S) return S.share({ title, text, url });
     if (navigator.share) return navigator.share({ title, text, url }).catch(() => {});
-    await navigator.clipboard?.writeText(url); toast('已複製連結');
+    await navigator.clipboard?.writeText(url); toast('啾～連結已複製，快傳給球友！', 'wink');
   },
   async locate() {
     const G = Cap()?.Plugins?.Geolocation;
@@ -141,9 +143,11 @@ export function distKm(a, b) {
 export function norm(s) { return String(s || '').toLowerCase().replace(/台/g, '臺').replace(/\s+/g, ''); }
 export function match(q, ...fields) { const n = norm(q); return !n || fields.some((f) => norm(f).includes(n)); }
 let toastT;
-export function toast(msg) {
+/** 啾比小提示：mood 決定啾比表情 */
+export function toast(msg, mood = 'happy') {
   let t = $('.toast'); if (!t) { t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); document.body.append(t); }
-  t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, 2200);
+  t.innerHTML = chubi({ mood, size: 28 }) + `<span>${esc(msg)}</span>`;
+  t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, 2400);
 }
 /** GitHub Issue 表單連結；fields 會預填到同名 id 的表單欄位 */
 export function issueUrl(template, fields = {}) {
