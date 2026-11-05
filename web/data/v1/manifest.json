@@ -1,6 +1,6 @@
 {
   "apiVersion": "v1",
-  "generatedAt": "2026-11-05T08:28:39+08:00",
+  "generatedAt": "2026-11-05T14:51:32+08:00",
   "counts": {
     "venues": 1496,
     "videos": 96,
@@ -54,9 +54,9 @@
       "count": 61
     },
     "ptt.json": {
-      "sha": "2cbfdbbc3e5a05c0",
+      "sha": "2257c73a7b74f0b2",
       "bytes": 5154,
-      "updatedAt": "2026-11-05T07:03:16+08:00",
+      "updatedAt": "2026-11-05T14:51:32+08:00",
       "count": 14
     },
     "shops.json": {
@@ -84,9 +84,9 @@
       "count": null
     },
     "venues/all.json": {
-      "sha": "1549c354a83c5bee",
+      "sha": "4aa6a859bfc3fff8",
       "bytes": 390166,
-      "updatedAt": "2026-11-05T08:28:39+08:00",
+      "updatedAt": "2026-11-05T14:51:32+08:00",
       "count": 1496
     },
     "iplay": {
@@ -96,7 +96,7 @@
       "updatedAt": "2026-11-05T08:26:38+08:00"
     },
     "ptt": {
-      "updatedAt": "2026-11-05T07:03:16+08:00"
+      "updatedAt": "2026-11-05T14:51:32+08:00"
     },
     "youtube": {
       "updatedAt": "2026-11-05T07:00:00+08:00"
