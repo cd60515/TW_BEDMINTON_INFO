@@ -1,0 +1,749 @@
+{
+  "updatedAt": "2026-11-06T06:07:46+08:00",
+  "source": "Overture Maps",
+  "items": [
+    {
+      "id": "ovt-e662b88c23",
+      "name": "中華全民羽球發展協會tsba",
+      "city": "臺北市",
+      "district": "中山區",
+      "address": "臺北市中山區興安街78-11號",
+      "tel": "0225057124",
+      "lat": 25.055986,
+      "lng": 121.541283,
+      "website": "http://www.tsbadminton.url.tw/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.48,
+      "_rev": {
+        "city": "臺北市",
+        "district": "中山區",
+        "road": "興安街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-0a0232d631",
+      "name": "中華民國羽球協會",
+      "city": "臺北市",
+      "district": "中山區",
+      "address": "臺北市中山區朱崙街20號",
+      "tel": "0287711440",
+      "lat": 25.049885,
+      "lng": 121.53936,
+      "website": "http://www.ctb.org.tw/index.asp",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.46,
+      "_rev": {
+        "city": "臺北市",
+        "district": "中山區",
+        "road": "朱崙街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-ae2264b1f3",
+      "name": "歡喜西園羽毛球隊",
+      "city": "臺北市",
+      "district": "萬華區",
+      "address": "臺北市萬華區東園街73巷65號",
+      "tel": "",
+      "lat": 25.026611,
+      "lng": 121.498856,
+      "website": "https://www.facebook.com/217956522074307",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.76,
+      "_rev": {
+        "city": "臺北市",
+        "district": "萬華區",
+        "road": "東園街73巷"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-d02b49c5db",
+      "name": "新羽力羽球俱樂部",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區安康路二段295-3號",
+      "tel": "0970761500",
+      "lat": 24.957613,
+      "lng": 121.503555,
+      "website": "https://www.facebook.com/125968630598890",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.88,
+      "_rev": {
+        "city": "新北市",
+        "district": "新店區",
+        "road": "安康路二段"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-44ffefd841",
+      "name": "拓源羽球俱樂部TY badminton Club",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區民權橋56-7號",
+      "tel": "0981722307",
+      "lat": 25.027048,
+      "lng": 121.423073,
+      "website": "https://www.facebook.com/632415239949330",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.72,
+      "_rev": {
+        "city": "新北市",
+        "district": "新莊區",
+        "road": "民權橋"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-d8fcad3db2",
+      "name": "Aceplay 艾斯沛羽球學院",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區民有街32-1號",
+      "tel": "0900009809",
+      "lat": 25.025398,
+      "lng": 121.466057,
+      "website": "https://line.me/ti/g2/MYmEKsx8XPQ1rHqX44wvgBdbQKHHtvmU7Yi2fQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.51,
+      "_rev": {
+        "city": "新北市",
+        "district": "板橋區",
+        "road": "民有街"
+      },
+      "type": "教學"
+    },
+    {
+      "id": "ovt-4ae813c82d",
+      "name": "大頭&蜻蜓 幼兒運動課程 PushBike、腳踏車、幼兒羽球、幼兒運動核心",
+      "city": "新北市",
+      "district": "林口區",
+      "address": "新北市林口區南勢四街303號",
+      "tel": "0937818507",
+      "lat": 25.074402,
+      "lng": 121.356407,
+      "website": "https://www.facebook.com/1915857041976857",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.69,
+      "_rev": {
+        "city": "新北市",
+        "district": "林口區",
+        "road": "南勢四街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-8994f41968",
+      "name": "輕鬆羽球俱樂部 Chill Badminton Club",
+      "city": "新北市",
+      "district": "樹林區",
+      "address": "新北市樹林區西圳街二段42巷42巷14-1號",
+      "tel": "0226803131",
+      "lat": 24.960779,
+      "lng": 121.385979,
+      "website": "https://chillbadminton.com.tw/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.75,
+      "_rev": {
+        "city": "新北市",
+        "district": "樹林區",
+        "road": "西圳街二段42巷"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-3917e4bdad",
+      "name": "奧森羽球學院",
+      "city": "新北市",
+      "district": "汐止區",
+      "address": "新北市汐止區大同路一段159-1號",
+      "tel": "0226902020",
+      "lat": 25.056568,
+      "lng": 121.632233,
+      "website": "https://www.facebook.com/335740916284368",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.87,
+      "_rev": {
+        "city": "新北市",
+        "district": "汐止區",
+        "road": "大同路一段"
+      },
+      "type": "教學"
+    },
+    {
+      "id": "ovt-8035620e7e",
+      "name": "長藤羽球隊",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區竹林路",
+      "tel": "",
+      "lat": 25.012825,
+      "lng": 121.519547,
+      "website": "http://blog.xuite.net/changtengteam/twblog",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.77,
+      "_rev": {
+        "city": "新北市",
+        "district": "永和區",
+        "road": "竹林路"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-aa132755fb",
+      "name": "同心羽球隊 - 新北蘆洲",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區信義路34巷111號",
+      "tel": "",
+      "lat": 25.076986,
+      "lng": 121.475647,
+      "website": "https://www.facebook.com/234825483334398",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.51,
+      "_rev": {
+        "city": "新北市",
+        "district": "蘆洲區",
+        "road": "永安北路一段"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-d73ecc6524",
+      "name": "阿銘教練羽球教室",
+      "city": "基隆市",
+      "district": "七堵區",
+      "address": "基隆市七堵區永富路11號",
+      "tel": "0989014300",
+      "lat": 25.09976,
+      "lng": 121.716385,
+      "website": "https://www.facebook.com/109501107460862",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.55,
+      "_rev": {
+        "city": "基隆市",
+        "district": "七堵區",
+        "road": "永富路"
+      },
+      "type": "教學"
+    },
+    {
+      "id": "ovt-5ff6edb19a",
+      "name": "基隆市體育會羽球委員會",
+      "city": "基隆市",
+      "district": "信義區",
+      "address": "基隆市信義區信二路40號",
+      "tel": "0224570277",
+      "lat": 25.129198,
+      "lng": 121.756973,
+      "website": "https://www.facebook.com/555897134274635",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.55,
+      "_rev": {
+        "city": "基隆市",
+        "district": "信義區",
+        "road": "信二路"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-5ed69afbce",
+      "name": "深美羽球",
+      "city": "基隆市",
+      "district": "信義區",
+      "address": "基隆市信義區深美街198號",
+      "tel": "0988260090",
+      "lat": 25.137192,
+      "lng": 121.778435,
+      "website": "https://www.facebook.com/2062430314077903",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.88,
+      "_rev": {
+        "city": "基隆市",
+        "district": "信義區",
+        "road": "深美街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-8069d61717",
+      "name": "名家羽球專業訓練中心",
+      "city": "桃園市",
+      "district": "蘆竹區",
+      "address": "桃園市蘆竹區中正北路599號",
+      "tel": "0983825820",
+      "lat": 25.039188,
+      "lng": 121.281296,
+      "website": "http://MINGJIA_BADMINTON.COM/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "桃園市",
+        "district": "",
+        "road": ""
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-a7bb310edf",
+      "name": "中壢快樂動力羽球俱樂部",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區內定八街498號",
+      "tel": "",
+      "lat": 25.0049,
+      "lng": 121.24321,
+      "website": "https://www.facebook.com/2746430258720010",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.72,
+      "_rev": {
+        "city": "桃園市",
+        "district": "",
+        "road": "內定八街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-be8827d292",
+      "name": "尋羽球",
+      "city": "新竹縣",
+      "district": "新埔鎮",
+      "address": "新竹縣新埔鎮文山路黎頭山段492號",
+      "tel": "0963927580",
+      "lat": 24.830948,
+      "lng": 121.035965,
+      "website": "https://lin.ee/fUiF7XgP",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.48,
+      "_rev": {
+        "city": "新竹縣",
+        "district": "新埔鎮",
+        "road": "文山路犂頭山段"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-4c539397bb",
+      "name": "竹北市體育會羽球委員會 Zbc",
+      "city": "新竹縣",
+      "district": "竹北市",
+      "address": "新竹縣竹北市縣政二路81號",
+      "tel": "0910961797",
+      "lat": 24.831432,
+      "lng": 121.001251,
+      "website": "https://www.facebook.com/1590601777837488",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.6,
+      "_rev": {
+        "city": "新竹縣",
+        "district": "竹北市",
+        "road": "光明十三街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-f2bc1110a2",
+      "name": "動滋動滋羽球隊",
+      "city": "臺中市",
+      "district": "北區",
+      "address": "臺中市北區力行路271號",
+      "tel": "0938368480",
+      "lat": 24.152382,
+      "lng": 120.689346,
+      "website": "https://www.facebook.com/1046654815359845",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "臺中市",
+        "district": "北區",
+        "road": "力行路"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-d09e3bc897",
+      "name": "大都會羽球",
+      "city": "臺中市",
+      "district": "北屯區",
+      "address": "臺中市北屯區中平路1101巷15號",
+      "tel": "0961533916",
+      "lat": 24.189568,
+      "lng": 120.65937,
+      "website": "http://www.metropolitan888.com/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.97,
+      "_rev": {
+        "city": "臺中市",
+        "district": "北屯區",
+        "road": ""
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-da04bc55f6",
+      "name": "BOSS羽球西屯店",
+      "city": "臺中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區寧夏路89巷89巷30號1樓",
+      "tel": "0437000585",
+      "lat": 24.165766,
+      "lng": 120.660873,
+      "website": "https://www.facebook.com/709510766170613",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.97,
+      "_rev": {
+        "city": "臺中市",
+        "district": "西屯區",
+        "road": "寧夏路89巷"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-d9523edc7a",
+      "name": "Flex Badminton Hall",
+      "city": "臺中市",
+      "district": "潭子區",
+      "address": "臺中市潭子區和平街46號大芳旅社",
+      "tel": "",
+      "lat": 24.230787,
+      "lng": 120.693855,
+      "website": "https://www.facebook.com/1342007082587740",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.71,
+      "_rev": {
+        "city": "臺中市",
+        "district": "潭子區",
+        "road": "大豐路三段"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-27b1a4628b",
+      "name": "嘉義香湖羽球俱樂部",
+      "city": "嘉義市",
+      "district": "西區",
+      "address": "嘉義市西區文化路457號",
+      "tel": "",
+      "lat": 23.490019,
+      "lng": 120.445686,
+      "website": "https://www.youtube.com/channel/UC3iLRCEBkNQlnJaa1WR2nrg",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.63,
+      "_rev": {
+        "city": "嘉義市",
+        "district": "西區",
+        "road": "文化路"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-e196dd4505",
+      "name": "飛迅羽球練習場",
+      "city": "臺南市",
+      "district": "北區",
+      "address": "臺南市北區中華北路一段203巷203巷27-1號",
+      "tel": "0953585051",
+      "lat": 23.01074,
+      "lng": 120.184151,
+      "website": "https://www.facebook.com/1460269237564410",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "臺南市",
+        "district": "北區",
+        "road": "中華北路一段203巷"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-1d2c9954e0",
+      "name": "羽球聯盟",
+      "city": "臺南市",
+      "district": "新營區",
+      "address": "臺南市新營區柳營路三段273-16號",
+      "tel": "0966821772",
+      "lat": 23.288912,
+      "lng": 120.311676,
+      "website": "https://www.instagram.com/bloc.114/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.71,
+      "_rev": {
+        "city": "臺南市",
+        "district": "",
+        "road": "柳營路三段"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-3d744d4dce",
+      "name": "關廟羽球俱樂部",
+      "city": "臺南市",
+      "district": "關廟區",
+      "address": "臺南市關廟區四維街",
+      "tel": "",
+      "lat": 22.958725,
+      "lng": 120.335403,
+      "website": "https://www.facebook.com/183752745102848",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.46,
+      "_rev": {
+        "city": "臺南市",
+        "district": "",
+        "road": "四維街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-0e1296b34f",
+      "name": "讓羽球飛高雄羽球教學訓練班",
+      "city": "高雄市",
+      "district": "三民區",
+      "address": "高雄市三民區灣興街99巷",
+      "tel": "0930232129",
+      "lat": 22.652499,
+      "lng": 120.308083,
+      "website": "https://www.facebook.com/100197569334332",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.55,
+      "_rev": {
+        "city": "高雄市",
+        "district": "三民區",
+        "road": "灣興街99巷"
+      },
+      "type": "教學"
+    },
+    {
+      "id": "ovt-5d72e262a0",
+      "name": "尚首羽球學堂",
+      "city": "高雄市",
+      "district": "仁武區",
+      "address": "高雄市仁武區八德南路100巷100巷9號",
+      "tel": "0927292963",
+      "lat": 22.684129,
+      "lng": 120.338737,
+      "website": "https://www.facebook.com/221434463210863",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.49,
+      "_rev": {
+        "city": "高雄市",
+        "district": "仁武區",
+        "road": "八德南路100巷"
+      },
+      "type": "教學"
+    },
+    {
+      "id": "ovt-6c12aacc7d",
+      "name": "亞柏羽球隊",
+      "city": "高雄市",
+      "district": "小港區",
+      "address": "高雄市小港區學府路113號",
+      "tel": "078027698",
+      "lat": 22.565182,
+      "lng": 120.360725,
+      "website": "https://www.facebook.com/207308429450765",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.59,
+      "_rev": {
+        "city": "高雄市",
+        "district": "小港區",
+        "road": ""
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-990d8d449e",
+      "name": "羽球客苓雅店",
+      "city": "高雄市",
+      "district": "苓雅區",
+      "address": "高雄市苓雅區仁政里仁智街109-1號",
+      "tel": "0900106172",
+      "lat": 22.617804,
+      "lng": 120.303955,
+      "website": "https://vip.hengfu-i.com/index.php?dr_idno=96816050",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "高雄市",
+        "district": "苓雅區",
+        "road": "仁智街"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-7c5ea9bc08",
+      "name": "邁特羽球 Matt Badminton",
+      "city": "高雄市",
+      "district": "鳥松區",
+      "address": "高雄市鳥松區水管路2巷76號",
+      "tel": "0989997733",
+      "lat": 22.64934,
+      "lng": 120.383995,
+      "website": "https://www.facebook.com/111954823597393",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.97,
+      "_rev": {
+        "city": "高雄市",
+        "district": "鳥松區",
+        "road": "水管路"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-18b0bddb85",
+      "name": "羽龍共舞高雄羽球教學訓練班「甲組 A級教練」",
+      "city": "高雄市",
+      "district": "鼓山區",
+      "address": "高雄市鼓山區美術東八街32號",
+      "tel": "0930060911",
+      "lat": 22.652721,
+      "lng": 120.291306,
+      "website": "https://www.facebook.com/553550094810340",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.6,
+      "_rev": {
+        "city": "高雄市",
+        "district": "鼓山區",
+        "road": "美術東八街"
+      },
+      "type": "教學",
+      "alsoIn": [
+        "Overture Maps"
+      ]
+    },
+    {
+      "id": "ovt-2431512e6c",
+      "name": "塔瑞尼斯羽球學院",
+      "city": "高雄市",
+      "district": "湖內區",
+      "address": "高雄市湖內區民族街341號",
+      "tel": "",
+      "lat": 22.876849,
+      "lng": 120.232986,
+      "website": "http://taranisbadminton.com/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.91,
+      "_rev": {
+        "city": "高雄市",
+        "district": "湖內區",
+        "road": "民族街"
+      },
+      "type": "教學"
+    },
+    {
+      "id": "ovt-18b89ceede",
+      "name": "五福羽球隊",
+      "city": "高雄市",
+      "district": "鼓山區",
+      "address": "高雄市鼓山區興國路44號",
+      "tel": "",
+      "lat": 22.627211,
+      "lng": 120.276291,
+      "website": "https://www.facebook.com/178049135580162",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.72,
+      "_rev": {
+        "city": "高雄市",
+        "district": "鼓山區",
+        "road": "興國路"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-8f528d53b8",
+      "name": "屏縣忠孝羽球隊",
+      "city": "屏東縣",
+      "district": "屏東市",
+      "address": "屏東縣屏東市建豐路204號",
+      "tel": "",
+      "lat": 22.676379,
+      "lng": 120.503914,
+      "website": "https://www.facebook.com/155524517637978",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.49,
+      "_rev": {
+        "city": "屏東縣",
+        "district": "",
+        "road": "建豐路"
+      },
+      "type": "球隊／俱樂部"
+    },
+    {
+      "id": "ovt-e37ace32d5",
+      "name": "羽謙羽球學院",
+      "city": "花蓮縣",
+      "district": "吉安鄉",
+      "address": "花蓮縣吉安鄉南海八街",
+      "tel": "0975116021",
+      "lat": 23.944439,
+      "lng": 121.590645,
+      "website": "https://www.facebook.com/590935241264352",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.96,
+      "_rev": {
+        "city": "花蓮縣",
+        "district": "",
+        "road": "南海八街"
+      },
+      "type": "教學"
+    },
+    {
+      "id": "ovt-423326a8a2",
+      "name": "新苗羽球",
+      "city": "臺東縣",
+      "district": "臺東市",
+      "address": "臺東縣臺東市中華路一段",
+      "tel": "",
+      "lat": 22.74912,
+      "lng": 121.146988,
+      "website": "https://www.facebook.com/449466038550190",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.57,
+      "_rev": {
+        "city": "臺東縣",
+        "district": "",
+        "road": "中華路一段"
+      },
+      "type": "球隊／俱樂部"
+    }
+  ]
+}

@@ -240,7 +240,7 @@ function venueCard(v, lm) {
       ${v.open && v.open !== '不開放' ? html`<span class="badge">${v.open}</span>` : ''}
       ${v.sourceName === '網路整理' ? html`<span class="badge warn" title="由網路資料整理，尚未經場館確認">待查證</span>` : ''}${v.sourceName === '社群投稿' ? html`<span class="badge ok">球友推薦</span>` : ''}</div>
     <p class="small muted" style="margin:8px 0 0">${v.address || '地址待補，可用名稱導航'}${v.note ? html`<br>${v.note}` : ''}</p>
-    <div class="actions">${ext(platform.navUrl(v), '🧭 導航')}${v.tel ? html`<a class="btn sm" href="tel:${v.tel.replace(/[^\d#+]/g, '').replace('#', ',')}">📞 電話</a>` : ''}${ext(web, '🌐 官網')}<a class="btn sm ghost" href="#/venue/${v.id}">詳細</a></div>
+    <div class="actions">${ext(platform.navUrl(v), '🧭 導航')}${v.tel ? html`<a class="btn sm" href="tel:${v.tel.replace(/[^\d#+]/g, '').replace('#', ',')}">📞 電話</a>` : ''}${ext(web, webLabel(web || ''))}<a class="btn sm ghost" href="#/venue/${v.id}">詳細</a></div>
   </article>`;
 }
 let map, layer;
@@ -260,7 +260,7 @@ export async function venues(el, params) {
   const shown = Math.min(list.length, Number(params.get('n')) || 30);
   const set = (k, v) => { const p = new URLSearchParams(params); if (v === '' || v == null) p.delete(k); else p.set(k, v); if (k === 'city') p.delete('district'); p.delete('n'); location.hash = '#/venues?' + p; };
 
-  el.innerHTML = html`${head('羽球場館', raw(`全台 <b>${data.items.length.toLocaleString()}</b> 處含羽球場的場館，公立場館來自教育部體育署 iPlay、民營球館來自 OpenStreetMap 與網路整理，每週自動同步。`))}
+  el.innerHTML = html`${head('羽球場館', raw(`全台 <b>${data.items.length.toLocaleString()}</b> 處含羽球場的場館，公立場館來自教育部體育署 iPlay，民營球館來自 Overture Maps（Facebook 商家粉專）、OpenStreetMap 與網路整理，每週自動同步。`))}
     <div class="filters">
       <select class="field" data-k="city" aria-label="縣市" ${st.sort === 'near' ? 'disabled' : ''}>${selectOpts(CITIES, st.city, '全部縣市')}</select>
       <select class="field" data-k="district" aria-label="行政區" ${st.sort === 'near' ? 'disabled' : ''}>${selectOpts(districts, st.district, '全部行政區')}</select>
@@ -330,7 +330,7 @@ export async function venue(el, id) {
         ${v.note ? html`<dt>備註</dt><dd>${v.note}</dd>` : ''}
         <dt>資料來源</dt><dd>${v.source ? ext(v.source, isGov ? '教育部體育署 iPlay' : v.sourceName || '來源', '') : v.sourceName || '社群投稿'}<br><span class="small muted">同步於 ${fmtDate(city.updatedAt || all.generatedAt)}</span>
           ${v.verified === false ? html`<br><span class="badge warn">待查證：資料由網路整理，出發前請先電話確認</span>` : ''}${v.approx ? html`<br><span class="small muted">📍 地圖位置為路段概略位置</span>` : ''}</dd></dl>
-        <div class="actions" style="margin-top:14px">${ext(platform.navUrl(v), '🧭 導航', 'btn primary')}${ext(platform.gmapsUrl(v), '🗺 Google 地圖')}
+        <div class="actions" style="margin-top:14px">${ext(platform.navUrl(v), '🧭 導航', 'btn primary')}${ext(platform.gmapsUrl(v), '⭐ Google 地圖評論')}
           ${v.tel ? html`<a class="btn" href="tel:${v.tel.replace(/[^\d#+]/g, '').replace('#', ',')}">📞 撥打</a>` : ''}${ext(v.website, '🌐 官網／預約', 'btn')}
           <button class="btn" data-share>分享</button></div>
       </div>
@@ -350,6 +350,16 @@ export async function venue(el, id) {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
     L.marker([v.lat, v.lng]).addTo(map);
   } else $('#vmap', el).remove();
+}
+
+/* 球具店、俱樂部共用卡片（Overture／社群投稿） */
+const telHref = (t) => 'tel:' + String(t).replace(/[^\d#+]/g, '').replace('#', ',');
+const webLabel = (u) => (/facebook\.com/.test(u) ? '👍 粉專' : /instagram/.test(u) ? '📷 IG' : /line\.me|lin\.ee/.test(u) ? '💬 LINE' : /shopee/.test(u) ? '🛒 蝦皮' : '🌐 網站');
+function placeCard(x, badgeText) {
+  return html`<article class="card"><div class="row" style="align-items:flex-start"><div style="flex:1;min-width:0"><h3>${x.name}</h3>
+      <div class="meta"><span>${x.city}${x.district || ''}</span>${badgeText ? html`<span class="badge brand">${badgeText}</span>` : ''}${(x.services || []).map((sv) => html`<span class="badge">${sv}</span>`)}</div></div></div>
+    ${x.address ? html`<p class="small muted" style="margin:6px 0 0">${x.address}</p>` : ''}
+    <div class="actions">${ext(platform.gmapsUrl(x), '🗺 Google 地圖')}${x.tel ? html`<a class="btn sm" href="${telHref(x.tel)}">📞 電話</a>` : ''}${ext(x.website, webLabel(x.website || ''))}</div></article>`;
 }
 
 /* ================= GROUPS 零打團 ================= */
@@ -375,7 +385,7 @@ function groupCard(g, ttl) {
       <a class="btn sm ghost" href="${issueUrl('report-broken.yml', { item: `零打團 ${g.name}（${g.id}）` })}" target="_blank" rel="noopener">回報</a></div></article>`;
 }
 export async function groups(el, params) {
-  const [ptt, comm] = await Promise.all([api('ptt.json').catch(() => ({ items: [] })), api('groups.json').catch(() => ({ items: [], ttlDays: 60 }))]);
+  const [ptt, comm, clubs] = await Promise.all([api('ptt.json').catch(() => ({ items: [] })), api('groups.json').catch(() => ({ items: [], ttlDays: 60 })), api('clubs.json').catch(() => ({ items: [] }))]);
   const city = params.has('city') ? params.get('city') : '';
   const wd = params.get('wd') ?? '';
   const q = params.get('q') || '';
@@ -401,6 +411,12 @@ export async function groups(el, params) {
       <form data-q class="full" style="grid-column:span 2"><input class="field" name="q" type="search" value="${q}" placeholder="搜尋場館或團名" enterkeyhint="search"></form>
     </div>
     ${cg.length ? [secC, secP] : [secP, secC]}
+    ${(() => {
+      const cl = clubs.items.filter((c) => (!city || c.city === city) && match(q, c.name, c.address));
+      return html`<section class="section"><div class="section-h"><h2>羽球俱樂部、球隊與教學（${cl.length}）</h2></div>
+        <p class="small muted">固定球隊常開放新成員加入，可透過粉專或電話詢問。資料來自 Overture Maps 開放商家資料，每週更新。</p>
+        ${cl.length ? html`<div class="grid g3">${cl.slice(0, 30).map((c) => placeCard(c, c.type))}</div>` : empty('📭', '這個縣市還沒有收錄的俱樂部')}</section>`;
+    })()}
     <section class="section"><h2>到其他地方找更多團</h2><div class="grid g3">
       <div class="card"><h3>Google 搜尋</h3><p class="small muted">搜尋 Facebook 社團、部落格中的零打資訊</p>${ext(gsearch(city), `搜尋「${city || '全台'} 羽球零打」`)}</div>
       <div class="card"><h3>Facebook 社團</h3><p class="small muted">多數零打團在 FB 社團發布臨打名額（需登入）</p>${ext(`https://www.facebook.com/search/groups/?q=${encodeURIComponent((city || '') + ' 羽球 零打')}`, '搜尋 FB 社團')}</div>
@@ -421,8 +437,11 @@ function recommend(a) {
   return html`<div class="callout" style="margin-top:14px"><h3>為你推薦的規格</h3><dl class="kv"><dt>重量</dt><dd>${w}</dd><dt>平衡</dt><dd>${bal}</dd><dt>中桿</dt><dd>${shaft}</dd><dt>磅數</dt><dd>${lbs}</dd><dt>預算</dt><dd>${price}</dd></dl>
     <p class="small muted" style="margin:8px 0 0">建議帶著這組規格到球具店試打，或到 <a href="#/market">二手市集</a> 尋找。</p></div>`;
 }
-export async function gear(el) {
-  const [g, videos, lm, shops] = await Promise.all([api('gear.json'), api('videos.json'), linkMap(), api('shops.json').catch(() => ({ items: [] }))]);
+export async function gear(el, params = new URLSearchParams()) {
+  const [g, videos, lm, shops, autoShops] = await Promise.all([api('gear.json'), api('videos.json'), linkMap(), api('shops.json').catch(() => ({ items: [] })), api('shops_auto.json').catch(() => ({ items: [] }))]);
+  const shopCity = params.has('city') ? params.get('city') : store.get('city', '臺北市');
+  const allShops = [...shops.items.map((x) => ({ ...x, _b: '球友推薦' })), ...autoShops.items];
+  const cityShops = allShops.filter((x) => !shopCity || x.city === shopCity);
   el.innerHTML = html`${head('球具指南', '新手不踩雷：球拍、線、球鞋、羽毛球怎麼挑，一次看懂。')}
     <section class="section card"><h2>🎯 30 秒找到適合你的球拍規格</h2><form data-quiz>
       ${g.finder.questions.map((qq) => html`<div class="quiz-q">${qq.q}</div><div class="chips">${qq.opts.map(([v, l], i) => html`<label class="chip"><input type="radio" class="sr-only" name="${qq.id}" value="${v}" ${i === 1 || (qq.opts.length === 3 && i === 1) ? 'checked' : ''}>${l}</label>`)}</div>`)}
@@ -432,11 +451,13 @@ export async function gear(el) {
       <div class="grid g3" style="margin-top:12px">${videos.items.filter((v) => v.topic === gd.videoTopic).slice(0, 3).map((v) => videoCard(v))}</div></div></details>`)}</section>
     <section class="section"><h2>品牌官網</h2><div class="grid g3">${g.brands.map((b) => html`<div class="card"><div class="row"><h3 style="margin:0">${b.name}</h3><span class="badge">${b.origin}</span>${linkBadge(lm[b.url]?.s)}</div><p class="small muted">${b.note}</p>${ext(b.url, '前往官網')}</div>`)}</div></section>
     <section class="section"><h2>購買新品</h2><div class="grid g3">${g.buy.filter((b) => b.type !== 'used').map((b) => html`<div class="card"><h3>${b.name}</h3><p class="small muted">${b.note}</p>${ext(b.url, '搜尋羽球拍')}</div>`)}</div>
-      ${shops.items.length ? html`<h3 style="margin-top:16px">球友推薦的球具店</h3><div class="grid g3">${shops.items.map((sh) => html`<div class="card"><h3>${sh.name}</h3>
-        <div class="meta"><span>${sh.city}${sh.district || ''}</span>${(sh.services || []).map((x) => html`<span class="badge">${x}</span>`)}</div>
-        <p class="small muted">${sh.address}</p><div class="actions">${ext(platform.gmapsUrl(sh), '🗺 地圖')}${sh.tel ? html`<a class="btn sm" href="tel:${sh.tel.replace(/[^\d+]/g, '')}">📞 電話</a>` : ''}${ext(sh.website, '🌐 網站')}</div></div>`)}</div>` : ''}
+      <div class="section-h" style="margin-top:22px" id="shops"><h2>實體球具店（${allShops.length}）</h2>
+        <select class="field" data-shopcity aria-label="球具店縣市" style="max-width:180px">${selectOpts(CITIES, shopCity, '全部縣市')}</select></div>
+      <p class="small muted">可試打、穿線的羽球專賣店。資料來自 Overture Maps 開放商家資料與球友推薦，每週更新。</p>
+      ${cityShops.length ? html`<div class="grid g3">${cityShops.slice(0, 60).map((x) => placeCard(x, x._b))}</div>` : empty('🔍', '這個縣市還沒有收錄的球具店，用下方 Google 地圖找找看')}
       <div class="card" style="margin-top:12px"><h3>找附近的實體球具店（試打、穿線）</h3><div class="chips">${CITIES.slice(0, 16).map((c) => html`<a class="chip" href="${`https://www.google.com/maps/search/${encodeURIComponent(c + ' 羽球用品店 穿線')}`}" target="_blank" rel="noopener">${c}</a>`)}</div>
       <a class="btn sm" href="${issueUrl('new-shop.yml')}" target="_blank" rel="noopener">＋ 推薦一間球具店</a></div></section>`.s;
+  $('[data-shopcity]', el).addEventListener('change', (e) => { location.hash = '#/gear?at=shops&city=' + encodeURIComponent(e.target.value); });
   const f = $('[data-quiz]', el);
   const paint = () => $$('.chip', f).forEach((c) => c.classList.toggle('on', $('input', c).checked));
   f.addEventListener('change', paint); paint();

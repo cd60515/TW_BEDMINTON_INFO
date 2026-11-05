@@ -31,9 +31,10 @@ def collect():
         for v in load(f"venues/{slug}.json", {"items": []})["items"]:
             if v.get("website"):
                 urls[v["website"]] = f"場館：{v['name']}"
-    for v in load("private_venues.json", {"items": []})["items"]:
-        if v.get("website"):
-            urls[v["website"]] = f"民營球館：{v['name']}"
+    for name, label in (("private_venues.json", "民營球館"), ("shops_auto.json", "球具店"), ("clubs.json", "俱樂部")):
+        for v in load(name, {"items": []})["items"]:
+            if v.get("website"):
+                urls[v["website"]] = f"{label}：{v['name']}"
     for v in load("videos.json", {"items": []})["items"]:
         urls[f"https://www.youtube.com/watch?v={v['id']}"] = f"影片：{v['title'][:40]}"
     return urls

@@ -14,7 +14,7 @@ const routes = [
   [/^\/venues$/, (el, p) => V.venues(el, p), 'venues', '羽球場館'],
   [/^\/venue\/([^/]+)$/, (el, p, m) => V.venue(el, decodeURIComponent(m[1])), 'venues', '場館資訊'],
   [/^\/groups$/, (el, p) => V.groups(el, p), 'groups', '零打團'],
-  [/^\/gear$/, (el) => V.gear(el), 'gear', '球具指南'],
+  [/^\/gear$/, (el, p) => V.gear(el, p), 'gear', '球具指南'],
   [/^\/market$/, (el) => V.market(el), 'market', '二手買賣'],
   [/^\/favorites$/, (el) => V.favorites(el), 'more', '我的球筒'],
   [/^\/more$/, (el) => V.more(el), 'more', '更多'],
@@ -48,6 +48,7 @@ async function render() {
   }
   if (id !== renderId) return;
   if (!params.has('n')) window.scrollTo(0, 0);
+  if (params.get('at')) document.getElementById(params.get('at'))?.scrollIntoView();
   $('#fact').innerHTML = html`<b>🪶 啾比冷知識：</b>${FACTS[Math.floor(Math.random() * FACTS.length)]}`.s;
   if (hit?.nav === 'search' && /殺球|smash|扣殺/i.test(params.get('q') || '')) {
     main.classList.remove('shake'); void main.offsetWidth; main.classList.add('shake');

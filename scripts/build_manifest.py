@@ -39,7 +39,7 @@ def main():
         files[name] = {"sha": sha(p), "bytes": os.path.getsize(p), "updatedAt": d.get("updatedAt") or d.get("generatedAt") or d.get("checkedAt"),
                        "count": len(d.get("items", [])) if isinstance(d.get("items"), list) else None}
     vi = load("venues/index.json", {})
-    alias = {"iplay": vi.get("updatedAt"), "osm": files.get("private_venues.json", {}).get("updatedAt"), "ptt": files.get("ptt.json", {}).get("updatedAt"),
+    alias = {"iplay": vi.get("updatedAt"), "osm": files.get("private_venues.json", {}).get("updatedAt"), "overture": files.get("private_venues.json", {}).get("updatedAt"), "ptt": files.get("ptt.json", {}).get("updatedAt"),
              "youtube": files.get("videos.json", {}).get("updatedAt"), "community": files.get("groups.json", {}).get("updatedAt"),
              "editorial": files.get("lessons.json", {}).get("updatedAt")}
     for k, v in alias.items():
@@ -49,6 +49,8 @@ def main():
         "counts": {"venues": len(items), "videos": len(load("videos.json", {"items": []})["items"]),
                    "lessons": len(load("lessons.json", {"items": []})["items"]),
                    "private": len(load("private_venues.json", {"items": []})["items"]),
+                   "shops": len(load("shops_auto.json", {"items": []})["items"]) + len(load("shops.json", {"items": []})["items"]),
+                   "clubs": len(load("clubs.json", {"items": []})["items"]),
                    "groups": len(load("groups.json", {"items": []})["items"]), "ptt": len(load("ptt.json", {"items": []})["items"])},
         "links": {"total": len(states), "ok": states.count("ok"), "restricted": states.count("restricted"), "broken": states.count("broken"), "checkedAt": ls.get("checkedAt")},
         "files": files,

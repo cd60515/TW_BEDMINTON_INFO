@@ -11,6 +11,15 @@
       "script": "scripts/fetch_venues.py"
     },
     {
+      "id": "overture",
+      "name": "Overture Maps 開放商家資料",
+      "url": "https://overturemaps.org/",
+      "type": "開放地圖資料（CDLA Permissive 2.0，主要來自 Facebook 商家粉專）",
+      "covers": "民營羽球館、球具專賣店、俱樂部與羽球教學（含電話、粉專、預約連結）",
+      "schedule": "每週一",
+      "script": "scripts/overture_places.py"
+    },
+    {
       "id": "osm",
       "name": "OpenStreetMap 開放街圖＋網路整理",
       "url": "https://www.openstreetmap.org/",

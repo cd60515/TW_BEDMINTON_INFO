@@ -1,11 +1,13 @@
 {
   "apiVersion": "v1",
-  "generatedAt": "2026-11-06T03:59:15+08:00",
+  "generatedAt": "2026-11-06T06:09:06+08:00",
   "counts": {
-    "venues": 1496,
+    "venues": 1748,
     "videos": 96,
     "lessons": 18,
-    "private": 61,
+    "private": 313,
+    "shops": 73,
+    "clubs": 37,
     "groups": 0,
     "ptt": 14
   },
@@ -17,6 +19,12 @@
     "checkedAt": "2026-11-05T08:28:18+08:00"
   },
   "files": {
+    "clubs.json": {
+      "sha": "759bdd1ff5ea2477",
+      "bytes": 22095,
+      "updatedAt": "2026-11-06T06:07:46+08:00",
+      "count": 37
+    },
     "community_venues.json": {
       "sha": "a64f8f5b6b9d0123",
       "bytes": 62,
@@ -48,10 +56,10 @@
       "count": null
     },
     "private_venues.json": {
-      "sha": "6a3165dabbb49dd6",
-      "bytes": 29639,
-      "updatedAt": "2026-11-05T08:26:38+08:00",
-      "count": 61
+      "sha": "e67d7b6c37241a21",
+      "bytes": 203767,
+      "updatedAt": "2026-11-06T06:07:46+08:00",
+      "count": 313
     },
     "ptt.json": {
       "sha": "55b4bdd5c85803cd",
@@ -65,11 +73,17 @@
       "updatedAt": "2026-11-05T07:00:00+08:00",
       "count": 0
     },
+    "shops_auto.json": {
+      "sha": "8a03bd98443c16f9",
+      "bytes": 42800,
+      "updatedAt": "2026-11-06T06:07:46+08:00",
+      "count": 73
+    },
     "sources.json": {
-      "sha": "190314743b8d977e",
-      "bytes": 2079,
+      "sha": "5483e61bfcb9df10",
+      "bytes": 2501,
       "updatedAt": "2026-11-05T07:00:00+08:00",
-      "count": 6
+      "count": 7
     },
     "videos.json": {
       "sha": "49727719065c801b",
@@ -84,16 +98,19 @@
       "count": null
     },
     "venues/all.json": {
-      "sha": "cb5cb466a0773287",
-      "bytes": 390166,
-      "updatedAt": "2026-11-06T03:59:14+08:00",
-      "count": 1496
+      "sha": "b3c4e10d7983b7a6",
+      "bytes": 487240,
+      "updatedAt": "2026-11-06T06:09:06+08:00",
+      "count": 1748
     },
     "iplay": {
       "updatedAt": "2026-11-05T06:56:40+08:00"
     },
     "osm": {
-      "updatedAt": "2026-11-05T08:26:38+08:00"
+      "updatedAt": "2026-11-06T06:07:46+08:00"
+    },
+    "overture": {
+      "updatedAt": "2026-11-06T06:07:46+08:00"
     },
     "ptt": {
       "updatedAt": "2026-11-06T03:59:14+08:00"

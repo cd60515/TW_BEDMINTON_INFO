@@ -8,9 +8,9 @@
 |---|---|---|---|
 | 🎓 教學 | 6 大類 18 堂課（握拍 → 戰術 → 體能），附步驟、常見錯誤、練習法、學習進度 | 編輯撰寫 | 人工 |
 | ▶️ 影片 | 20 個主題、近百部中文教學影片 | YouTube（oEmbed 驗證可嵌入） | 每月自動搜尋＋每週驗證 |
-| 📍 場館 | 全台 22 縣市、近 1,500 處：1,435 處公立／學校場館＋61 處民營球館與戶外球場；地址、電話、座標、租借狀態、官網、地圖、導航 | 教育部體育署 iPlay 開放 API、OpenStreetMap、網路整理 | 每週自動同步 |
-| 🤝 零打團 | 社群登錄的零打團＋PTT 揪人文索引，可依縣市／星期篩選 | GitHub Issue 表單、PTT 羽球板 | 投稿即時、PTT 每 6 小時 |
-| 🏸 球具 | 球拍／線／鞋／球選購指南、30 秒球拍規格推薦、品牌官網、購物通路、球具店 | 編輯撰寫＋社群推薦 | 人工＋投稿 |
+| 📍 場館 | 全台 22 縣市：1,435 處公立／學校場館＋數百處民營羽球館（含 24 小時球館）；地址、電話、粉專、預約連結、地圖、導航、Google 評論 | 教育部體育署 iPlay、Overture Maps、OpenStreetMap、網路整理 | 每週自動同步 |
+| 🤝 零打團 | 社群登錄的零打團、PTT 揪人文索引、羽球俱樂部／球隊／教學，可依縣市／星期篩選 | GitHub Issue 表單、PTT 羽球板、Overture Maps | 投稿即時、PTT 每 6 小時 |
+| 🏸 球具 | 選購指南、30 秒球拍規格推薦、品牌官網、購物通路、全台實體球具專賣店（可依縣市篩選） | 編輯撰寫、Overture Maps、社群推薦 | 每週＋投稿 |
 | ♻️ 二手 | 各大二手平台入口、PTT 買賣文、交易防詐提醒 | 各平台搜尋連結、PTT | 每 6 小時 |
 
 ## 🏸 吉祥物：啾比 Chubi
@@ -32,7 +32,7 @@
 ```
           ┌──────────── GitHub Actions（排程） ────────────┐
  iPlay API ─▶ fetch_venues.py ─┐
- OSM＋整理 ─▶ fetch_private_venues.py ┤                          │
+ Overture/OSM ─▶ fetch_private_venues.py ┤                          │
  PTT 羽球板 ─▶ fetch_ptt.py ────┼─▶ validate.py ─▶ build_manifest.py ─▶ commit ─▶ GitHub Pages
  YouTube   ─▶ refresh_videos.py┘        ▲                 │
  所有外部連結 ─▶ check_links.py ──────────┘  失效 → 自動開 Issue
@@ -91,6 +91,12 @@ python3 scripts/fetch_ptt.py && python3 scripts/fetch_venues.py && python3 scrip
 - 登錄零打團／私人球館／球具店、回報錯誤：到 [Issues](https://github.com/cd60515/TW_BEDMINTON_INFO/issues/new/choose) 選擇表單。
 - 維護者審核後加上 `approved` 標籤，系統會自動寫入資料並上線。
 - 詳見 [CONTRIBUTING.md](CONTRIBUTING.md) 與 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)。
+
+## 為什麼不直接抓 Google 地圖？
+
+- 直接爬 Google 地圖網頁違反 Google 服務條款，而且很快會被封鎖。
+- Google Places API 的條款不允許把查到的店家資料存下來再顯示在自己的網站（只能存 place ID），也必須顯示在 Google 地圖上。
+- 因此本站改用 **Overture Maps**（Meta、Microsoft、Amazon 共同維護的開放商家資料，台灣羽球館多來自 Facebook 粉專），授權允許自由使用；每個場館都附「Google 地圖評論」按鈕，直接帶到 Google 地圖看評論與照片。
 
 ## 授權
 

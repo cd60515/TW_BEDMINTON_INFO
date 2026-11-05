@@ -1,0 +1,1473 @@
+{
+  "updatedAt": "2026-11-06T06:07:46+08:00",
+  "source": "Overture Maps",
+  "items": [
+    {
+      "id": "ovt-723f970d1b",
+      "name": "一線入魂羽球概念店 Yi Xian Ru Hun – Badminton Pro Shop",
+      "city": "臺北市",
+      "district": "中山區",
+      "address": "臺北市中山區長安東路二段21號",
+      "tel": "0223584577",
+      "lat": 25.048561,
+      "lng": 121.530853,
+      "website": "https://reurl.cc/4Qzo7L",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "臺北市",
+        "district": "中山區",
+        "road": "長安東路二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-04ad1655f7",
+      "name": "一支獨秀羽球工坊",
+      "city": "臺北市",
+      "district": "中正區",
+      "address": "臺北市中正區羅斯福路四段90巷",
+      "tel": "0223681988",
+      "lat": 25.01383,
+      "lng": 121.534729,
+      "website": "https://www.facebook.com/140764942610938",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.94,
+      "_rev": {
+        "city": "臺北市",
+        "district": "中正區",
+        "road": "羅斯福路四段90巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-dba67641d1",
+      "name": "丘林體育Chilling 羽球 | 匹克球 專業店 Badminton & Pickleball Shop",
+      "city": "臺北市",
+      "district": "北投區",
+      "address": "臺北市北投區東華街二段196號",
+      "tel": "0228200220",
+      "lat": 25.12042,
+      "lng": 121.510353,
+      "website": "http://shopee.tw/chillingsports",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.54,
+      "_rev": {
+        "city": "臺北市",
+        "district": "北投區",
+        "road": "東華街二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-91923a682e",
+      "name": "力揚體育 羽球店",
+      "city": "臺北市",
+      "district": "大同區",
+      "address": "臺北市大同區承德路三段185號",
+      "tel": "0225996919",
+      "lat": 25.069277,
+      "lng": 121.518608,
+      "website": "https://www.liyangsports.com/zh-TW",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.92,
+      "_rev": {
+        "city": "臺北市",
+        "district": "大同區",
+        "road": "承德路三段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-93dc2a5bac",
+      "name": "鐵哥的羽球專賣店",
+      "city": "臺北市",
+      "district": "大安區",
+      "address": "臺北市大安區復興南路二段304號",
+      "tel": "0227388823",
+      "lat": 25.02375,
+      "lng": 121.543289,
+      "website": "https://www.facebook.com/205415002994957",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "臺北市",
+        "district": "大安區",
+        "road": "復興南路二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-20b04d211e",
+      "name": "李寧羽球專賣店",
+      "city": "臺北市",
+      "district": "松山區",
+      "address": "臺北市松山區民權東路三段164號1樓",
+      "tel": "0225455020",
+      "lat": 25.061625,
+      "lng": 121.548378,
+      "website": "https://www.facebook.com/108988822288120",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.91,
+      "_rev": {
+        "city": "臺北市",
+        "district": "松山區",
+        "road": "民權東路三段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-098ee34f24",
+      "name": "佐澍網羽球",
+      "city": "臺北市",
+      "district": "萬華區",
+      "address": "臺北市萬華區西藏路146號",
+      "tel": "0223027323",
+      "lat": 25.030128,
+      "lng": 121.503853,
+      "website": "https://www.instagram.com/speedy_x_timely/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.82,
+      "_rev": {
+        "city": "臺北市",
+        "district": "萬華區",
+        "road": "西藏路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-430d9e32dc",
+      "name": "飛達羽球專賣店",
+      "city": "臺北市",
+      "district": "萬華區",
+      "address": "臺北市萬華區和平西路三段376號",
+      "tel": "0953519772",
+      "lat": 25.035307,
+      "lng": 121.491722,
+      "website": "https://www.facebook.com/228077344517433",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.91,
+      "_rev": {
+        "city": "臺北市",
+        "district": "萬華區",
+        "road": "和平西路三段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-a3bd170320",
+      "name": "羽球世家體育用品社",
+      "city": "新北市",
+      "district": "三峽區",
+      "address": "新北市三峽區復興路80巷80巷2號",
+      "tel": "0286712800",
+      "lat": 24.937506,
+      "lng": 121.373398,
+      "website": "https://web.hocom.tw/h/?key=107ky",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.96,
+      "_rev": {
+        "city": "新北市",
+        "district": "三峽區",
+        "road": "復興路80巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-574b5d206a",
+      "name": "舞動線魂 dL badminton",
+      "city": "新北市",
+      "district": "三重區",
+      "address": "新北市三重區仁義街143巷44號",
+      "tel": "0919321363",
+      "lat": 25.081652,
+      "lng": 121.498856,
+      "website": "https://www.facebook.com/377460689380362",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.64,
+      "_rev": {
+        "city": "新北市",
+        "district": "三重區",
+        "road": "仁義街143巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-5f78e5076e",
+      "name": "羽雁體育羽球專賣",
+      "city": "新北市",
+      "district": "土城區",
+      "address": "新北市土城區裕民路146號2樓",
+      "tel": "0933972088",
+      "lat": 24.985958,
+      "lng": 121.451706,
+      "website": "https://www.facebook.com/103913169406368",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.9,
+      "_rev": {
+        "city": "新北市",
+        "district": "土城區",
+        "road": "裕民路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-c824c052f3",
+      "name": "貝睞運動 Bestline 專業羽球",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區安興路5號",
+      "tel": "0286665857",
+      "lat": 24.96834,
+      "lng": 121.514786,
+      "website": "https://www.bestline.com.tw/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.87,
+      "_rev": {
+        "city": "新北市",
+        "district": "新店區",
+        "road": "安興路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-3a0b2e9f17",
+      "name": "卓瀚羽球專賣店",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區中正路新建巷19號",
+      "tel": "0229012831",
+      "lat": 25.022251,
+      "lng": 121.414177,
+      "website": "https://www.facebook.com/148938579192937",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.87,
+      "_rev": {
+        "city": "新北市",
+        "district": "新莊區",
+        "road": "中正路新建巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-8ff410ca51",
+      "name": "羽人碼頭羽球工坊",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區新北大道七段720號1樓",
+      "tel": "0229085698",
+      "lat": 25.026112,
+      "lng": 121.412483,
+      "website": "https://www.facebook.com/1569463966442876",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.99,
+      "_rev": {
+        "city": "新北市",
+        "district": "新莊區",
+        "road": "新北大道七段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-44a1644aa3",
+      "name": "李寧羽球專賣店-汐止門市",
+      "city": "新北市",
+      "district": "汐止區",
+      "address": "新北市汐止區工建路506巷159-2號",
+      "tel": "0958242754",
+      "lat": 25.057621,
+      "lng": 121.632095,
+      "website": "https://www.facebook.com/330471866825085",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.95,
+      "_rev": {
+        "city": "新北市",
+        "district": "汐止區",
+        "road": "工建路506巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-0ec1a3dfbe",
+      "name": "吉茗羽球運動用品",
+      "city": "新北市",
+      "district": "鶯歌區",
+      "address": "新北市鶯歌區國慶街9號",
+      "tel": "0932312145",
+      "lat": 24.956587,
+      "lng": 121.349709,
+      "website": "http://sporting-goods-store-576.business.site/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.99,
+      "_rev": {
+        "city": "新北市",
+        "district": "鶯歌區",
+        "road": "國慶街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-7baa2bafc5",
+      "name": "獵人羽球工廠",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區延平路96號",
+      "tel": "032811112",
+      "lat": 24.9636,
+      "lng": 121.23053,
+      "website": "https://www.instagram.com/lininghunter?igsh=ZmZybGRzZ2lpaW81&utm_source=qr",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.93,
+      "_rev": {
+        "city": "桃園市",
+        "district": "",
+        "road": "延平路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-ced2f6c869",
+      "name": "PoLar 伯樂羽球工作室",
+      "city": "桃園市",
+      "district": "楊梅區",
+      "address": "桃園市楊梅區永美路",
+      "tel": "034816806",
+      "lat": 24.917763,
+      "lng": 121.182259,
+      "website": "https://liff.line.me/1645278921-kWRPP32q/?accountId=880omnem",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.59,
+      "_rev": {
+        "city": "桃園市",
+        "district": "",
+        "road": "永美路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-bfabbcd43b",
+      "name": "展躍羽球專賣店-平鎮店",
+      "city": "桃園市",
+      "district": "平鎮",
+      "address": "桃園市平鎮振興路33號",
+      "tel": "",
+      "lat": 24.945599,
+      "lng": 121.220024,
+      "website": "https://www.facebook.com/431426433726162",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.7,
+      "_rev": {
+        "city": "桃園市",
+        "district": "",
+        "road": "振興路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-147bb6ebe9",
+      "name": "SOSA Badminton Supermarket",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區光復路二段577號",
+      "tel": "035627777",
+      "lat": 24.803095,
+      "lng": 120.980263,
+      "website": "https://linktr.ee/sosa.badminton",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.99,
+      "_rev": {
+        "city": "新竹市",
+        "district": "東區",
+        "road": "光復路二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-2bfb789d94",
+      "name": "噹噹羽球販賣店",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區建功一路",
+      "tel": "035733120",
+      "lat": 24.797304,
+      "lng": 120.998222,
+      "website": "https://www.facebook.com/1464463817200001",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.97,
+      "_rev": {
+        "city": "新竹市",
+        "district": "東區",
+        "road": "建功一路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-3be748dc1a",
+      "name": "銨科羽球運動用品",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區學府路",
+      "tel": "035750997",
+      "lat": 24.796989,
+      "lng": 120.984673,
+      "website": "https://shopee.tw/heart638",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.95,
+      "_rev": {
+        "city": "新竹市",
+        "district": "東區",
+        "road": "學府路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-eb0b57b951",
+      "name": "SOSA羽球超市",
+      "city": "新竹縣",
+      "district": "竹北市",
+      "address": "新竹縣竹北市縣政十三路170號",
+      "tel": "035586655",
+      "lat": 24.83226,
+      "lng": 121.008537,
+      "website": "https://www.facebook.com/1411438032451691",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.92,
+      "_rev": {
+        "city": "新竹縣",
+        "district": "竹北市",
+        "road": "縣政十三路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-633c4c8272",
+      "name": "青川羽球工廠",
+      "city": "新竹縣",
+      "district": "竹北市",
+      "address": "新竹縣竹北市成功一街107號",
+      "tel": "036673884",
+      "lat": 24.820038,
+      "lng": 121.025322,
+      "website": "https://www.liningtw.com/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.95,
+      "_rev": {
+        "city": "新竹縣",
+        "district": "竹北市",
+        "road": "成功一街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-569e50c641",
+      "name": "Mita Badminton Shop",
+      "city": "新竹縣",
+      "district": "竹東鎮",
+      "address": "新竹縣竹東鎮東寧路二段280號",
+      "tel": "035955099",
+      "lat": 24.735178,
+      "lng": 121.08857,
+      "website": "https://www.facebook.com/319341844798791",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.93,
+      "_rev": {
+        "city": "新竹縣",
+        "district": "竹東鎮",
+        "road": "東寧路二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-7b9dac7efe",
+      "name": "云陽羽球工廠",
+      "city": "苗栗縣",
+      "district": "竹南鎮",
+      "address": "苗栗縣竹南鎮中正路467巷1號",
+      "tel": "0982136146",
+      "lat": 24.682985,
+      "lng": 120.866882,
+      "website": "https://www.facebook.com/107331417572814",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.95,
+      "_rev": {
+        "city": "苗栗縣",
+        "district": "",
+        "road": "中正路467巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-d166ab4213",
+      "name": "艾町 羽球用品專賣店",
+      "city": "苗栗縣",
+      "district": "竹南鎮",
+      "address": "苗栗縣竹南鎮福德路150號",
+      "tel": "0989822111",
+      "lat": 24.683088,
+      "lng": 120.875549,
+      "website": "https://www.instagram.com/eyeing_badminton?igsh=OGFldHpmNDVmMGVr",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.82,
+      "_rev": {
+        "city": "苗栗縣",
+        "district": "",
+        "road": "福德路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-45695d1c7b",
+      "name": "三喬羽王羽球專賣店",
+      "city": "臺中市",
+      "district": "北屯區",
+      "address": "臺中市北屯區中清路二段599號",
+      "tel": "0930861107",
+      "lat": 24.183292,
+      "lng": 120.665276,
+      "website": "https://www.facebook.com/383392125590618",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.97,
+      "_rev": {
+        "city": "臺中市",
+        "district": "北屯區",
+        "road": "中清路二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-f94bfe1d04",
+      "name": "羽海羽球專賣店",
+      "city": "臺中市",
+      "district": "南區",
+      "address": "臺中市南區仁義街72-5號",
+      "tel": "0422870120",
+      "lat": 24.125988,
+      "lng": 120.676414,
+      "website": "https://www.facebook.com/251564525051046",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.86,
+      "_rev": {
+        "city": "臺中市",
+        "district": "南區",
+        "road": "仁義街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-d1324a4577",
+      "name": "BOSS Badminton Nantun Store",
+      "city": "臺中市",
+      "district": "南屯區",
+      "address": "臺中市南屯區大墩十二街640號",
+      "tel": "0422516398",
+      "lat": 24.150307,
+      "lng": 120.636742,
+      "website": "https://www.facebook.com/BOSSBADMINTON",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.96,
+      "_rev": {
+        "city": "臺中市",
+        "district": "南屯區",
+        "road": "大墩十二街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-d3b84f1e28",
+      "name": "鳥人體育 羽球用品專賣店",
+      "city": "臺中市",
+      "district": "潭子區",
+      "address": "臺中市潭子區中山路二段297號",
+      "tel": "0921318321",
+      "lat": 24.211039,
+      "lng": 120.705231,
+      "website": "https://shopee.tw/birdman2023",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.88,
+      "_rev": {
+        "city": "臺中市",
+        "district": "潭子區",
+        "road": "中山路二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-d3a1f45f57",
+      "name": "喬羽羽球專賣店",
+      "city": "臺中市",
+      "district": "西區",
+      "address": "臺中市西區美村路一段",
+      "tel": "0423722959",
+      "lat": 24.132952,
+      "lng": 120.661789,
+      "website": "https://www.facebook.com/643274732399107",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "臺中市",
+        "district": "西區",
+        "road": "美村路一段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-9dec204465",
+      "name": "李寧羽球專賣店-向上門市",
+      "city": "臺中市",
+      "district": "西區",
+      "address": "臺中市西區向上路一段1號1樓",
+      "tel": "0936032511",
+      "lat": 24.146572,
+      "lng": 120.669685,
+      "website": "https://www.facebook.com/689104344293905",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.77,
+      "_rev": {
+        "city": "臺中市",
+        "district": "西區",
+        "road": "向上路一段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-b13080842d",
+      "name": "格志羽球專賣",
+      "city": "臺中市",
+      "district": "西區",
+      "address": "臺中市西區Yingcai Rd, 415號臺灣大道路口",
+      "tel": "0423263867",
+      "lat": 24.153358,
+      "lng": 120.667175,
+      "website": "https://www.facebook.com/196760143705651",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.75,
+      "_rev": {
+        "city": "臺中市",
+        "district": "西區",
+        "road": "英才路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-91c9593673",
+      "name": "尚勇羽球體育用品社",
+      "city": "臺中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區西屯路二段258-28之1號",
+      "tel": "0912351186",
+      "lat": 24.172205,
+      "lng": 120.64592,
+      "website": "https://www.facebook.com/188284581264604",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.7,
+      "_rev": {
+        "city": "臺中市",
+        "district": "西屯區",
+        "road": "西屯路二段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-2086ba9e7d",
+      "name": "熊羽球裝備舖",
+      "city": "臺中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區福星路142-1號",
+      "tel": "0974528777",
+      "lat": 24.182125,
+      "lng": 120.642235,
+      "website": "https://www.facebook.com/684958481361579",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.58,
+      "_rev": {
+        "city": "臺中市",
+        "district": "西屯區",
+        "road": "福星路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-cf9e99e53c",
+      "name": "晴明羽球福利社",
+      "city": "臺中市",
+      "district": "大甲區",
+      "address": "臺中市大甲區雁門路356巷",
+      "tel": "",
+      "lat": 24.355406,
+      "lng": 120.626198,
+      "website": "http://tw.user.bid.yahoo.com/tw/booth/Y9626420029",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.85,
+      "_rev": {
+        "city": "臺中市",
+        "district": "大甲區",
+        "road": "雁門路356巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-8d1d38a6ed",
+      "name": "吸引力羽球專賣店",
+      "city": "彰化縣",
+      "district": "員林市",
+      "address": "彰化縣員林市光明街5號",
+      "tel": "0919059433",
+      "lat": 23.952971,
+      "lng": 120.574982,
+      "website": "https://www.facebook.com/102203768987020",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "彰化縣",
+        "district": "",
+        "road": "光明街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-b1c17b7753",
+      "name": "佐京羽球商店",
+      "city": "彰化縣",
+      "district": "彰化市",
+      "address": "彰化縣彰化市彰美路三段173號",
+      "tel": "0978655188",
+      "lat": 24.10067,
+      "lng": 120.522263,
+      "website": "https://www.facebook.com/105760794380629",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.77,
+      "_rev": {
+        "city": "彰化縣",
+        "district": "",
+        "road": "彰美路三段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-0d844a6c8c",
+      "name": "泉勝羽球體育用品社",
+      "city": "彰化縣",
+      "district": "彰化市",
+      "address": "彰化縣彰化市成功路",
+      "tel": "0922889901",
+      "lat": 24.079252,
+      "lng": 120.54171,
+      "website": "http://renyuanliu7.pixnet.net/blog",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.85,
+      "_rev": {
+        "city": "彰化縣",
+        "district": "",
+        "road": "成功路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-b5e9e79777",
+      "name": "TJ羽球工作室",
+      "city": "雲林縣",
+      "district": "古坑鄉",
+      "address": "雲林縣古坑鄉中山路107號",
+      "tel": "0987313931",
+      "lat": 23.644217,
+      "lng": 120.561981,
+      "website": "https://page.line.me/006oxgne",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.66,
+      "_rev": {
+        "city": "雲林縣",
+        "district": "",
+        "road": "中山路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-a8270ae093",
+      "name": "佳峰羽球",
+      "city": "嘉義市",
+      "district": "西區",
+      "address": "嘉義市西區上海路195號",
+      "tel": "0972234043",
+      "lat": 23.466911,
+      "lng": 120.432983,
+      "website": "https://tw.bid.yahoo.com/tw/booth/Y7385308013",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.61,
+      "_rev": {
+        "city": "嘉義市",
+        "district": "西區",
+        "road": "上海路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-d4fcd97e48",
+      "name": "鯨•羽球工作室",
+      "city": "嘉義市",
+      "district": "西區",
+      "address": "嘉義市西區北鎮街15號",
+      "tel": "0925960517",
+      "lat": 23.488663,
+      "lng": 120.43174,
+      "website": "https://www.facebook.com/180551031816267",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.84,
+      "_rev": {
+        "city": "嘉義市",
+        "district": "西區",
+        "road": "北鎮街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-1e2a026c27",
+      "name": "葉氏悟羽羽球用品專賣店 北成店",
+      "city": "臺南市",
+      "district": "北區",
+      "address": "臺南市北區北成路330號",
+      "tel": "062527536",
+      "lat": 23.019861,
+      "lng": 120.204132,
+      "website": "https://www.facebook.com/677506525602908",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.99,
+      "_rev": {
+        "city": "臺南市",
+        "district": "北區",
+        "road": "北成路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-b301ed5511",
+      "name": "新動力體育專賣店 - 台南 安南 專業鞋店推薦 運動鞋專賣首選 工作鞋好評 優質防護鞋 防穿刺塑鋼安全鞋 高CP值 廚師",
+      "city": "臺南市",
+      "district": "安南區",
+      "address": "臺南市安南區安中路三段410號",
+      "tel": "062550779",
+      "lat": 23.049788,
+      "lng": 120.174187,
+      "website": "https://shopee.tw/xinpower",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.97,
+      "_rev": {
+        "city": "臺南市",
+        "district": "",
+        "road": "安中路三段"
+      },
+      "services": [
+        "球鞋"
+      ]
+    },
+    {
+      "id": "ovt-7a3ea49df5",
+      "name": "葉氏悟羽羽球用品專賣店",
+      "city": "臺南市",
+      "district": "安平區",
+      "address": "臺南市安平區健康路三段28-11號",
+      "tel": "062988125",
+      "lat": 22.982893,
+      "lng": 120.180084,
+      "website": "https://www.facebook.com/703310373345887",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "臺南市",
+        "district": "安平區",
+        "road": "健康路三段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-a5d097b650",
+      "name": "南部焦點羽球",
+      "city": "臺南市",
+      "district": "新營區",
+      "address": "臺南市新營區新進路10號",
+      "tel": "0972091766",
+      "lat": 23.306285,
+      "lng": 120.322151,
+      "website": "https://www.facebook.com/106136045135834",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.91,
+      "_rev": {
+        "city": "臺南市",
+        "district": "",
+        "road": "新進路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-7254c47b99",
+      "name": "東區體育羽球用品專賣店",
+      "city": "臺南市",
+      "district": "東區",
+      "address": "臺南市東區崇學路129號",
+      "tel": "0972110133",
+      "lat": 22.979033,
+      "lng": 120.222458,
+      "website": "https://www.facebook.com/103770018091692",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.97,
+      "_rev": {
+        "city": "臺南市",
+        "district": "東區",
+        "road": "崇學路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-40dddae441",
+      "name": "騰躍羽球用品",
+      "city": "臺南市",
+      "district": "歸仁區",
+      "address": "臺南市歸仁區中正北路一段138號",
+      "tel": "0929538203",
+      "lat": 22.970388,
+      "lng": 120.295151,
+      "website": "https://www.facebook.com/309694733096137",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "臺南市",
+        "district": "",
+        "road": "中正北路一段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-b3c5656b8a",
+      "name": "群岳體育用品概念店-台南店",
+      "city": "臺南市",
+      "district": "中西區",
+      "address": "臺南市中西區健康路一段170巷18號",
+      "tel": "",
+      "lat": 22.982319,
+      "lng": 120.207237,
+      "website": "https://www.facebook.com/104373467611910",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.84,
+      "_rev": {
+        "city": "臺南市",
+        "district": "中西區",
+        "road": "健康路一段170巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-4bb04c11c9",
+      "name": "CK Badminton Studio",
+      "city": "高雄市",
+      "district": "三民區",
+      "address": "高雄市三民區澄清路481號",
+      "tel": "073815509",
+      "lat": 22.641088,
+      "lng": 120.345451,
+      "website": "https://www.facebook.com/100729335712142",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.72,
+      "_rev": {
+        "city": "高雄市",
+        "district": "三民區",
+        "road": "澄清路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-a3dd5ca26b",
+      "name": "力羽美羽球專賣店",
+      "city": "高雄市",
+      "district": "三民區",
+      "address": "高雄市三民區博愛一路276號",
+      "tel": "073119096",
+      "lat": 22.648708,
+      "lng": 120.30352,
+      "website": "https://www.facebook.com/250502634972956",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.95,
+      "_rev": {
+        "city": "高雄市",
+        "district": "三民區",
+        "road": "博愛一路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-182e4da602",
+      "name": "大同體育網羽球專賣店",
+      "city": "高雄市",
+      "district": "三民區",
+      "address": "高雄市三民區九如一路867號",
+      "tel": "073890758",
+      "lat": 22.639949,
+      "lng": 120.318153,
+      "website": "https://www.facebook.com/486434778774663",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.92,
+      "_rev": {
+        "city": "高雄市",
+        "district": "三民區",
+        "road": "九如一路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-88ba2e2725",
+      "name": "久奈司展售中心 (羽球拍｜羽球｜匹克球｜球拍袋｜運動服飾)",
+      "city": "高雄市",
+      "district": "前鎮區",
+      "address": "高雄市前鎮區復興四路12號",
+      "tel": "073383988",
+      "lat": 22.604774,
+      "lng": 120.29998,
+      "website": "https://www.jnice.com.tw/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.91,
+      "_rev": {
+        "city": "高雄市",
+        "district": "前鎮區",
+        "road": "復興四路"
+      },
+      "services": [
+        "球拍"
+      ]
+    },
+    {
+      "id": "ovt-79a34a856f",
+      "name": "毛利羽球事務所",
+      "city": "高雄市",
+      "district": "前鎮區",
+      "address": "高雄市前鎮區二聖二路215號",
+      "tel": "0965345414",
+      "lat": 22.613627,
+      "lng": 120.312141,
+      "website": "https://shopee.tw/chengdawei?smtt=0.0.9",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.95,
+      "_rev": {
+        "city": "高雄市",
+        "district": "前鎮區",
+        "road": "二聖二路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-58f1679b1c",
+      "name": "鋒羽羽球專賣店",
+      "city": "高雄市",
+      "district": "楠梓區",
+      "address": "高雄市楠梓區翠屏路53號",
+      "tel": "073642978",
+      "lat": 22.726038,
+      "lng": 120.299187,
+      "website": "https://page.line.me/634pqahz",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.91,
+      "_rev": {
+        "city": "高雄市",
+        "district": "楠梓區",
+        "road": "翠屏路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-3d830f68d4",
+      "name": "駿翔羽球用品專賣店｜楠梓羽球｜羽球專門",
+      "city": "高雄市",
+      "district": "楠梓區",
+      "address": "高雄市楠梓區後昌路867號",
+      "tel": "073640318",
+      "lat": 22.712214,
+      "lng": 120.294388,
+      "website": "https://shopee.tw/weiweichiachia?smtt=0.0.9",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "高雄市",
+        "district": "楠梓區",
+        "road": "後昌路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-8acc152bee",
+      "name": "初應羽球高雄概念店",
+      "city": "高雄市",
+      "district": "苓雅區",
+      "address": "高雄市苓雅區建國一路175之9號",
+      "tel": "0912903180",
+      "lat": 22.632782,
+      "lng": 120.326408,
+      "website": "https://www.facebook.com/104501151681996",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "高雄市",
+        "district": "苓雅區",
+        "road": "建國一路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-3a9fe8cdfe",
+      "name": "啟利羽球",
+      "city": "高雄市",
+      "district": "苓雅區",
+      "address": "高雄市苓雅區自強三路171號",
+      "tel": "073337391",
+      "lat": 22.611681,
+      "lng": 120.300285,
+      "website": "https://www.facebook.com/310525142388217",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.69,
+      "_rev": {
+        "city": "高雄市",
+        "district": "苓雅區",
+        "road": "自強三路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-05e83f04db",
+      "name": "有力羽球專賣店",
+      "city": "高雄市",
+      "district": "苓雅區",
+      "address": "高雄市苓雅區和平一路38號",
+      "tel": "077279009",
+      "lat": 22.620886,
+      "lng": 120.321739,
+      "website": "https://www.facebook.com/401134886603685",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.79,
+      "_rev": {
+        "city": "高雄市",
+        "district": "苓雅區",
+        "road": "和平一路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-e88c077552",
+      "name": "英明羽球專賣店",
+      "city": "高雄市",
+      "district": "苓雅區",
+      "address": "高雄市苓雅區英祥街41號",
+      "tel": "077261392",
+      "lat": 22.616589,
+      "lng": 120.325035,
+      "website": "http://Shopee.tw/s98105241",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.98,
+      "_rev": {
+        "city": "高雄市",
+        "district": "苓雅區",
+        "road": "英祥街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-98db109bee",
+      "name": "鳳西羽球體育用品",
+      "city": "高雄市",
+      "district": "鳳山區",
+      "address": "高雄市鳳山區平等路58號",
+      "tel": "077468225",
+      "lat": 22.62438,
+      "lng": 120.352211,
+      "website": "https://www.facebook.com/149132708578963",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.99,
+      "_rev": {
+        "city": "高雄市",
+        "district": "鳳山區",
+        "road": "平等路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-14cd93ed34",
+      "name": "W Studio羽球專業工作室",
+      "city": "高雄市",
+      "district": "鹽埕區",
+      "address": "高雄市鹽埕區大禮街63巷65號",
+      "tel": "075514688",
+      "lat": 22.622184,
+      "lng": 120.287468,
+      "website": "https://www.facebook.com/Wstudio.TWofficial",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.94,
+      "_rev": {
+        "city": "高雄市",
+        "district": "鹽埕區",
+        "road": "大禮街63巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-00c5542d98",
+      "name": "Pro羽球專賣店 (專業球拍穿線｜潮流羽球用品｜韓國羽球服飾｜羽球教學）",
+      "city": "高雄市",
+      "district": "鼓山區",
+      "address": "高雄市鼓山區九如四路648號",
+      "tel": "075213007",
+      "lat": 22.649527,
+      "lng": 120.279221,
+      "website": "http://www.prosportstw.com/",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.89,
+      "_rev": {
+        "city": "高雄市",
+        "district": "鼓山區",
+        "road": "九如四路"
+      },
+      "services": [
+        "穿線",
+        "球拍"
+      ]
+    },
+    {
+      "id": "ovt-69f2ea23a5",
+      "name": "喔！鷹羽球ALL-in羽球用品店",
+      "city": "高雄市",
+      "district": "仁武區",
+      "address": "高雄市仁武區成功路139號",
+      "tel": "",
+      "lat": 22.676374,
+      "lng": 120.361153,
+      "website": "https://www.facebook.com/104375079184585",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.88,
+      "_rev": {
+        "city": "高雄市",
+        "district": "仁武區",
+        "road": "成功路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-3f447cb1b8",
+      "name": "羽鴻體育用品 羽球",
+      "city": "屏東縣",
+      "district": "",
+      "address": "屏東縣建豐路2巷2巷43號",
+      "tel": "087368863",
+      "lat": 22.678168,
+      "lng": 120.507645,
+      "website": "https://www.facebook.com/236346503410629",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.89,
+      "_rev": {
+        "city": "屏東縣",
+        "district": "",
+        "road": "建豐路2巷"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-2ac88ce510",
+      "name": "南北體育網羽球專賣店",
+      "city": "屏東縣",
+      "district": "屏東市",
+      "address": "屏東縣屏東市中華路175號",
+      "tel": "087385177",
+      "lat": 22.677172,
+      "lng": 120.49144,
+      "website": "https://shopee.tw/windy8410055",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.81,
+      "_rev": {
+        "city": "屏東縣",
+        "district": "",
+        "road": "中華路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-0fe1f907f6",
+      "name": "TRUEiin Badminton Taiwan",
+      "city": "宜蘭縣",
+      "district": "宜蘭市",
+      "address": "宜蘭縣宜蘭市嵐峰路一段104號",
+      "tel": "0905385105",
+      "lat": 24.742634,
+      "lng": 121.753456,
+      "website": "https://shopee.tw/trueiinbadmintontaiwan",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.89,
+      "_rev": {
+        "city": "宜蘭縣",
+        "district": "",
+        "road": "嵐峰路一段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-f8e0a36e43",
+      "name": "世昕體育用品羽球專賣店",
+      "city": "宜蘭縣",
+      "district": "宜蘭市",
+      "address": "宜蘭縣宜蘭市神農路一段59號",
+      "tel": "039359700",
+      "lat": 24.748123,
+      "lng": 121.749847,
+      "website": "https://www.facebook.com/102295005049923",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.9,
+      "_rev": {
+        "city": "宜蘭縣",
+        "district": "",
+        "road": "神農路一段"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-7c15526cc1",
+      "name": "名家體育羅東店 網球羽球專門店",
+      "city": "宜蘭縣",
+      "district": "羅東鎮",
+      "address": "宜蘭縣羅東鎮公正路",
+      "tel": "039557177",
+      "lat": 24.680708,
+      "lng": 121.759445,
+      "website": "https://www.facebook.com/1006295272713976",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.92,
+      "_rev": {
+        "city": "宜蘭縣",
+        "district": "",
+        "road": "公正路"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-3cb2d8b66c",
+      "name": "Daniel羽球用品專賣店",
+      "city": "花蓮縣",
+      "district": "花蓮市",
+      "address": "花蓮縣花蓮市中美十一街11號",
+      "tel": "038230818",
+      "lat": 23.995598,
+      "lng": 121.623085,
+      "website": "http://fb.me/Daniel620505",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.91,
+      "_rev": {
+        "city": "花蓮縣",
+        "district": "",
+        "road": "中美十一街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-ff3fbea03a",
+      "name": "大雄網羽球專賣店",
+      "city": "花蓮縣",
+      "district": "花蓮市",
+      "address": "花蓮縣花蓮市復興街96-5號",
+      "tel": "0935666065",
+      "lat": 23.981234,
+      "lng": 121.607048,
+      "website": "https://www.facebook.com/272219924635899",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.84,
+      "_rev": {
+        "city": "花蓮縣",
+        "district": "",
+        "road": "復興街"
+      },
+      "services": []
+    },
+    {
+      "id": "ovt-dafa3b3f05",
+      "name": "合昇羽球用品專賣店",
+      "city": "澎湖縣",
+      "district": "",
+      "address": "澎湖縣文山路83號",
+      "tel": "0919612147",
+      "lat": 23.560219,
+      "lng": 119.583649,
+      "website": "http://facebook.com/HESHENGbadminton",
+      "source": "https://overturemaps.org/",
+      "sourceName": "Overture Maps",
+      "confidence": 0.94,
+      "_rev": {
+        "city": "澎湖縣",
+        "district": "",
+        "road": "文山路"
+      },
+      "services": []
+    }
+  ]
+}

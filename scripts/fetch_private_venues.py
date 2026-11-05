@@ -140,30 +140,104 @@ def from_seeds(prev):
     return out
 
 
+def from_overture(gov, prev_all):
+    """來源 D：Overture Maps Places（主要來自 Facebook 商家粉專）。回傳 (球館, 球具店, 俱樂部/教學)。"""
+    import overture_places as ov
+    rel, rows = ov.query()
+    cache = {v["id"]: v for v in prev_all if v.get("id", "").startswith("ovt-")}
+    halls, shops, clubs = [], [], []
+    for r in rows:
+        name = re.sub(r"\s+", " ", (r["name"] or "")).strip()
+        kind = ov.classify(name, r["cat"] or "", r["confidence"])
+        if not kind or not r["lat"]:
+            continue
+        loc = locate(r["lat"], r["lng"], gov)
+        if not loc:
+            continue  # 離台灣場館都很遠（例如對岸）
+        vid = "ovt-" + hashlib.md5(r["id"].encode()).hexdigest()[:10]
+        old = cache.get(vid)
+        if old and old.get("address") is not None and old.get("_rev"):
+            rev = old["_rev"]
+        else:
+            rev = ov.reverse(r["lat"], r["lng"]) or {"city": loc[0], "district": loc[1], "road": ""}
+        city = rev["city"] if rev.get("city") in CITY_SLUG else loc[0]
+        web = r["web"] or r["social"] or ""
+        item = {
+            "id": vid, "name": name[:60], "city": city, "district": rev.get("district") or loc[1],
+            "address": ov.pretty_address(r["addr"], {**rev, "city": city, "district": rev.get("district") or loc[1]}), "tel": ov.phone(r["phone"]),
+            "lat": round(r["lat"], 6), "lng": round(r["lng"], 6), "website": web if web.startswith("http") else "",
+            "source": "https://overturemaps.org/", "sourceName": "Overture Maps", "confidence": round(r["confidence"] or 0, 2),
+            "_rev": rev,
+        }
+        if kind == "hall":
+            item.update({"kind": "private", "rent": "付費", "open": "24 小時" if re.search(r"24\s*[hH小]", name) else "", "facilities": "羽球場"})
+            halls.append(item)
+        elif kind == "shop":
+            item["services"] = [s for s, k in (("穿線", "穿線"), ("球拍", "拍"), ("球鞋", "鞋")) if k in name]
+            shops.append(item)
+        else:
+            item["type"] = "教學" if ov.COACH.search(name) else "球隊／俱樂部"
+            clubs.append(item)
+    print(f"Overture {rel}: {len(rows)} rows → halls {len(halls)}, shops {len(shops)}, clubs {len(clubs)}")
+    return halls, shops, clubs
+
+
+def merge(lists, gov):
+    """多來源合併：先出現的優先；同名或 100 公尺內同名字詞視為同一間，缺的欄位由後面的來源補上。"""
+    out = []
+    for v in (x for l in lists for x in l):
+        if is_dup(v, gov):
+            continue
+        n = norm(v["name"])
+        hit = None
+        for o in out:
+            on = norm(o["name"])
+            if (n and n == on and o["city"] == v["city"]) or (
+                    v.get("lat") and o.get("lat") and km((v["lat"], v["lng"]), (o["lat"], o["lng"])) < 0.1 and len(set(n) & set(on)) >= 2):
+                hit = o
+                break
+        if hit:
+            for k in ("tel", "website", "address", "lat", "lng", "note", "open"):
+                if not hit.get(k) and v.get(k):
+                    hit[k] = v[k]
+            hit.setdefault("alsoIn", []).append(v["sourceName"])
+        else:
+            out.append(dict(v))
+    order = list(CITY_SLUG)
+    # 資料完整（有地址、電話）的排前面，待查證的排後面
+    out.sort(key=lambda v: (order.index(v["city"]) if v["city"] in order else 99, not v.get("address"), not v.get("tel"), v.get("district", ""), v["name"]))
+    return out
+
+
 def main():
     prev = load("private_venues.json", {"items": []})["items"]
+    prev_all = prev + load("shops_auto.json", {"items": []})["items"] + load("clubs.json", {"items": []})["items"]
     gov = gov_venues()
-    items, failed = [], []
+    failed = []
     try:
         osm = from_osm(gov)
     except Exception as e:
         failed.append("osm"); print("OSM failed:", e, file=sys.stderr)
         osm = [v for v in prev if v.get("sourceName") == "OpenStreetMap"]
+    try:
+        ovt_halls, ovt_shops, ovt_clubs = from_overture(gov, prev_all)
+    except Exception as e:
+        failed.append("overture"); print("Overture failed:", e, file=sys.stderr)
+        ovt_halls = [v for v in prev if v.get("sourceName") == "Overture Maps"]
+        ovt_shops = load("shops_auto.json", {"items": []})["items"]
+        ovt_clubs = load("clubs.json", {"items": []})["items"]
     seeds = from_seeds(prev)
-    seen = set()
-    for v in seeds + osm:  # 人工整理優先（有備註），OSM 補足
-        key = (norm(v["name"]), v["city"])
-        if key in seen or is_dup(v, gov):
-            continue
-        seen.add(key)
-        items.append(v)
-    items.sort(key=lambda v: (list(CITY_SLUG).index(v["city"]) if v["city"] in CITY_SLUG else 99, v["district"], v["name"]))
-    save("private_venues.json", {"updatedAt": now_iso(), "sources": ["OpenStreetMap", "網路整理", "社群投稿"],
+    # 優先順序：Overture（電話、粉專最完整）→ 人工整理（有備註）→ OSM
+    items = merge([ovt_halls, seeds, osm], gov)
+    save("private_venues.json", {"updatedAt": now_iso(), "sources": ["Overture Maps", "OpenStreetMap", "網路整理"],
+                                 "attribution": "© Overture Maps Foundation（CDLA Permissive 2.0）、© OpenStreetMap contributors（ODbL）",
                                  "failed": failed, "items": items})
+    save("shops_auto.json", {"updatedAt": now_iso(), "source": "Overture Maps", "items": merge([ovt_shops], [])})
+    save("clubs.json", {"updatedAt": now_iso(), "source": "Overture Maps", "items": merge([ovt_clubs], [])})
     by = {}
     for v in items:
         by[v["city"]] = by.get(v["city"], 0) + 1
-    print(len(items), "private venues", by)
+    print(len(items), "private venues", by, "| shops", len(ovt_shops), "| clubs", len(ovt_clubs))
 
 
 if __name__ == "__main__":

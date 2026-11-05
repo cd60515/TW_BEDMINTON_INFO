@@ -1,7 +1,7 @@
 name: Update data
 # 定期更新資料並檢查失效：
 #   每 6 小時   → PTT 羽球板（零打揪人、買賣、新聞）
-#   每週一 03:00 → iPlay 全台場館＋OpenStreetMap 民營球館同步 + 全站連結/影片健康檢查
+#   每週一 03:00 → iPlay 全台場館＋Overture Maps／OpenStreetMap 民營球館、球具店、俱樂部同步 + 全站連結/影片健康檢查
 #   每月 1 日    → 重新搜尋各主題教學影片
 on:
   schedule:
@@ -56,10 +56,12 @@ jobs:
         if: contains(steps.tasks.outputs.tasks, 'venues')
         continue-on-error: true
         run: python scripts/fetch_venues.py
-      - name: Private halls (OpenStreetMap)
+      - name: Private halls (Overture Maps + OpenStreetMap)
         if: contains(steps.tasks.outputs.tasks, 'private')
         continue-on-error: true
-        run: python scripts/fetch_private_venues.py
+        run: |
+          pip install --quiet duckdb
+          python scripts/fetch_private_venues.py
       - name: Videos
         if: contains(steps.tasks.outputs.tasks, 'videos')
         continue-on-error: true
