@@ -1,6 +1,6 @@
 // 台灣羽球通 Service Worker
 // App shell：cache-first（版本號變更即更新）；資料 JSON：network-first，離線時用快取
-const VERSION = 'twb-2026-11-06-overture';
+const VERSION = 'twb-2026-11-06-pickups';
 const SHELL = ['./', 'index.html', 'assets/css/app.css', 'assets/js/app.js', 'assets/js/core.js', 'assets/js/views.js', 'assets/js/mascot.js', 'assets/js/icons.js',
   'vendor/leaflet/leaflet.js', 'vendor/leaflet/leaflet.css', 'assets/img/icon.svg', 'manifest.webmanifest'];
 

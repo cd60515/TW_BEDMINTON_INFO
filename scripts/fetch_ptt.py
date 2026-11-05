@@ -20,7 +20,9 @@ ROW = re.compile(r'<div class="r-ent">.*?<div class="title">\s*(?:<a href="(?P<h
 PREV = re.compile(r'href="/bbs/Badminton/index(\d+)\.html">&lsaquo; 上頁')
 
 # 縣市判斷：縣市名、常見區名與運動中心名
-HINTS = {c: [c, c.replace("臺", "台"), c[:2]] for c in CITIES}
+HINTS = {c: [c, c.replace("臺", "台"), c[:2], c[:2].replace("臺", "台")] for c in CITIES}
+HINTS["臺北市"] += ["北北基", "雙北", "大台北"]
+HINTS["新竹市"] += ["竹科", "大新竹"]
 HINTS["臺北市"] += ["北市", "大安", "中正", "信義", "內湖", "南港", "士林", "北投", "松山", "萬華", "大同", "文山", "中山運動"]
 HINTS["新北市"] += ["板橋", "三重", "新莊", "中和", "永和", "土城", "蘆洲", "汐止", "樹林", "淡水", "新店", "林口", "三鶯", "泰山", "五股"]
 HINTS["桃園市"] += ["中壢", "蘆竹", "八德", "平鎮", "龜山", "楊梅", "大園"]

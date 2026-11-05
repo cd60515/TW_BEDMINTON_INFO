@@ -72,10 +72,12 @@ export function openPlayer(id, title) {
 
 /* ================= HOME ================= */
 export async function home(el) {
-  const [venues, ptt, lessons, manifest] = await Promise.all([
-    api('venues/all.json'), api('ptt.json').catch(() => ({ items: [] })), api('lessons.json'), api('manifest.json').catch(() => ({})),
+  const [venues, ptt, lessons, manifest, pick] = await Promise.all([
+    api('venues/all.json'), api('ptt.json').catch(() => ({ items: [] })), api('lessons.json'), api('manifest.json').catch(() => ({})), api('pickups.json').catch(() => ({ items: [] })),
   ]);
-  const groups = ptt.items.filter((i) => i.cat === 'group').slice(0, 4);
+  const myCity = store.get('city', '');
+  const upcoming = pick.items.filter((p) => p.date >= todayISO());
+  const groups = [...upcoming.filter((p) => !myCity || p.city === myCity), ...upcoming.filter((p) => myCity && p.city !== myCity)].slice(0, 4);
   const news = ptt.items.filter((i) => i.cat === 'news').slice(0, 5);
   const health = manifest.links || {};
   const done = Object.keys(progress.all()).length;
@@ -116,8 +118,8 @@ export async function home(el) {
   ${done ? html`<section class="section">${growCard(done, lessons.items.length)}</section>` : ''}
 
   <section class="section">
-    <div class="section-h"><h2>🤝 最新零打揪團</h2><a href="#/groups">更多</a></div>
-    ${groups.length ? html`<div class="grid g2">${groups.map(pttGroupCard)}</div>` : empty('🤝', '目前沒有新的揪團文章')}
+    <div class="section-h"><h2>🤝 ${myCity ? myCity + '・' : ''}近期零打開團</h2><a href="#/groups">看全部 ${upcoming.length} 場</a></div>
+    ${groups.length ? html`<div class="grid g2">${groups.map(pickupCard)}</div>` : empty('🤝', '目前沒有新的開團')}
   </section>
 
   <section class="section">
@@ -384,46 +386,107 @@ function groupCard(g, ttl) {
       <a class="btn sm" href="${issueUrl('confirm-group.yml', { group_id: g.id, group_name: g.name })}" target="_blank" rel="noopener">${age > 14 ? '我是團主：確認仍在運作' : '更新資訊'}</a>
       <a class="btn sm ghost" href="${issueUrl('report-broken.yml', { item: `零打團 ${g.name}（${g.id}）` })}" target="_blank" rel="noopener">回報</a></div></article>`;
 }
+/* 近期開團卡片（臨打情報站／GRASS） */
+const todayISO = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+const addDays = (iso, n) => { const d = new Date(iso + 'T00:00:00'); d.setDate(d.getDate() + n); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+function dayLabel(iso, wd) {
+  const t = todayISO();
+  const rel = iso === t ? '今天' : iso === addDays(t, 1) ? '明天' : iso === addDays(t, 2) ? '後天' : '';
+  const [, m, d] = iso.split('-');
+  return `${rel ? rel + ' ' : ''}${+m}/${+d}（${wd}）`;
+}
+export function pickupCard(p) {
+  const navTarget = { name: p.venue, address: p.address || `${p.city}${p.district} ${p.venue}` };
+  return html`<article class="card pickup">
+    <div class="row"><span class="badge ${p.date === todayISO() ? 'warn' : 'brand'}">📅 ${dayLabel(p.date, p.weekday)}${p.dateEnd ? ' 起' : ''}</span>${p.time ? html`<span class="badge info">⏰ ${p.time}</span>` : ''}
+      <span class="spacer"></span><span class="small muted">${p.city}${p.district}</span></div>
+    <h3 style="margin-top:8px">${p.venue || p.title}</h3>
+    ${p.venue && p.title ? html`<div class="small muted">${p.title}</div>` : ''}
+    <div class="row" style="margin-top:6px">${p.level ? html`<span class="badge">程度 ${p.level}</span>` : ''}${p.price ? html`<span class="badge ok">💰 ${p.price}</span>` : ''}${p.ball ? html`<span class="badge">🏸 ${p.ball}</span>` : ''}</div>
+    ${p.facilities ? html`<div class="small muted" style="margin-top:6px">${p.facilities}</div>` : ''}
+    ${p.note ? html`<p class="small" style="margin:6px 0 0">${p.note}</p>` : ''}
+    <div class="actions">${ext(p.link, '報名／看詳情', 'btn sm primary')}${ext(platform.navUrl(navTarget), '🧭 導航')}<span class="small muted" style="align-self:center">來源：${p.via}</span></div>
+  </article>`;
+}
+function lineCard(c) {
+  const d = daysAgo(c.lastActive);
+  return html`<article class="card">
+    <div class="row"><span class="badge ok">💬 LINE 社群</span><span class="badge">👥 ${Number(c.members).toLocaleString()} 人</span>${c.city ? html`<span class="badge">${c.city}</span>` : html`<span class="badge">跨區</span>`}</div>
+    <h3 style="margin-top:8px">${c.name}</h3>
+    ${c.desc ? html`<p class="small muted" style="margin:4px 0 0">${c.desc}</p>` : ''}
+    <div class="actions">${ext(c.url, '加入社群', 'btn sm primary')}${isFinite(d) ? html`<span class="small muted" style="align-self:center">最近活躍：${d <= 0 ? '今天' : d + ' 天前'}</span>` : ''}</div></article>`;
+}
+function threadsCard(t) {
+  return html`<article class="card"><div class="row"><span class="badge info">Threads</span>${t.city ? html`<span class="badge">${t.city}</span>` : ''}<span class="spacer"></span><span class="small muted">${ago(t.postedAt)}</span></div>
+    <p style="margin:8px 0 0">${t.text}</p><div class="actions">${ext(t.url, '看原文並聯絡', 'btn sm primary')}</div></article>`;
+}
+
 export async function groups(el, params) {
-  const [ptt, comm, clubs] = await Promise.all([api('ptt.json').catch(() => ({ items: [] })), api('groups.json').catch(() => ({ items: [], ttlDays: 60 })), api('clubs.json').catch(() => ({ items: [] }))]);
-  const city = params.has('city') ? params.get('city') : '';
+  const none = { items: [] };
+  const [ptt, comm, clubs, pick, line, threads] = await Promise.all([api('ptt.json').catch(() => none), api('groups.json').catch(() => ({ items: [], ttlDays: 60 })),
+    api('clubs.json').catch(() => none), api('pickups.json').catch(() => none), api('line_groups.json').catch(() => none), api('threads.json').catch(() => none)]);
+  const tab = params.get('tab') || 'pickups';
+  const city = params.has('city') ? params.get('city') : store.get('city', '');
   const wd = params.get('wd') ?? '';
+  const when = params.get('when') || '';
   const q = params.get('q') || '';
   const showExpired = params.get('expired') === '1';
   const ttl = comm.ttlDays || 60;
+  const okCity = (c) => !city || c === city;
   const okWd = (days) => wd === '' || (days || []).includes(Number(wd));
-  const cg = comm.items.filter((g) => (showExpired || daysAgo(g.confirmedAt) <= ttl) && (!city || g.city === city) && okWd(g.weekdays) && match(q, g.name, g.venue, g.note));
-  const pg = ptt.items.filter((i) => i.cat === 'group' && (!city || i.city === city) && okWd(i.group?.weekdays) && match(q, i.title));
+  const t0 = todayISO();
+  const okWhen = (p) => !when || (when === 'today' ? p.date === t0 : when === 'tomorrow' ? p.date === addDays(t0, 1)
+    : when === 'weekend' ? ['六', '日'].includes(p.weekday) && p.date <= addDays(t0, 7) : true);
+  const pk = pick.items.filter((p) => p.date >= t0 && okCity(p.city) && okWhen(p) && (wd === '' || WEEK[Number(wd)] === p.weekday) && match(q, p.title, p.venue, p.address, p.note));
+  const lg = line.items.filter((c) => (!city || c.city === city || !c.city) && match(q, c.name, c.desc));
+  const cg = comm.items.filter((g) => (showExpired || daysAgo(g.confirmedAt) <= ttl) && okCity(g.city) && okWd(g.weekdays) && match(q, g.name, g.venue, g.note));
+  const pg = ptt.items.filter((i) => i.cat === 'group' && okCity(i.city) && okWd(i.group?.weekdays) && match(q, i.title));
+  const tg = threads.items.filter((t) => okCity(t.city) && match(q, t.text));
+  const cl = clubs.items.filter((c) => okCity(c.city) && match(q, c.name, c.address));
   const expiredN = comm.items.filter((g) => daysAgo(g.confirmedAt) > ttl).length;
-  const set = (k, v) => { const p = new URLSearchParams(params); if (v === '') p.delete(k); else p.set(k, v); location.hash = '#/groups?' + p; };
-  const gsearch = (c) => `https://www.google.com/search?q=${encodeURIComponent(`${c || ''} 羽球 零打 臨打 揪團`)}`;
-  const secC = html`<section class="section"><div class="section-h"><h2>社群登錄的零打團（${cg.length}）</h2>${expiredN ? html`<label class="toggle"><input type="checkbox" data-exp ${showExpired ? 'checked' : ''}> 顯示已過期（${expiredN}）</label>` : ''}</div>
-      ${cg.length ? html`<div class="grid g2">${cg.map((g) => groupCard(g, ttl))}</div>` : empty('🌱', '這個條件下還沒有社群登錄的團，成為第一個登錄的團主吧！')}</section>`;
-  const secP = html`<section class="section"><div class="section-h"><h2>PTT 羽球板最新揪人（${pg.length}）</h2>${ext(ptt.sourceUrl, '前往 PTT', '')}</div>
-      <p class="small muted">每 6 小時自動整理 PTT 羽球板的揪人文，${ptt.keepDays?.group || 45} 天後自動移除。最後更新：${ago(ptt.updatedAt)}</p>
-      ${pg.length ? html`<div class="grid g2">${pg.map(pttGroupCard)}</div>` : empty('📭', '近期沒有符合條件的揪人文')}</section>`;
-  el.innerHTML = html`${head('零打團／臨打揪團', '想打球卻沒有球友？從這裡找到全台的零打團。超過 ' + ttl + ' 天未確認的團會自動下架。')}
-    <div class="callout" style="margin-bottom:14px"><b>你是團主嗎？</b> 免費登錄你的零打團，讓更多球友找到你。
-      <div class="actions"><a class="btn sm primary" href="${issueUrl('new-group.yml', { city })}" target="_blank" rel="noopener">＋ 登錄零打團</a><a class="btn sm" href="#/learn/etiquette">零打禮儀</a></div></div>
+  const shown = Number(params.get('n')) || 24;
+  const set = (k, v) => { const p = new URLSearchParams(params); if (v === '' || v == null) p.delete(k); else p.set(k, v); if (k !== 'n') p.delete('n'); location.hash = '#/groups?' + p; };
+  const tabs = [['pickups', `📅 近期開團`, pk.length], ['line', '💬 LINE 社群', lg.length], ['posts', '📝 揪人貼文', cg.length + pg.length + tg.length], ['clubs', '🏸 球隊俱樂部', cl.length]];
+  const more = (n) => (n > shown ? html`<div class="more-btn"><button class="btn" data-more>顯示更多（還有 ${n - shown} 筆）</button></div>` : '');
+  let body;
+  if (tab === 'pickups') {
+    body = html`<div class="chips">${[['', '全部日期'], ['today', '今天'], ['tomorrow', '明天'], ['weekend', '這個週末']].map(([v, l]) => html`<button class="chip ${when === v ? 'on' : ''}" data-when="${v}">${l}</button>`)}</div>
+      <p class="small muted">每 6 小時從 ${(pick.sources || []).map((s, i) => html`${i ? '、' : ''}${ext(s.url, s.name, '')}`)} 彙整，過了日期自動下架。最後更新：${ago(pick.updatedAt)}。報名請點進原始頁面，以團主公告為準。</p>
+      ${pk.length ? html`<div class="grid g3">${pk.slice(0, shown).map(pickupCard)}</div>${more(pk.length)}` : empty('📭', '這個條件下目前沒有開團，換個日期或縣市試試，或到「LINE 社群」看看')}`;
+  } else if (tab === 'line') {
+    body = html`<p class="small muted">全台羽球臨打、球館、球隊的 LINE 社群，依成員數排序。只收錄社群的公開介紹，加入後依各社群規定報名。最後更新：${ago(line.updatedAt)}</p>
+      ${lg.length ? html`<div class="grid g3">${lg.slice(0, shown).map(lineCard)}</div>${more(lg.length)}` : empty('📭', '這個縣市還沒有找到 LINE 社群')}`;
+  } else if (tab === 'posts') {
+    body = html`<div class="callout" style="margin-bottom:14px"><b>你是團主嗎？</b> 免費登錄你的零打團，讓更多球友找到你。
+        <div class="actions"><a class="btn sm primary" href="${issueUrl('new-group.yml', { city })}" target="_blank" rel="noopener">＋ 登錄零打團</a><a class="btn sm" href="#/learn/etiquette">零打禮儀</a></div></div>
+      <section class="section"><div class="section-h"><h2>社群登錄的零打團（${cg.length}）</h2>${expiredN ? html`<label class="toggle"><input type="checkbox" data-exp ${showExpired ? 'checked' : ''}> 顯示已過期（${expiredN}）</label>` : ''}</div>
+        ${cg.length ? html`<div class="grid g2">${cg.map((g) => groupCard(g, ttl))}</div>` : html`<p class="muted small">還沒有團主登錄，成為第一個吧！</p>`}</section>
+      <section class="section"><div class="section-h"><h2>PTT 羽球板揪人（${pg.length}）</h2>${ext(ptt.sourceUrl, '前往 PTT', '')}</div>
+        ${pg.length ? html`<div class="grid g2">${pg.map(pttGroupCard)}</div>` : html`<p class="muted small">近期沒有符合條件的揪人文</p>`}</section>
+      <section class="section"><div class="section-h"><h2>Threads 揪團貼文（${tg.length}）</h2></div>
+        ${tg.length ? html`<div class="grid g2">${tg.map(threadsCard)}</div>` : html`<p class="muted small">Threads 串接已準備好，啟用 Meta 官方 API 後就會自動出現 Threads 上的揪團貼文。</p>`}</section>`;
+  } else {
+    body = html`<p class="small muted">固定球隊常開放新成員加入，可透過粉專或電話詢問。資料來自 Overture Maps 開放商家資料，每週更新。</p>
+      ${cl.length ? html`<div class="grid g3">${cl.slice(0, shown).map((c) => placeCard(c, c.type))}</div>${more(cl.length)}` : empty('📭', '這個縣市還沒有收錄的俱樂部')}`;
+  }
+  el.innerHTML = html`${head('零打團／臨打揪團', `今天想打球？目前有 ${pick.items.filter((p) => p.date >= t0).length} 場近期開團、${line.items.length} 個 LINE 羽球社群，每 6 小時自動更新。`)}
     <div class="filters">
       <select class="field" data-k="city" aria-label="縣市">${selectOpts(CITIES, city, '全部縣市')}</select>
       <select class="field" data-k="wd" aria-label="星期">${selectOpts(WEEK.map((w, i) => [i, '星期' + w]), wd, '任何一天')}</select>
-      <form data-q class="full" style="grid-column:span 2"><input class="field" name="q" type="search" value="${q}" placeholder="搜尋場館或團名" enterkeyhint="search"></form>
+      <form data-q class="full" style="grid-column:span 2"><input class="field" name="q" type="search" value="${q}" placeholder="搜尋場館、團名、地區" enterkeyhint="search"></form>
     </div>
-    ${cg.length ? [secC, secP] : [secP, secC]}
-    ${(() => {
-      const cl = clubs.items.filter((c) => (!city || c.city === city) && match(q, c.name, c.address));
-      return html`<section class="section"><div class="section-h"><h2>羽球俱樂部、球隊與教學（${cl.length}）</h2></div>
-        <p class="small muted">固定球隊常開放新成員加入，可透過粉專或電話詢問。資料來自 Overture Maps 開放商家資料，每週更新。</p>
-        ${cl.length ? html`<div class="grid g3">${cl.slice(0, 30).map((c) => placeCard(c, c.type))}</div>` : empty('📭', '這個縣市還沒有收錄的俱樂部')}</section>`;
-    })()}
+    <div class="chips tabs">${tabs.map(([k, l, n]) => html`<button class="chip ${tab === k ? 'on' : ''}" data-tab-k="${k}">${l} <b>${n}</b></button>`)}</div>
+    ${body}
     <section class="section"><h2>到其他地方找更多團</h2><div class="grid g3">
-      <div class="card"><h3>Google 搜尋</h3><p class="small muted">搜尋 Facebook 社團、部落格中的零打資訊</p>${ext(gsearch(city), `搜尋「${city || '全台'} 羽球零打」`)}</div>
-      <div class="card"><h3>Facebook 社團</h3><p class="small muted">多數零打團在 FB 社團發布臨打名額（需登入）</p>${ext(`https://www.facebook.com/search/groups/?q=${encodeURIComponent((city || '') + ' 羽球 零打')}`, '搜尋 FB 社團')}</div>
-      <div class="card"><h3>運動中心公告</h3><p class="small muted">各地國民運動中心常有開放「散客」時段</p><a class="btn sm" href="#/venues?kind=sports-center&city=${city}">查看運動中心</a></div>
+      <div class="card"><h3>Facebook 社團</h3><p class="small muted">很多零打團在 FB 社團發臨打名額（需登入）</p>${ext(`https://www.facebook.com/search/groups/?q=${encodeURIComponent((city || '') + ' 羽球 零打')}`, '搜尋 FB 社團')}</div>
+      <div class="card"><h3>羽球拼圖</h3><p class="small muted">收錄全台招收球友的球隊，可在 App 內報名</p>${ext('https://badminton.pintu.tw/', '前往羽球拼圖')}</div>
+      <div class="card"><h3>運動中心散客時段</h3><p class="small muted">各地國民運動中心常開放個人租場</p><a class="btn sm" href="#/venues?kind=sports-center&city=${city}">查看運動中心</a></div>
     </div></section>`.s;
-  $$('select[data-k]', el).forEach((s) => s.addEventListener('change', () => set(s.dataset.k, s.value)));
+  $$('select[data-k]', el).forEach((s) => s.addEventListener('change', () => { if (s.dataset.k === 'city') store.set('city', s.value); set(s.dataset.k, s.value); }));
   $('[data-q]', el).addEventListener('submit', (e) => { e.preventDefault(); set('q', e.target.q.value.trim()); });
+  $$('[data-tab-k]', el).forEach((b) => b.addEventListener('click', () => set('tab', b.dataset.tabK)));
+  $$('[data-when]', el).forEach((b) => b.addEventListener('click', () => set('when', b.dataset.when)));
+  $('[data-more]', el)?.addEventListener('click', () => set('n', shown + 24));
   $('[data-exp]', el)?.addEventListener('change', (e) => set('expired', e.target.checked ? '1' : ''));
 }
 

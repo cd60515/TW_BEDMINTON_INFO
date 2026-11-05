@@ -1,6 +1,6 @@
 name: Update data
 # 定期更新資料並檢查失效：
-#   每 6 小時   → PTT 羽球板（零打揪人、買賣、新聞）
+#   每 6 小時   → PTT 羽球板、臨打情報站、GRASS、LINE 社群、Threads（零打開團）
 #   每週一 03:00 → iPlay 全台場館＋Overture Maps／OpenStreetMap 民營球館、球具店、俱樂部同步 + 全站連結/影片健康檢查
 #   每月 1 日    → 重新搜尋各主題教學影片
 on:
@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
     inputs:
       tasks:
-        description: "要執行的任務（以空白分隔）：ptt venues private links videos"
-        default: "ptt venues private links"
+        description: "要執行的任務（以空白分隔）：ptt pickups threads venues private links videos"
+        default: "ptt pickups threads venues private links"
 
 permissions:
   contents: write
@@ -41,10 +41,10 @@ jobs:
           INPUT: ${{ github.event.inputs.tasks }}
         run: |
           case "$SCHEDULE" in
-            "17 */6 * * *") T="ptt" ;;
-            "0 19 * * 0")   T="ptt venues private links" ;;
+            "17 */6 * * *") T="ptt pickups threads" ;;
+            "0 19 * * 0")   T="ptt pickups threads venues private links" ;;
             "30 20 1 * *")  T="videos links" ;;
-            *)              T="${INPUT:-ptt venues private links}" ;;
+            *)              T="${INPUT:-ptt pickups threads venues private links}" ;;
           esac
           echo "tasks=$T" >> "$GITHUB_OUTPUT"
           echo "Tasks: $T"
@@ -52,6 +52,16 @@ jobs:
         if: contains(steps.tasks.outputs.tasks, 'ptt')
         continue-on-error: true
         run: python scripts/fetch_ptt.py
+      - name: Pickups (臨打情報站 / GRASS / LINE 社群)
+        if: contains(steps.tasks.outputs.tasks, 'pickups')
+        continue-on-error: true
+        run: python scripts/fetch_pickups.py
+      - name: Threads (official API, needs THREADS_ACCESS_TOKEN secret)
+        if: contains(steps.tasks.outputs.tasks, 'threads')
+        continue-on-error: true
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: python scripts/fetch_threads.py
       - name: Venues (iPlay)
         if: contains(steps.tasks.outputs.tasks, 'venues')
         continue-on-error: true

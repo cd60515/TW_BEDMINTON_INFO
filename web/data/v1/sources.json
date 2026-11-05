@@ -38,6 +38,42 @@
       "script": "scripts/fetch_ptt.py"
     },
     {
+      "id": "far",
+      "name": "羽球臨打情報站",
+      "url": "https://www.farreaching.com.tw/badminton/",
+      "type": "公開開團彙整（含羽球拼圖、FB 社團）",
+      "covers": "近期臨打場次：日期、時段、場館、程度、費用、用球",
+      "schedule": "每 6 小時",
+      "script": "scripts/fetch_pickups.py"
+    },
+    {
+      "id": "grass",
+      "name": "GRASS 找伴揪團",
+      "url": "https://grass.camp/find/taiwan/badminton",
+      "type": "公開揪團頁（schema.org Event）",
+      "covers": "台北、新北、桃園、台中、高雄羽球揪團",
+      "schedule": "每 6 小時",
+      "script": "scripts/fetch_pickups.py"
+    },
+    {
+      "id": "line",
+      "name": "LINE 社群（公開介紹頁）",
+      "url": "https://openchat.line.me/tw/search?keyword=%E7%BE%BD%E7%90%83",
+      "type": "只讀社群名稱、成員數、介紹；不讀群組訊息",
+      "covers": "全台羽球臨打、球館、球隊 LINE 社群",
+      "schedule": "每 6 小時",
+      "script": "scripts/fetch_pickups.py"
+    },
+    {
+      "id": "threads",
+      "name": "Threads（Meta 官方 API）",
+      "url": "https://www.threads.net/",
+      "type": "官方關鍵字搜尋 API（需 token）",
+      "covers": "Threads 上的羽球揪團貼文",
+      "schedule": "每 6 小時（設定 token 後啟用）",
+      "script": "scripts/fetch_threads.py"
+    },
+    {
       "id": "youtube",
       "name": "YouTube 公開教學影片",
       "url": "https://www.youtube.com/",
