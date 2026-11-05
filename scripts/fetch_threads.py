@@ -35,6 +35,12 @@ def main():
     try:
         me = json.loads(get("https://graph.threads.net/v1.0/me", {"fields": "id,username", "access_token": token}, timeout=30))
         print("token OK，帳號：", me.get("username"))
+        try:
+            dbg = json.loads(get("https://graph.threads.net/v1.0/debug_token", {"input_token": token, "access_token": token}, timeout=30))
+            d = dbg.get("data", {})
+            print("token 權限：", d.get("scopes"), "｜到期：", d.get("expires_at"), "｜有效：", d.get("is_valid"))
+        except Exception as e:
+            print("debug_token：", explain(e), file=sys.stderr)
     except Exception as e:
         print("token 檢查失敗：", explain(e), file=sys.stderr)
         return
