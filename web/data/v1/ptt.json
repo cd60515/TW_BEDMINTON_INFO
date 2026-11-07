@@ -1,13 +1,22 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-07T14:02:12+08:00",
+  "updatedAt": "2026-11-07T21:06:51+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794045491.A.941.html",
+      "title": "[新聞] 棄日本捍衛主場搶本季第11冠「球后」安洗",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "charles0939",
+      "postedAt": "2026-11-07T17:58:11+08:00"
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1793633506.A.1AC.html",
       "title": "[Live] 2026 韓國公開賽賽事討論區",
