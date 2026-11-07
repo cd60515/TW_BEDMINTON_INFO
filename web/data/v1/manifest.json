@@ -1,6 +1,6 @@
 {
   "apiVersion": "v1",
-  "generatedAt": "2026-11-07T21:07:42+08:00",
+  "generatedAt": "2026-11-08T05:55:11+08:00",
   "counts": {
     "venues": 1748,
     "videos": 96,
@@ -8,8 +8,8 @@
     "private": 313,
     "shops": 73,
     "clubs": 37,
-    "pickups": 294,
-    "lineGroups": 429,
+    "pickups": 286,
+    "lineGroups": 433,
     "threads": 0,
     "groups": 0,
     "ptt": 13
@@ -53,10 +53,10 @@
       "count": 18
     },
     "line_groups.json": {
-      "sha": "8642c32716000119",
-      "bytes": 180754,
-      "updatedAt": "2026-11-07T21:07:42+08:00",
-      "count": 429
+      "sha": "746765dbef531ebb",
+      "bytes": 182962,
+      "updatedAt": "2026-11-08T05:55:11+08:00",
+      "count": 433
     },
     "link_status.json": {
       "sha": "5134a5a7380f4175",
@@ -65,10 +65,10 @@
       "count": null
     },
     "pickups.json": {
-      "sha": "54b2a0fb7b5c5648",
-      "bytes": 251832,
-      "updatedAt": "2026-11-07T21:07:03+08:00",
-      "count": 294
+      "sha": "04fda76a6ed26d59",
+      "bytes": 244798,
+      "updatedAt": "2026-11-08T05:54:30+08:00",
+      "count": 286
     },
     "private_venues.json": {
       "sha": "e67d7b6c37241a21",
@@ -77,9 +77,9 @@
       "count": 313
     },
     "ptt.json": {
-      "sha": "87b655bf85f03cf1",
+      "sha": "e7efa8b9bd3b5f04",
       "bytes": 4826,
-      "updatedAt": "2026-11-07T21:06:51+08:00",
+      "updatedAt": "2026-11-08T05:54:18+08:00",
       "count": 13
     },
     "shops.json": {
@@ -119,9 +119,9 @@
       "count": null
     },
     "venues/all.json": {
-      "sha": "16607dd391d763f4",
+      "sha": "62f1508a5451cdf1",
       "bytes": 487240,
-      "updatedAt": "2026-11-07T21:07:42+08:00",
+      "updatedAt": "2026-11-08T05:55:11+08:00",
       "count": 1748
     },
     "iplay": {
@@ -134,19 +134,19 @@
       "updatedAt": "2026-11-06T06:07:46+08:00"
     },
     "far": {
-      "updatedAt": "2026-11-07T21:07:03+08:00"
+      "updatedAt": "2026-11-08T05:54:30+08:00"
     },
     "grass": {
-      "updatedAt": "2026-11-07T21:07:03+08:00"
+      "updatedAt": "2026-11-08T05:54:30+08:00"
     },
     "line": {
-      "updatedAt": "2026-11-07T21:07:42+08:00"
+      "updatedAt": "2026-11-08T05:55:11+08:00"
     },
     "threads": {
       "updatedAt": "2026-11-06T07:30:52+08:00"
     },
     "ptt": {
-      "updatedAt": "2026-11-07T21:06:51+08:00"
+      "updatedAt": "2026-11-08T05:54:18+08:00"
     },
     "youtube": {
       "updatedAt": "2026-11-05T07:00:00+08:00"
