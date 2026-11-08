@@ -1,13 +1,31 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-08T14:06:19+08:00",
+  "updatedAt": "2026-11-08T21:28:41+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794132016.A.E9C.html",
+      "title": "[新聞] 沈伯洋、李洋「雙洋合體」談台北運動驛站",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "臺北市",
+      "author": "charles0939",
+      "postedAt": "2026-11-08T18:00:16+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794120171.A.74A.html",
+      "title": "[新聞] 南韓羽球公開賽封后 An喜迎本季第11座冠",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "iamshana",
+      "postedAt": "2026-11-08T14:42:51+08:00"
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1794045491.A.941.html",
       "title": "[新聞] 棄日本捍衛主場搶本季第11冠「球后」安洗",
