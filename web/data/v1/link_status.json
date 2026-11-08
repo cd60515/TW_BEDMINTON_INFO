@@ -1,1292 +1,4036 @@
 {
-  "checkedAt": "2026-11-05T08:28:18+08:00",
+  "checkedAt": "2026-11-09T06:44:27+08:00",
   "threshold": 2,
   "urls": {
     "https://www.victorsport.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：VICTOR 勝利"
     },
     "https://www.yonex.com/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：YONEX"
     },
     "https://www.lining.com/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：LI-NING 李寧"
     },
     "https://www.mizuno.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：MIZUNO 美津濃"
     },
     "https://www.babolat.com/": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：Babolat"
     },
     "https://www.kumpoo.com/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：KUMPOO 薰風"
     },
     "https://www.momoshop.com.tw/search/searchShop.jsp?keyword=%E7%BE%BD%E7%90%83%E6%8B%8D": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：momo 購物網"
     },
     "https://24h.pchome.com.tw/search/?q=%E7%BE%BD%E7%90%83%E6%8B%8D": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：PChome 24h"
     },
     "https://www.decathlon.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：迪卡儂"
     },
     "https://shopee.tw/search?keyword=%E7%BE%BD%E7%90%83%E6%8B%8D": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：蝦皮購物"
     },
     "https://www.ruten.com.tw/find/?q=%E7%BE%BD%E7%90%83%E6%8B%8D": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：露天拍賣"
     },
     "https://tw.bid.yahoo.com/search/auction/product?p=%E7%BE%BD%E7%90%83%E6%8B%8D": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：Yahoo 奇摩拍賣"
     },
     "https://www.ptt.cc/bbs/Badminton/index.html": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "來源：PTT 羽球板"
     },
     "https://tw.carousell.com/search/%E7%BE%BD%E7%90%83%E6%8B%8D": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：旋轉拍賣 Carousell"
     },
     "https://www.facebook.com/marketplace/search?query=%E7%BE%BD%E7%90%83%E6%8B%8D": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "球具：Facebook Marketplace"
     },
     "https://iplay.sports.gov.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "來源：教育部體育署 全國運動場館資訊網 iPlay"
+    },
+    "https://overturemaps.org/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:43:44+08:00",
+      "fails": 0,
+      "label": "來源：Overture Maps 開放商家資料"
     },
     "https://www.openstreetmap.org/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "來源：OpenStreetMap 開放街圖＋網路整理"
+    },
+    "https://www.farreaching.com.tw/badminton/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:43:44+08:00",
+      "fails": 0,
+      "label": "來源：羽球臨打情報站"
+    },
+    "https://grass.camp/find/taiwan/badminton": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:43:44+08:00",
+      "fails": 0,
+      "label": "來源：GRASS 找伴揪團"
+    },
+    "https://openchat.line.me/tw/search?keyword=%E7%BE%BD%E7%90%83": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:43:44+08:00",
+      "fails": 0,
+      "label": "來源：LINE 社群（公開介紹頁）"
+    },
+    "https://github.com/cd60515/TW_BEDMINTON_INFO/issues/new?template=share-threads.yml": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:43:44+08:00",
+      "fails": 0,
+      "label": "來源：Threads（球友分享）"
     },
     "https://www.youtube.com/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "來源：YouTube 公開教學影片"
     },
     "https://github.com/cd60515/TW_BEDMINTON_INFO/issues/new/choose": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "來源：社群提交（GitHub Issues）"
     },
     "https://github.com/cd60515/TW_BEDMINTON_INFO": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "來源：編輯團隊整理"
     },
     "https://cssc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:27:37+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "場館：臺北市中山運動中心"
     },
     "https://wsjjsc.com.tw/": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "場館：臺北市中正運動中心"
     },
     "https://xysc.teamxports.com/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:37+08:00",
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "場館：臺北市信義運動中心"
     },
     "https://nhsc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:27:37+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:43:44+08:00",
       "fails": 0,
       "label": "場館：臺北市內湖運動中心"
     },
     "http://www.btsport.org.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:39+08:00",
+      "at": "2026-11-09T06:43:45+08:00",
       "fails": 0,
       "label": "場館：臺北市北投運動中心"
     },
     "https://ngsc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:27:39+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:43:45+08:00",
       "fails": 0,
       "label": "場館：臺北市南港運動中心"
     },
     "http://www.slsc-taipei.org/News.aspx": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:39+08:00",
+      "at": "2026-11-09T06:43:45+08:00",
       "fails": 0,
       "label": "場館：臺北市士林運動中心"
     },
     "https://www.daansports.com.tw/zh_TW/index": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:27:39+08:00",
+      "at": "2026-11-09T06:43:45+08:00",
       "fails": 0,
       "label": "場館：臺北市大安運動中心"
     },
     "https://whsc.com.tw/": {
       "s": "broken",
       "code": -1,
-      "at": "2026-11-05T08:28:17+08:00",
-      "fails": 2,
+      "at": "2026-11-09T06:44:23+08:00",
+      "fails": 3,
       "label": "場館：臺北市萬華運動中心"
     },
     "https://www.dtsc-wdyg.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：臺北市大同運動中心"
     },
     "https://wssc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：臺北市文山運動中心"
     },
     "https://www.ymca-xssc.org/?lang=tw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：新生運動館"
     },
     "https://btresort.metro.taipei/Default.aspx": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：臺北捷運北投會館"
     },
     "https://vbs.sports.taipei/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：臺北體育館"
     },
     "http://www.scsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：三重國民運動中心"
     },
     "https://www.zhsc.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：中和國民運動中心"
     },
     "https://www.tcsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：土城國民運動中心"
     },
     "https://www.xzsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：新莊國民運動中心"
-    },
-    "https://lkcsc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
-      "fails": 0,
-      "label": "場館：林口國民運動中心"
     },
     "https://www.ntcslsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：樹林國民運動中心"
     },
     "https://xzcsc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：汐止國民運動中心"
     },
     "https://wstssc.com.tw/": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：淡水國民運動中心"
     },
     "https://lzsc.chanchao.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：蘆洲國民運動中心"
     },
     "http://www.bqsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：板橋國民運動中心"
     },
+    "https://lkcsc.cyc.org.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:23+08:00",
+      "fails": 0,
+      "label": "場館：林口國民運動中心"
+    },
     "https://yhcsc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：永和國民運動中心"
     },
     "https://www.facebook.com/shulinsports/": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：板樹體育館"
     },
     "http://www.t-sports.ntpc.gov.tw": {
       "s": "broken",
       "code": -1,
-      "at": "2026-11-05T08:28:17+08:00",
-      "fails": 2,
+      "at": "2026-11-09T06:44:23+08:00",
+      "fails": 3,
       "label": "場館：新北市新莊體育館"
     },
     "https://www.wulai.ntpc.gov.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：信賢風雨操場"
     },
     "https://www.facebook.com/klccsc/": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：基隆市國民運動中心委由高線實業股份有限公司"
     },
     "https://www.stadium.klcg.gov.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：基隆市立體育館"
     },
     "https://iplay.sports.gov.tw/gyminfo/index/5908": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：基隆市七堵區七堵國小游泳池(館)"
     },
     "https://zlcsc.cyc.org.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：中壢國民運動中心"
     },
     "http://pzsc.chanchao.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：平鎮國民運動中心"
     },
     "http://www.lzsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：桃園市蘆竹國民運動中心"
     },
     "https://tycsc.cyc.org.tw": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：桃園國民運動中心"
     },
     "https://crcc.tycg.gov.tw/cp.aspx?n=19014": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：桃園市區域垃圾焚化廠回饋設施活動中心"
     },
     "https://www.dst.tycg.gov.tw/cl.aspx?n=11711": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：桃園市立綜合體育館"
     },
     "https://www.facebook.com/LuzhuBadminton": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：桃園市立蘆竹羽球館"
     },
     "https://zgcsc.cyc.org.tw": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：新竹市立竹光國民運動中心"
     },
     "https://www.zbsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：新竹縣竹北國民運動中心"
     },
     "https://www.facebook.com/p/%E6%96%B0%E7%AB%B9%E6%9D%B1%E9%8E%AE%E7%AB%8B%E7%BE%BD%E7%90%83%E9%A4%A8-61550564317062/": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：竹東鎮立羽球館"
     },
     "https://www.ntsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：臺中市南屯國民運動中心"
     },
     "http://tndcsc.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:23+08:00",
       "fails": 0,
       "label": "場館：臺中市北區國民運動中心"
     },
     "http://www.west.taichung.gov.tw/": {
-      "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:17+08:00",
-      "fails": 0,
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
       "label": "場館：大益活動中心"
     },
     "https://wsjbcsc.com.tw/": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：彰化縣彰北國民運動中心"
     },
     "http://town.chcg.gov.tw/hsiushui/07other/main.asp?main_id=2315": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：秀水鄉體育館"
     },
     "https://www.puli.gov.tw/": {
       "s": "ok",
       "code": 302,
-      "at": "2026-11-05T08:28:17+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：埔里鎮立綜合球場"
     },
     "https://bggov.yunlin.gov.tw/": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:17+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：北港鎮立體育館"
     },
     "http://yijhu.cyhg.gov.tw/": {
       "s": "broken",
       "code": -1,
-      "at": "2026-11-05T08:28:18+08:00",
-      "fails": 2,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 3,
       "label": "場館：羽球場館"
     },
     "https://www.yhsports.com.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：永華國民運動中心"
     },
     "https://www.facebook.com/jialiBadminton/": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：佳里區羽球館"
     },
     "https://sports.tainan.gov.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：臺南市立新營體育場"
     },
     "https://klyscwdyg.com.tw/": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：苓雅運動中心"
     },
     "https://sports.kcg.gov.tw/": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
-      "fails": 0,
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
       "label": "場館：左營活動中心"
     },
     "https://sports.kcg.gov.tw/index.aspx": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
-      "fails": 0,
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
       "label": "場館：四維羽球場"
     },
     "http://gushan.kcg.gov.tw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：南鼓山聯合里活動中心"
     },
     "http://www.pthg.gov.tw/sandimen/index.aspx": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
-      "fails": 0,
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
       "label": "場館：三地門鄕多功能體育館"
     },
     "https://www.pthg.gov.tw/stadium/Default.aspx": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
-      "fails": 0,
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
       "label": "場館：屏東縣立體育館"
     },
     "https://yilansports.com.tw": {
-      "s": "ok",
-      "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：宜蘭國民運動中心"
     },
     "https://toucheng.e-land.gov.tw/cp.aspx?n=6473": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：頭城鎮立體育館"
     },
     "https://hcs.hl.gov.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：花蓮縣立中正體育館"
     },
     "https://www.phs.gov.tw/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：澎湖縣多功能綜合體育館"
     },
     "https://sport.kinmen.gov.tw/Default.aspx": {
       "s": "restricted",
       "code": -2,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "場館：金湖綜合體育館"
     },
-    "https://www.hrcm.ntpc.gov.tw/About/PublicInfomation/SitsUseRules/SportsVenuesRules/Badminton": {
+    "https://www.facebook.com/141401195935188": {
       "s": "restricted",
-      "code": -2,
-      "at": "2026-11-05T08:28:18+08:00",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：圓山飯店後山，靜園羽球場。"
+    },
+    "https://www.bonny-live.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Bonny Live 波力羽球"
+    },
+    "https://www.facebook.com/203497802995953": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：吉豐羽球館"
+    },
+    "http://www.victorsport.com.tw/index.html?s=2": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：勝利羽球"
+    },
+    "https://www.facebook.com/2403657699865999": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：至善羽球坊"
+    },
+    "http://www.huachn.org/index.htm#news": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：圓環羽球場"
+    },
+    "https://www.facebook.com/286885001433196": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Mucha Riverside Park - badminton"
+    },
+    "https://hjcup.onstart.co/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：華江羽球館"
+    },
+    "https://www.facebook.com/135718193297334": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽球場"
+    },
+    "https://www.facebook.com/108077409040592": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：隼之羽羽球場"
+    },
+    "https://www.facebook.com/1593600567370879": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：華航羽球場"
+    },
+    "https://www.facebook.com/182150278493078": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：三峽長青羽球館"
+    },
+    "https://lin.ee/NL2ukTP": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：辰羽球館"
+    },
+    "https://2020badminton.blogspot.com/": {
+      "s": "ok",
+      "code": 204,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：三蘆羽球館"
+    },
+    "https://www.tiktok.com/@wingsmori": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：森域羽球運動會館"
+    },
+    "http://www.yudao.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中和羽道館"
+    },
+    "https://www.facebook.com/193290820716268": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：向陽羽球館"
+    },
+    "https://www.facebook.com/101745072469418": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：寰宇羽球中心"
+    },
+    "https://reurl.cc/zAOvye": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：活力羽球館"
+    },
+    "http://www.healthsport.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：健康羽球館"
+    },
+    "https://www.facebook.com/348325155040996": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：易羽球館"
+    },
+    "https://www.facebook.com/295668593630161": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Yu葉羽羽球運動館"
+    },
+    "https://www.facebook.com/2014468545545845": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：楓育羽球館"
+    },
+    "https://lin.ee/pVoO5DH": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：樂穎羽球館"
+    },
+    "http://www.lienyubc.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：聯友羽球館"
+    },
+    "http://www.flyer.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：飛颺羽球館"
+    },
+    "https://www.facebook.com/100567669139355": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：19號羽球館"
+    },
+    "https://www.surveycake.com/s/4o7e9": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：僑中羽球館"
+    },
+    "https://www.facebook.com/101549748011808": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：動感羽球館"
+    },
+    "https://www.facebook.com/109321265347640": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：板橋羽鞋"
+    },
+    "https://www.facebook.com/117582804552277": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：秘密基地羽球館"
+    },
+    "https://maps.app.goo.gl/Yey9bscsPnSEx2kJ7?g_st=com.google.maps.preview.copy": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽人羽球館"
+    },
+    "https://lin.ee/iYMXhpa": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：諾亞體育會館-後門"
+    },
+    "https://www.facebook.com/1741286096122718": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：重新羽球團"
+    },
+    "http://www.mega-sport.com.tw/index.html": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：MSI 1號館"
+    },
+    "https://www.facebook.com/475289722676930": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：動態羽球館"
+    },
+    "https://www.facebook.com/499402793450438": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：騰飛羽球 永和店"
+    },
+    "https://www.facebook.com/202711706424161": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Js劍新羽球館"
+    },
+    "https://www.facebook.com/102120682704900": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：快羽會館"
+    },
+    "https://www.facebook.com/708542925683681": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：拾陸羽 羽球空間 官方Line預約"
+    },
+    "https://www.facebook.com/828113083707527": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：泰羽羽球館"
+    },
+    "https://www.facebook.com/314117949281317": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：同心圓羽球館"
+    },
+    "http://badminton.topec.com.tw/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：蘆洲羽球館"
+    },
+    "https://www.facebook.com/376276542749713": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：勁丰羽球館"
+    },
+    "https://www.facebook.com/106783607510885": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：鶯歌羽球館"
+    },
+    "https://www.facebook.com/130590717052336": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：國防管理學院-羽球館"
+    },
+    "https://www.facebook.com/529521383756839": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：群鷹羽球場"
+    },
+    "https://www.facebook.com/1595435754095388": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：五峰山戶外羽球場"
+    },
+    "https://www.facebook.com/159988414067125": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：水利會羽球場"
+    },
+    "https://www.facebook.com/110007437094535": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：新樹羽球"
+    },
+    "https://www.facebook.com/1417970368321331": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：高手羽球館"
+    },
+    "https://line.me/R/ti/p/@138tywfp": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：飛·羽球館H-Flying"
+    },
+    "https://www.hrcm.ntpc.gov.tw/About/PublicInfomation/SitsUseRules/SportsVenuesRules/Badminton": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "民營球館：福和橋下羽球場"
+    },
+    "http://yahoo.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：基隆市羽球館"
+    },
+    "https://www.facebook.com/409260702279917": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：GOAT羽球館"
+    },
+    "https://www.facebook.com/100532195681354": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中原羽球會館"
+    },
+    "https://lin.ee/BMJXfor": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中大羽球館"
+    },
+    "https://www.facebook.com/1945039562403280": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：威肯羽球館"
+    },
+    "https://www.facebook.com/101507962315172": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：東泰羽球會館"
+    },
+    "https://www.facebook.com/107538301791547": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：欣動羽球社(非球館)"
+    },
+    "https://lin.ee/yMwh1c3N": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽宙人球館"
+    },
+    "https://www.facebook.com/113293156719257": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：翼升羽球館"
+    },
+    "https://www.facebook.com/112143216844303": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：動力羽球館"
+    },
+    "https://page.line.me/733siaai": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：高飛羽球訓練中心"
+    },
+    "https://maps.app.goo.gl/ThK8t9oGBH96RyrE7": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：高飛羽球訓練中心 正義旗艦館"
+    },
+    "https://www.sportxai.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：動智AI羽球體驗中心"
+    },
+    "https://lin.ee/I7EFPEF": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽峯羽球館"
+    },
+    "https://www.facebook.com/637357839454225": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽研所羽球館"
+    },
+    "https://lin.ee/wotnAfZ": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Sklub運動俱樂部-桃鶯店（羽球場）"
+    },
+    "https://www.ytsport.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Yt Sport 新農羽球館"
+    },
+    "https://portaly.cc/megasport": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：MSI 湖畔2號館"
+    },
+    "https://ec.bookfastpos.com/9qa537953W/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：富暘羽球育樂旗艦館"
+    },
+    "https://www.facebook.com/190991497599696": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：蘆竹鄉羽球館"
+    },
+    "https://www.instagram.com/325_power?igsh=YnloZDVybjJ4eWVs": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中豐羽球館"
+    },
+    "https://www.facebook.com/107564361469990": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：橋下羽球場"
+    },
+    "https://www.facebook.com/104409042262715": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：桃園天德道院羽球場"
+    },
+    "https://www.facebook.com/135222906548444": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：林口勝光羽球館"
+    },
+    "https://www.facebook.com/1670006983286324": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：龍安街橋下羽球場"
+    },
+    "https://www.facebook.com/128436683696110": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：名人堂運動坊"
+    },
+    "https://arena-232.business.site/": {
+      "s": "suspect",
+      "code": 404,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：金羽羽球館"
+    },
+    "https://www.facebook.com/349844988529954": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽樂球館"
+    },
+    "https://www.facebook.com/451985138564922": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽球館"
+    },
+    "http://cafe.bookzone.com.tw/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：銨科羽球 An-Call【羽球教學／羽球場租／羽球商品】"
+    },
+    "https://www.facebook.com/626369033901758": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：EnjoyFly享飛羽球館"
+    },
+    "https://hsp.sportxai.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：動智Ai羽球 （竹科館）"
+    },
+    "https://sunny.ainfolink.net/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：晴天羽球館"
+    },
+    "http://www.facebook.com/%E5%9B%9B%E5%AD%A3%E7%BE%BD%E7%90%83%E9%A4%A8-113350563547955": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：四季羽球館"
+    },
+    "https://line.me/ti/g2/ab_4zgS_7ShUY6kbqYSQqL8NEgVYprvY_Cxj0w?utm_source=invitation&utm_medium=link_copy&utm_campaign=default": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：振翔羽球館"
+    },
+    "https://www.facebook.com/100602405404140": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：凌駕羽球館"
+    },
+    "https://www.facebook.com/213205535361836": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：維特運動休閒館"
+    },
+    "https://www.facebook.com/876623048869356": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Y-power 羽球館"
+    },
+    "https://peijiebadminton.cyberbiz.co/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：沛傑羽球會館"
+    },
+    "https://lin.ee/pOPli64": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：名威羽球館"
+    },
+    "https://www.facebook.com/540397549165500": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：甲組羽球館苑裡館"
+    },
+    "https://www.facebook.com/102995808731369": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：丞風羽球舘"
+    },
+    "https://www.facebook.com/1083205958204255": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：甲組羽球館竹南館"
+    },
+    "https://www.facebook.com/164953773567987": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：竹南羽球舘"
+    },
+    "https://vip.hengfu-i.com/index.php?dr_idno=00214533": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：成功科技羽球館"
+    },
+    "https://www.facebook.com/542381425969127": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：佛雷斯羽球專賣店-台中博館店"
+    },
+    "https://www.facebook.com/131274263672031": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中信羽球館"
+    },
+    "https://lin.ee/RjfIElc": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：冠軍永安羽球館-羽球體育用品專賣"
+    },
+    "http://donyuan-sport.com": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：台中東原羽球館"
     },
     "http://www.metropolitan888.com/": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
-      "label": "民營球館：大都會羽球館"
+      "label": "俱樂部：大都會羽球"
     },
-    "https://www.da-siang.idv.tw/": {
+    "https://maps.app.goo.gl/Gr72ByXsv6Umzko79?g_st=ic": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：帥一成羽球館(全面採線上預約)"
+    },
+    "https://www.facebook.com/811373272306708": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：忠興羽球館"
+    },
+    "https://www.facebook.com/217181958448789": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：普那羽球運動會館"
+    },
+    "https://www.facebook.com/113649585378766": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：佳青羽球館"
+    },
+    "http://www.da-siang.idv.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "民營球館：大翔羽球館"
+    },
+    "https://www.facebook.com/119520383994262": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：民昇羽球二館"
+    },
+    "https://linktr.ee/chuanyu_sport": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：傳羽運動館"
+    },
+    "https://www.facebook.com/114325535314801": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：欣欣羽球館"
+    },
+    "http://www.cysports.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：群岳羽球概念館"
+    },
+    "https://www.facebook.com/302133323286229": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽球館"
+    },
+    "http://www.guichung.com.tw/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：蓋強羽球館"
+    },
+    "https://www.facebook.com/249977695881587": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：黎明羽球館"
+    },
+    "https://reurl.cc/Q4ZGy9": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：后里丞鈺羽球館"
+    },
+    "https://www.facebook.com/628007507632009": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：貝名頓羽球館"
+    },
+    "https://www.facebook.com/199904096704225": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中友羽球館"
+    },
+    "https://www.facebook.com/142701762459638": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：冠軍國光羽球館"
+    },
+    "https://www.facebook.com/1074716765723987": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：大里翊薪羽球館"
+    },
+    "https://www.facebook.com/393267014101834": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：磐石羽球運動會館"
+    },
+    "https://www.facebook.com/1008032879052510": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽神同行 - 台中智能24h羽球館｜大里德芳館｜自行線上預約制"
+    },
+    "https://www.facebook.com/186862968018320": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：鴻毅國際羽球館"
+    },
+    "https://www.facebook.com/112385418394735": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Luyang Badminton Court"
+    },
+    "https://line.me/R/ti/p/%40tnn9211e": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：永和羽球館"
+    },
+    "https://www.facebook.com/356035681156153": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：順豐羽球館"
     },
     "https://www.facebook.com/新光羽球生活會館-101809223229128/": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "民營球館：新光羽球館"
     },
-    "http://www.facebook.com/sonyssports/": {
+    "https://www.facebook.com/626345187391157": {
       "s": "restricted",
       "code": 0,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
+      "label": "民營球館：新福羽球館"
+    },
+    "https://www.facebook.com/138542806213423": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：福慧羽球館"
+    },
+    "https://www.facebook.com/210043382195210": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽勝-羽球館"
+    },
+    "https://lin.ee/pZSrwGM": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽羽羽球館｜24小時營業｜自助化開場｜"
+    },
+    "https://www.facebook.com/159100390810962": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽辰羽毛球館"
+    },
+    "https://www.facebook.com/833897553321087": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：大智 羽球館"
+    },
+    "http://www.6519.com.tw/": {
+      "s": "suspect",
+      "code": 500,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：清水樂活羽球館基地"
+    },
+    "https://www.facebook.com/1454843638085663": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：六氧羽球館"
+    },
+    "https://www.facebook.com/112997946903565": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：佛雷斯羽球館"
+    },
+    "https://www.facebook.com/1764055607154782": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：洲際羽球館"
+    },
+    "https://www.facebook.com/824977251176299": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：高崎羽球館"
+    },
+    "https://www.facebook.com/103656732487246": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：台中展躍羽球館"
+    },
+    "https://lin.ee/fwz3fRb": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：帥宏羽球館"
+    },
+    "https://vip.hengfu-i.com/index.php?dr_idno=95412713": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽神同行 - 台中智能24h羽球館｜神岡神洲館｜自行線上預約制"
+    },
+    "https://www.twdaher.com:1051/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：豐神Ai智能羽球館-台中24小時羽球館推薦"
+    },
+    "http://www.mrcoach.com.tw/Store_Info_Detail.asp?ID=8BA9558BC2008A864B06443E4B0876D2&UType=Search&Item2=&Addr2=402%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E5%8D%97%E8%B7%AF178%E8%99%9F": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：台中民生羽球館"
+    },
+    "https://www.facebook.com/100177851627378": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：大新羽球館"
+    },
+    "https://www.facebook.com/271865892831154": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：臺中市羽球館"
+    },
+    "https://court.napaofficial.com/#/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：NAPA.Pickleball"
+    },
+    "https://www.facebook.com/145737005597370": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中科活力羽球館"
+    },
+    "https://www.facebook.com/462541677112568": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：永翔羽球館"
+    },
+    "https://www.facebook.com/465086930028806": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽奏羽球館（預約請私訊FB/Line)（24H開放/全館空調/優質設備/運動休閒/競技/教練課/裝備周邊）"
+    },
+    "https://www.facebook.com/191475924661539": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽揚羽球會館"
+    },
+    "https://www.facebook.com/189959471039177": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：豐東羽球館"
+    },
+    "https://www.facebook.com/471138010008403": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽球新手村"
+    },
+    "https://www.facebook.com/120153374736029": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：田新羽球館"
+    },
+    "https://www.facebook.com/971415639398563": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：亞伯林羽球館瓦瑤店"
+    },
+    "https://www.facebook.com/105112521553293": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：東勢羽毛球館"
+    },
+    "https://www.facebook.com/515580141643050": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：亞柏林羽球館"
+    },
+    "https://www.facebook.com/767195876469817": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽智波24小時無人化羽球館"
+    },
+    "https://www.instagram.com/flyer.tw?stkn=eHo0ZmFhNWRzMXN4&utm_source=qr": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：飛爾運動館｜羽球・匹克球｜24小時｜ Flyer Sports Center"
+    },
+    "https://lin.ee/EIYfHvR": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：享動羽球匹克球智能館"
+    },
+    "https://www.facebook.com/102933984674354": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：峰奇羽球瑜珈館峰奇雷雕"
+    },
+    "https://www.facebook.com/222534064273527": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：玖叁羽球館"
+    },
+    "https://i-play.sbs/weekend": {
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：嘉興羽球館員林店"
+    },
+    "https://lin.ee/LxHPx2f": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：歪歪羽球"
+    },
+    "https://www.facebook.com/782418378811903": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：可騰運動訓練"
+    },
+    "https://www.facebook.com/104915889349107": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：同心羽球館"
+    },
+    "https://guen.ainfolink.net/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：格恩羽球館 24HR"
+    },
+    "https://www.facebook.com/190397758028765": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：極限羽球館（請點選網站加入官方Line）"
+    },
+    "https://www.google.com/maps/place/%E7%BF%94%E6%88%B0%E7%BE%BD%E7%90%83%E9%A4%A8/@24.0748383,120.5152369,17z/data=!3m1!4b1!4m6!3m5!1s0x346947910c128b4b:0x8e832323d1201b06!8m2!3d24.0748383!4d120.5178118!16s%2Fg%2F11v15x6yc6?authuser=0&entry=ttu": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：翔戰羽球館"
+    },
+    "https://www.facebook.com/475994652573804": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：翔揚羽球訓練中心"
+    },
+    "https://www.facebook.com/891283917411964": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：亞伯林羽球館-彰化秀水店｜24小時羽球館｜彰化羽球館｜秀水羽球館｜全自助羽球館"
+    },
+    "https://www.facebook.com/969590559561408": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：國豐羽毛球、匹克球埸館"
+    },
+    "https://vip.hengfu-i.com/index.php?dr_idno=60379713": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：茂羽運動休閒館"
+    },
+    "https://www.facebook.com/112063516961811": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：順風羽球館員林館 24h"
+    },
+    "https://www.facebook.com/257864834708186": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：彰化體育館羽球場"
+    },
+    "https://www.facebook.com/192312637493638": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：中興新村羽球桌球館"
+    },
+    "https://shopee.tw/kaihsin2010?smtt=0.6735290-1658655463.9": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：維農羽球館"
+    },
+    "https://www.facebook.com/138733519571976": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：順風羽球館"
+    },
+    "https://yaodongbadminton.weebly.com/": {
+      "s": "suspect",
+      "code": 404,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：躍動羽球館"
+    },
+    "https://lin.ee/UL1F2Fq": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：貓羅羽球館"
+    },
+    "https://www.facebook.com/1567636746840820": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：環電羽球場（限員工使用）"
+    },
+    "https://www.facebook.com/233692256662256": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：宏興羽球場"
+    },
+    "https://one.onegame.tw/#/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：超越羽球館｜24小時營業｜自助開場"
+    },
+    "https://page.line.me/871zkorc": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：嘉興羽球館 斗六館"
+    },
+    "http://tw.myblog.yahoo.com/jw!3TxlxmmeGRkbK7dy0CL_/article?mid=27": {
+      "s": "suspect",
+      "code": 404,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "民營球館：怡心園羽球舘"
+    },
+    "https://www.facebook.com/100282595482172": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Humei Healthy Badminton Hall"
+    },
+    "https://www.facebook.com/1546323809005789": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：上新羽球館"
+    },
+    "https://www.facebook.com/103846594790939": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：嘉鴻羽球館"
+    },
+    "https://www.facebook.com/101312268628142": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：香湖羽球場"
+    },
+    "https://lin.ee/1QKIBaA": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：嘉得羽球館"
+    },
+    "https://www.facebook.com/635807529616331": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：和緯羽球館"
+    },
+    "https://targetsports.cyberbiz.co/pages/%E5%AF%A6%E9%AB%94%E9%96%80%E5%B8%82": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：艾傑羽球館"
+    },
+    "https://www.facebook.com/316075114914567": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：飛迅羽球仁德旗艦館"
+    },
+    "https://inline.app/booking/-NaJxj4QoG8-n2Oiwh-6:inline-live-3": {
+      "s": "restricted",
+      "code": 403,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：順天羽球館"
+    },
+    "https://www.facebook.com/770862172785613": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：大河羽球館"
+    },
+    "https://www.facebook.com/106043654106945": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：新力羽球南科館"
+    },
+    "https://www.facebook.com/103772297722422": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：北安羽球會館"
+    },
+    "https://court.allright-tech.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：東和運動休閒館（東和羽球館 24h）"
+    },
+    "https://www.facebook.com/1273753152742112": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：翔友羽球館"
+    },
+    "https://lin.ee/Qf0OjNd": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：藏龍羽球南定館"
+    },
+    "https://www.facebook.com/1462578890707025": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：樹谷活力館羽球場"
+    },
+    "http://zh.wikipedia.org/wiki/%E7%94%98%E6%A6%AE%E7%9B%8A": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：超強羽球館"
+    },
+    "https://lin.ee/464gjSW": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：金成羽球館"
+    },
+    "https://www.facebook.com/116401781478959": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Yuchao Badminton Sports and Leisure Center - South Science P"
+    },
+    "https://www.facebook.com/104877912509738": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：新力羽球新市館"
+    },
+    "https://badminton.yuchung.com.tw/index.php": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽潮羽球運動休閒館 新市館"
+    },
+    "https://www.facebook.com/117235074983213": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Zhong Ai Badminton"
+    },
+    "https://www.facebook.com/203402846342193": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：華中羽球館"
+    },
+    "https://changlong.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：藏龍羽球概念館"
+    },
+    "https://line.me/ti/p/NRJmQhCaAv": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：亨通運動休閒館(線上系統預約制)"
+    },
+    "https://www.facebook.com/384438518428063": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：勁拍羽球館"
+    },
+    "https://www.facebook.com/282826921584450": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：千翔羽球館"
+    },
+    "https://www.facebook.com/656552947536604": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：嘉世羽球-永康二館"
+    },
+    "https://www.facebook.com/630796857556020": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：太子羽球訓練中心"
+    },
+    "https://badminton.yuchung.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽潮羽球運動休閒館"
+    },
+    "https://www.facebook.com/114532384894034": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：裕興羽球館"
+    },
+    "https://eaglerising.allright-tech.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：鷹揚羽球館"
+    },
+    "http://www.mamimicyu.url.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：達陣羽球館製麵廠連結網頁"
+    },
+    "https://www.facebook.com/790252014164081": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽潮羽球運動休閒館 仁德館"
+    },
+    "https://www.facebook.com/104026514825568": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：翊捷羽球館"
+    },
+    "https://www.facebook.com/101611064813377": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：騰躍羽球台南永康館"
+    },
+    "http://jaho.cc/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：加賀羽球館"
+    },
+    "https://www.facebook.com/101881184961457": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 Vip館"
+    },
+    "https://www.facebook.com/1654367404866682": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 三民館24h(羽球用品專賣店)"
+    },
+    "https://www.facebook.com/791892414016947": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 民族館24h(羽球用品專賣店)"
+    },
+    "https://www.facebook.com/216959038165802": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 高醫館 24h"
+    },
+    "https://www.facebook.com/176321029109084": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：東尼羽球"
+    },
+    "https://www.facebook.com/277861078750051": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：More複合式羽球館"
+    },
+    "https://www.facebook.com/105078782465012": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 仁武館24h"
+    },
+    "https://lin.ee/jQjVNsG": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：德蔻換鞋羽球館"
+    },
+    "http://class.ruten.com.tw/user/index00.php?s=sonyssports": {
+      "s": "suspect",
+      "code": 400,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
       "label": "民營球館：新力羽球館"
+    },
+    "https://www.facebook.com/111235714766429": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽利羽球館"
+    },
+    "https://www.facebook.com/106656295495336": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：翔豐羽球工坊"
+    },
+    "https://www.facebook.com/111213418003369": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：大將羽球運動會館"
+    },
+    "https://www.facebook.com/108037771426595": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Kai Fu 凱富羽球會館"
+    },
+    "https://reurl.cc/oVKn4v": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：PF羽球概念館"
+    },
+    "https://lin.ee/rB36vrp": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：嘉世羽球-高雄區"
+    },
+    "https://www.facebook.com/574658452397785": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：大寮新力 桌、羽球館. 櫃檯營業時間（電話接聽） 平日15：00-23：00 假日 9：00-23：00"
+    },
+    "https://www.facebook.com/1113820788476290": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：揪羽球工坊"
+    },
+    "https://www.facebook.com/101539092990077": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：瘋羽球館"
+    },
+    "http://www.facebook.com/movingbadminton": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：大高雄羽球館大社館"
+    },
+    "https://www.facebook.com/speed.sweat": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：超速羽球館大社館"
+    },
+    "https://www.facebook.com/854356821097884": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：頂尖羽球館"
+    },
+    "https://www.instagram.com/sony_badminton_gangshan/": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：新力羽球岡山館"
+    },
+    "https://www.facebook.com/227676883757453": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：滾水羽球本洲舘"
+    },
+    "https://www.facebook.com/wumo5859969": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：wumo羽球館"
+    },
+    "https://www.facebook.com/293238708279457": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館"
+    },
+    "https://www.facebook.com/641371625735449": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 文藻館24h"
+    },
+    "https://www.facebook.com/507223869148988": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 高鐵館24h"
+    },
+    "https://www.facebook.com/238025846345006": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：康橋羽球會館"
+    },
+    "https://reurl.cc/Xk9xjj": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：松上羽球館"
+    },
+    "https://www.facebook.com/HongJuBadminton": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：宏如羽球 全方位運動館"
+    },
+    "https://www.facebook.com/545966389070002": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：力羽美羽球會館"
+    },
+    "https://www.facebook.com/391932657340393": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：戰將羽球（楠梓館）"
+    },
+    "https://www.facebook.com/profile.php?id=61563434460278": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：藏龍羽球楠橋館"
+    },
+    "https://www.threads.com/@taranis_0?invite=0": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：塔瑞尼斯羽球館"
+    },
+    "https://www.facebook.com/1035319033299352": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：正義羽球館"
+    },
+    "http://www.guenshuei.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：滾水羽球燕巢館"
+    },
+    "https://www.facebook.com/profile.php?id=100089027139170&mibextid=ZbWKwL": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：藏龍羽球旗美館"
+    },
+    "https://portaly.cc/Sonybadminton": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：路竹新力羽球"
+    },
+    "https://www.facebook.com/241541926193468": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：優勢羽球休閒館"
+    },
+    "https://www.facebook.com/1171471252705346": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 鳥松館24h(羽球用品專賣店)"
+    },
+    "https://lin.ee/GkktWWW": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：建至羽球館"
+    },
+    "https://www.facebook.com/108200957373393": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：豐嶸神力羽球館"
+    },
+    "https://www.facebook.com/104794719088682": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Awebang Badminton"
+    },
+    "https://www.facebook.com/101000369686311": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 鳳山2館 24h"
+    },
+    "https://www.facebook.com/2170480826534208": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：南區羽球會館 鳳山館24h"
+    },
+    "https://portaly.cc/Yuni777": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：Yuni羽球埸"
+    },
+    "https://www.facebook.com/190787634289121": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：仁武後安羽球館"
+    },
+    "https://www.facebook.com/434585646597032": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽毛球場"
+    },
+    "https://www.facebook.com/210954746124810": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：台電羽球館"
+    },
+    "https://www.facebook.com/140859482662225": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：鳳山羽球場"
+    },
+    "http://www.guenshuei.com.tw/SHIDA/index.html": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：世大羽球館"
+    },
+    "https://lin.ee/uaiA4V7": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：屏東市信義羽球館"
+    },
+    "https://www.facebook.com/556653837525897": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：星勝羽球運動館"
+    },
+    "https://www.facebook.com/100376995870646": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：優活桌羽球館"
+    },
+    "https://www.facebook.com/102088407024674": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：夢想羽球社館"
+    },
+    "https://www.facebook.com/656025100933779": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：東峰羽球館"
+    },
+    "https://www.facebook.com/204152836294109": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羅東鎮羽毛球館"
+    },
+    "https://www.facebook.com/201892899851512": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：冠羽羽球館"
+    },
+    "https://vip.hengfu-i.com/index.php?dr_idno=60246067": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：羽勁羽球館"
+    },
+    "https://www.facebook.com/136552089746230": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：台東東海羽球館"
+    },
+    "https://www.facebook.com/101344921336035": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：東海羽球館"
+    },
+    "https://www.facebook.com/105361384935974": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "民營球館：東立羽球館"
+    },
+    "https://reurl.cc/4Qzo7L": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：一線入魂羽球概念店 Yi Xian Ru Hun – Badminton Pro Shop"
+    },
+    "https://www.facebook.com/140764942610938": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：一支獨秀羽球工坊"
+    },
+    "http://shopee.tw/chillingsports": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：丘林體育Chilling 羽球 | 匹克球 專業店 Badminton & Pickleball Shop"
+    },
+    "https://www.liyangsports.com/zh-TW": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：力揚體育 羽球店"
+    },
+    "https://www.facebook.com/205415002994957": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：鐵哥的羽球專賣店"
+    },
+    "https://www.facebook.com/108988822288120": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：李寧羽球專賣店"
+    },
+    "https://www.instagram.com/speedy_x_timely/": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：佐澍網羽球"
+    },
+    "https://www.facebook.com/228077344517433": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：飛達羽球專賣店"
+    },
+    "https://web.hocom.tw/h/?key=107ky": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：羽球世家體育用品社"
+    },
+    "https://www.facebook.com/377460689380362": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：舞動線魂 dL badminton"
+    },
+    "https://www.facebook.com/103913169406368": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：羽雁體育羽球專賣"
+    },
+    "https://www.bestline.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：貝睞運動 Bestline 專業羽球"
+    },
+    "https://www.facebook.com/148938579192937": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：卓瀚羽球專賣店"
+    },
+    "https://www.facebook.com/1569463966442876": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：羽人碼頭羽球工坊"
+    },
+    "https://www.facebook.com/330471866825085": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：李寧羽球專賣店-汐止門市"
+    },
+    "http://sporting-goods-store-576.business.site/": {
+      "s": "suspect",
+      "code": 404,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "球具店：吉茗羽球運動用品"
+    },
+    "https://www.instagram.com/lininghunter?igsh=ZmZybGRzZ2lpaW81&utm_source=qr": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：獵人羽球工廠"
+    },
+    "https://liff.line.me/1645278921-kWRPP32q/?accountId=880omnem": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：PoLar 伯樂羽球工作室"
+    },
+    "https://www.facebook.com/431426433726162": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：展躍羽球專賣店-平鎮店"
+    },
+    "https://linktr.ee/sosa.badminton": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：SOSA Badminton Supermarket"
+    },
+    "https://www.facebook.com/1464463817200001": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：噹噹羽球販賣店"
+    },
+    "https://shopee.tw/heart638": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：銨科羽球運動用品"
+    },
+    "https://www.facebook.com/1411438032451691": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：SOSA羽球超市"
+    },
+    "https://www.liningtw.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：青川羽球工廠"
+    },
+    "https://www.facebook.com/319341844798791": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：Mita Badminton Shop"
+    },
+    "https://www.facebook.com/107331417572814": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：云陽羽球工廠"
+    },
+    "https://www.instagram.com/eyeing_badminton?igsh=OGFldHpmNDVmMGVr": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：艾町 羽球用品專賣店"
+    },
+    "https://www.facebook.com/383392125590618": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：三喬羽王羽球專賣店"
+    },
+    "https://www.facebook.com/251564525051046": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：羽海羽球專賣店"
+    },
+    "https://www.facebook.com/BOSSBADMINTON": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：BOSS Badminton Nantun Store"
+    },
+    "https://shopee.tw/birdman2023": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：鳥人體育 羽球用品專賣店"
+    },
+    "https://www.facebook.com/643274732399107": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：喬羽羽球專賣店"
+    },
+    "https://www.facebook.com/689104344293905": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：李寧羽球專賣店-向上門市"
+    },
+    "https://www.facebook.com/196760143705651": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：格志羽球專賣"
+    },
+    "https://www.facebook.com/188284581264604": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：尚勇羽球體育用品社"
+    },
+    "https://www.facebook.com/684958481361579": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：熊羽球裝備舖"
+    },
+    "http://tw.user.bid.yahoo.com/tw/booth/Y9626420029": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：晴明羽球福利社"
+    },
+    "https://www.facebook.com/102203768987020": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：吸引力羽球專賣店"
+    },
+    "https://www.facebook.com/105760794380629": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：佐京羽球商店"
+    },
+    "http://renyuanliu7.pixnet.net/blog": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：泉勝羽球體育用品社"
+    },
+    "https://page.line.me/006oxgne": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：TJ羽球工作室"
+    },
+    "https://tw.bid.yahoo.com/tw/booth/Y7385308013": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：佳峰羽球"
+    },
+    "https://www.facebook.com/180551031816267": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：鯨•羽球工作室"
+    },
+    "https://www.facebook.com/677506525602908": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：葉氏悟羽羽球用品專賣店 北成店"
+    },
+    "https://shopee.tw/xinpower": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：新動力體育專賣店 - 台南 安南 專業鞋店推薦 運動鞋專賣首選 工作鞋好評 優質防護鞋 防穿刺塑鋼安全鞋 高CP值 廚師"
+    },
+    "https://www.facebook.com/703310373345887": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：葉氏悟羽羽球用品專賣店"
+    },
+    "https://www.facebook.com/106136045135834": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：南部焦點羽球"
+    },
+    "https://www.facebook.com/103770018091692": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：東區體育羽球用品專賣店"
+    },
+    "https://www.facebook.com/309694733096137": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：騰躍羽球用品"
+    },
+    "https://www.facebook.com/104373467611910": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：群岳體育用品概念店-台南店"
+    },
+    "https://www.facebook.com/100729335712142": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：CK Badminton Studio"
+    },
+    "https://www.facebook.com/250502634972956": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：力羽美羽球專賣店"
+    },
+    "https://www.facebook.com/486434778774663": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：大同體育網羽球專賣店"
+    },
+    "https://www.jnice.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：久奈司展售中心 (羽球拍｜羽球｜匹克球｜球拍袋｜運動服飾)"
+    },
+    "https://shopee.tw/chengdawei?smtt=0.0.9": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：毛利羽球事務所"
+    },
+    "https://page.line.me/634pqahz": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：鋒羽羽球專賣店"
+    },
+    "https://shopee.tw/weiweichiachia?smtt=0.0.9": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：駿翔羽球用品專賣店｜楠梓羽球｜羽球專門"
+    },
+    "https://www.facebook.com/104501151681996": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：初應羽球高雄概念店"
+    },
+    "https://www.facebook.com/310525142388217": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：啟利羽球"
+    },
+    "https://www.facebook.com/401134886603685": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：有力羽球專賣店"
+    },
+    "http://Shopee.tw/s98105241": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：英明羽球專賣店"
+    },
+    "https://www.facebook.com/149132708578963": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：鳳西羽球體育用品"
+    },
+    "https://www.facebook.com/Wstudio.TWofficial": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：W Studio羽球專業工作室"
+    },
+    "http://www.prosportstw.com/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "球具店：Pro羽球專賣店 (專業球拍穿線｜潮流羽球用品｜韓國羽球服飾｜羽球教學）"
+    },
+    "https://www.facebook.com/104375079184585": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：喔！鷹羽球ALL-in羽球用品店"
+    },
+    "https://www.facebook.com/236346503410629": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：羽鴻體育用品 羽球"
+    },
+    "https://shopee.tw/windy8410055": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：南北體育網羽球專賣店"
+    },
+    "https://shopee.tw/trueiinbadmintontaiwan": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：TRUEiin Badminton Taiwan"
+    },
+    "https://www.facebook.com/102295005049923": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：世昕體育用品羽球專賣店"
+    },
+    "https://www.facebook.com/1006295272713976": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：名家體育羅東店 網球羽球專門店"
+    },
+    "http://fb.me/Daniel620505": {
+      "s": "suspect",
+      "code": 400,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "球具店：Daniel羽球用品專賣店"
+    },
+    "https://www.facebook.com/272219924635899": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：大雄網羽球專賣店"
+    },
+    "http://facebook.com/HESHENGbadminton": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "球具店：合昇羽球用品專賣店"
+    },
+    "http://www.tsbadminton.url.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：中華全民羽球發展協會tsba"
+    },
+    "http://www.ctb.org.tw/index.asp": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：中華民國羽球協會"
+    },
+    "https://www.facebook.com/217956522074307": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：歡喜西園羽毛球隊"
+    },
+    "https://www.facebook.com/125968630598890": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：新羽力羽球俱樂部"
+    },
+    "https://www.facebook.com/632415239949330": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：拓源羽球俱樂部TY badminton Club"
+    },
+    "https://line.me/ti/g2/MYmEKsx8XPQ1rHqX44wvgBdbQKHHtvmU7Yi2fQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：Aceplay 艾斯沛羽球學院"
+    },
+    "https://www.facebook.com/1915857041976857": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：大頭&蜻蜓 幼兒運動課程 PushBike、腳踏車、幼兒羽球、幼兒運動核心"
+    },
+    "https://chillbadminton.com.tw/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：輕鬆羽球俱樂部 Chill Badminton Club"
+    },
+    "https://www.facebook.com/335740916284368": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：奧森羽球學院"
+    },
+    "http://blog.xuite.net/changtengteam/twblog": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "俱樂部：長藤羽球隊"
+    },
+    "https://www.facebook.com/234825483334398": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：同心羽球隊 - 新北蘆洲"
+    },
+    "https://www.facebook.com/109501107460862": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：阿銘教練羽球教室"
+    },
+    "https://www.facebook.com/555897134274635": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：基隆市體育會羽球委員會"
+    },
+    "https://www.facebook.com/2062430314077903": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：深美羽球"
+    },
+    "http://MINGJIA_BADMINTON.COM/": {
+      "s": "suspect",
+      "code": -1,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 1,
+      "label": "俱樂部：名家羽球專業訓練中心"
+    },
+    "https://www.facebook.com/2746430258720010": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：中壢快樂動力羽球俱樂部"
+    },
+    "https://lin.ee/fUiF7XgP": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：尋羽球"
+    },
+    "https://www.facebook.com/1590601777837488": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：竹北市體育會羽球委員會 Zbc"
+    },
+    "https://www.facebook.com/1046654815359845": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：動滋動滋羽球隊"
+    },
+    "https://www.facebook.com/709510766170613": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：BOSS羽球西屯店"
+    },
+    "https://www.facebook.com/1342007082587740": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：Flex Badminton Hall"
+    },
+    "https://www.youtube.com/channel/UC3iLRCEBkNQlnJaa1WR2nrg": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：嘉義香湖羽球俱樂部"
+    },
+    "https://www.facebook.com/1460269237564410": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：飛迅羽球練習場"
+    },
+    "https://www.instagram.com/bloc.114/": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：羽球聯盟"
+    },
+    "https://www.facebook.com/183752745102848": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：關廟羽球俱樂部"
+    },
+    "https://www.facebook.com/100197569334332": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：讓羽球飛高雄羽球教學訓練班"
+    },
+    "https://www.facebook.com/221434463210863": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：尚首羽球學堂"
+    },
+    "https://www.facebook.com/207308429450765": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：亞柏羽球隊"
+    },
+    "https://vip.hengfu-i.com/index.php?dr_idno=96816050": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：羽球客苓雅店"
+    },
+    "https://www.facebook.com/111954823597393": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：邁特羽球 Matt Badminton"
+    },
+    "https://www.facebook.com/553550094810340": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：羽龍共舞高雄羽球教學訓練班「甲組 A級教練」"
+    },
+    "http://taranisbadminton.com/": {
+      "s": "ok",
+      "code": 200,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：塔瑞尼斯羽球學院"
+    },
+    "https://www.facebook.com/178049135580162": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：五福羽球隊"
+    },
+    "https://www.facebook.com/155524517637978": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：屏縣忠孝羽球隊"
+    },
+    "https://www.facebook.com/590935241264352": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：羽謙羽球學院"
+    },
+    "https://www.facebook.com/449466038550190": {
+      "s": "restricted",
+      "code": 0,
+      "at": "2026-11-09T06:44:27+08:00",
+      "fails": 0,
+      "label": "俱樂部：新苗羽球"
     },
     "https://www.youtube.com/watch?v=pIJ41aeyoyc": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：三種錯誤的羽球握拍，你握對了嗎？｜正手握拍｜  Badminton Foreha"
     },
     "https://www.youtube.com/watch?v=--VPf9MB_wE": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球握拍教學｜正手、反手這樣握才正確！"
     },
     "https://www.youtube.com/watch?v=LEJrLziPAWw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：《羽球初學必看》正反手如何握拍&發力？學會少走4年冤枉路｜安東羽球教練【早安練健"
     },
     "https://www.youtube.com/watch?v=u-3PrzsP2vs": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：一次搞懂羽球握拍, 正反手轉換訣竅｜握拍&握把布淺談｜Badmitnon Gri"
     },
     "https://www.youtube.com/watch?v=7CDtnuD4XZQ": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：黃嘉欣羽球小教室_如何正確握拍20181129"
     },
     "https://www.youtube.com/watch?v=YzyEPCEIkcE": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：第一次發球就上手｜技術篇｜Serve Tech.｜葉師傅教羽球"
     },
     "https://www.youtube.com/watch?v=MtEY_sFGeQQ": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：正拍發球｜羽毛球教學：教練教你發球的技巧，發球過高怎麼改善，同時遵守規則，避免發"
     },
     "https://www.youtube.com/watch?v=kReSKb_4WB0": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：掌握反拍發球該有的優勢和精準控制｜Backhand Short Service｜"
     },
     "https://www.youtube.com/watch?v=8yZeiT29c2Q": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：學打羽球如何做到好的發球？ 重點在於發球的弧度和線路的選擇  #羽毛球教学  #"
     },
     "https://www.youtube.com/watch?v=YAbmw4ssKKE": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：初學必看, 六點步伐快速上手｜Badminton Footwork｜安東羽球教室"
     },
     "https://www.youtube.com/watch?v=xp5XSFfW_jQ": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：【會員影片試看】腳步是羽球的靈魂，羽球人必懂正確腳步觀念｜第一節：腳步觀念｜第二"
     },
     "https://www.youtube.com/watch?v=lcV__utm5LY": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：後退慢又打不到後場球？教練教你流暢後場步法｜羽球教學：對手突然打後場球，怎麼才能"
     },
     "https://www.youtube.com/watch?v=1aDX83W2Zh4": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：螺哥羽毛球步伐 | 12min专项步伐跟练 | 提升启动、转向与体能！| Bad"
     },
     "https://www.youtube.com/watch?v=5IM4QZyV_Lw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：人人都可以輕鬆學會的基本技術──「 初階 」後場步法｜Elementary Ba"
     },
     "https://www.youtube.com/watch?v=sB-TVcnpmxU": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：高遠球打不遠？教你怎麼發力｜Badminton Double Defend｜安東"
     },
     "https://www.youtube.com/watch?v=myLWilMJAug": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：殺球沒力 ? 高遠球打不遠 ? 只要發力正確任何人都可以！"
     },
     "https://www.youtube.com/watch?v=IJzoidyudMk": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：【慢一拍】高遠球打不遠？以為是沒力，後來才發現不是"
     },
     "https://www.youtube.com/watch?v=klF5x_TlYTQ": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：不用急  高遠球動作我一步步拆給你看"
     },
     "https://www.youtube.com/watch?v=LJICUHgLPDk": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：正手發高遠球教學|想要打好球從發球開始|初級基礎課程👍淺顯易懂獨特的的羽球教學👍"
     },
     "https://www.youtube.com/watch?v=lZSFU_OpbCw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球殺球，不用蠻力的技巧！｜羽球教練拆解殺球的基礎技巧｜羽毛球殺球的教學"
     },
     "https://www.youtube.com/watch?v=eV-VkfgjfLw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：殺球的六個力量運用，你的力量來自哪裡？｜Smash｜安東羽球教室｜"
     },
     "https://www.youtube.com/watch?v=R1Z9ASD310A": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球殺球，接挑起來的技巧！｜教練講解接羽球殺球的關鍵步驟｜羽毛球殺球這樣接"
     },
     "https://www.youtube.com/watch?v=9y8tZxipADw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球殺球技巧：扣殺重點在小臂，不是單純將手腕下壓｜羽球殺球的變化技巧｜羽毛球殺球"
     },
     "https://www.youtube.com/watch?v=Mfh4bsLXSJw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：殺球教學, 殺出必勝之路｜Badminton Smash｜安東羽球教室"
     },
     "https://www.youtube.com/watch?v=KuYWQzCQzuo": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：10分鐘教會你切球！｜Learn the Net Drop in 10 Minu"
     },
     "https://www.youtube.com/watch?v=elo0FyepEU4": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：【黃嘉欣羽球小教室】切球"
     },
     "https://www.youtube.com/watch?v=hxZZ5TgbWew": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球教學：正拍切球｜羽球教練的羽球技巧：羽球切球｜羽毛球教學：羽球切球｜讓對手長"
     },
     "https://www.youtube.com/watch?v=vnGEr-cOLY8": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：欺敵的滑拍切球｜教練詳解羽球切球的進階技巧：滑拍切球｜羽球教練的羽球切球進階教學"
     },
     "https://www.youtube.com/watch?v=x4Vne4XnYnQ": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：掌握切球原理/摩擦和角度控制 ｜切球｜Badminton Drop Shot｜安"
     },
     "https://www.youtube.com/watch?v=dR-NXBW2m5c": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球小球，抓準角度這樣放！對手難接到。教練解說網前放小球的技巧｜網前小球的時機要"
     },
     "https://www.youtube.com/watch?v=b0EZKzLen7U": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球網前放小球，注意拍面高度與角度，降低掛網與被攻擊的風險｜羽球教學：手伸出去、"
     },
     "https://www.youtube.com/watch?v=kry1QHl6stg": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：[會員影片公開] 打好網前基礎必學｜第一節：網前原理｜第四章：前場技術篇｜安東羽"
     },
     "https://www.youtube.com/watch?v=riOX8H6KrsE": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：黃嘉欣羽球小教室_正拍放小球_20190809"
     },
     "https://www.youtube.com/watch?v=EUbtCS9kzHM": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：利用慣性放小球?｜原來是這麼一回事｜Net Shot｜葉師傅教羽球"
     },
     "https://www.youtube.com/watch?v=Xq1kNnO5tac": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：正手挑球｜Forehand  Lift｜安東羽球教室｜"
     },
     "https://www.youtube.com/watch?v=y3tSQkfTTDU": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：挑球挑得好，防守沒煩惱，隊友沒困擾， 省力挑球法教學｜反手挑球｜Backhand"
     },
     "https://www.youtube.com/watch?v=oUvE2D5iHu8": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：挑球挑不遠？ 挑球該用小臂還是內旋發力？｜正手挑球｜Badmitnon Fore"
     },
     "https://www.youtube.com/watch?v=g9ejLOVXT-Q": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球挑球的技巧｜教練解說羽球挑球訣竅｜羽球挑球技巧詳細動作｜羽毛球教學：挑球"
     },
     "https://www.youtube.com/watch?v=Yqnunx76BPs": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：[羽球教學]教練示範  撈球教學-羽球密碼"
     },
     "https://www.youtube.com/watch?v=cvztrM4U8A0": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：暴力正手拍/ 正手抽平球細節【中階技術】｜Badminton Forehand "
     },
     "https://www.youtube.com/watch?v=7RO7yumcDpg": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽毛球无敌平抽从0到1的秘诀！单双打万能抽档教学完整版！让你直接进入专业级别！进"
     },
     "https://www.youtube.com/watch?v=NFzirhB6Q0k": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：兩分鐘教你抽球＆平球推球發力的差別是什麼？｜羽球中場技術篇｜安東羽球"
     },
     "https://www.youtube.com/watch?v=3A22dThPUT0": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：不可錯過的「平球」細節解析大公開 ｜ Forehand & Backhand D"
     },
     "https://www.youtube.com/watch?v=Da5RGN1kf9o": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：这抽挡有毒！快到停不下来，双打中场平抽挡的快乐你感受过吗？｜羽毛球教学"
     },
     "https://www.youtube.com/watch?v=tEOn9o7Am50": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球過渡必學：反手長球，重點技巧大公開｜羽球教練解析：羽球反手長球技巧｜重點拆解"
     },
     "https://www.youtube.com/watch?v=5m2_gkfrF24": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：反拍總是打不遠？正確反手發力教學 【黃嘉欣羽球小教室】"
     },
     "https://www.youtube.com/watch?v=rryk8H653G8": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：反手高遠發不上力 ? 練了很久還是學不會？ 8 分鐘帶你找出關鍵點"
     },
     "https://www.youtube.com/watch?v=PoU68e_5OOo": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：超詳細反手後場發力細節教學！ 羽球反手後場漏洞百出，總發不上力？一個影片解決你的"
     },
     "https://www.youtube.com/watch?v=SFo3y5wpQnQ": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：後場反手過渡別再只會放軟，職業選手更愛來「硬的」！揭曉化被動為主動的實戰秘訣//"
     },
     "https://www.youtube.com/watch?v=Q10iHOfXzik": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：基本輪轉概念，讓你不再當雷隊友──進攻/防守站位｜Doubles Rotatio"
     },
     "https://www.youtube.com/watch?v=7jbruieUFb4": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：不會雙打輪轉 ? 跑位純靠感覺 ?  8分鐘讓你學會雙打輪轉 !"
     },
     "https://www.youtube.com/watch?v=HtMyJatnImM": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：「教練！隊友又來搶我的球啦！」😡 三分鐘搞懂雙打跑位基礎&進階觀念 | 羽球學堂"
     },
     "https://www.youtube.com/watch?v=hqh_giVnCig": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：永恆不變的羽毛球雙打攻防站位規律，請大家一定要牢記！ #badminton #羽"
     },
     "https://www.youtube.com/watch?v=6ABaUmlycEM": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：配到左手搭檔怎麼辦|中間球誰要打|雙打小教室-基本走位輪轉"
     },
     "https://www.youtube.com/watch?v=2U9a77bqHIA": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：必看！羽毛球單打 直線、斜線如何選擇？"
     },
     "https://www.youtube.com/watch?v=Yrcg-jr1CDU": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：業餘如何打單打？練好單打腳步 ｜切球上網步伐｜Badmitnon Single "
     },
     "https://www.youtube.com/watch?v=pnfg25yF1U8": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：高階羽球選手都在用的「控場公式」，你卻一直被控制【KT聊戰術】| KT羽球"
     },
     "https://www.youtube.com/watch?v=RAVFdvHFE3I": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：超詳細羽毛球直線跟隨戰術解析！面對連貫速度快、體能優勢大的對手怎麼能進行防守反擊"
     },
     "https://www.youtube.com/watch?v=5PyyMkOCbDI": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：［紙上談兵］原來除了四角拉吊以外還有這麼多戰術打法！世界單打戰術分析"
     },
     "https://www.youtube.com/watch?v=eLhcyXofTio": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球簡易暖身操｜Body Stretching｜安東羽球教室｜"
     },
     "https://www.youtube.com/watch?v=x_wK49jekgU": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：10分鐘羽毛球熱身伸展運動 -脊醫王鳳恩 - 1(中/Eng Sub) Dr M"
     },
     "https://www.youtube.com/watch?v=yM9rbzQVmT8": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：[羽球教學]教練示範  打羽球前的暖身-羽球密碼"
     },
     "https://www.youtube.com/watch?v=cR_wLYXoRQU": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：你還在做這種熱身方法嗎？| 打羽毛球前必須做的熱身 | 提高運動表現 | 減少受"
     },
     "https://www.youtube.com/watch?v=FwD_ihA6a0w": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球人 | 職業選手教你如何在場上熱身"
     },
     "https://www.youtube.com/watch?v=dd6cjLDsaWM": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：螺哥羽毛球体能 | 15分钟羽毛球专项体能训练 | Huấn luyện thể"
     },
     "https://www.youtube.com/watch?v=KHhez9otTBw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：第一次在三健客備賽！羽球選手的重訓強度比你想像更狠🔥【全運會備戰系列EP.2】F"
     },
     "https://www.youtube.com/watch?v=DXbWHHKbxzA": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：暖身很重要！避免羽球運動傷害的步法，一定要練原地專項｜羽球專項步法教學｜羽球步法"
     },
     "https://www.youtube.com/watch?v=jyxs1RuBM8s": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：陈金羽毛球步伐 | 16min专项步伐跟练(基础版) | 提升灵敏和耐力 | B"
     },
     "https://www.youtube.com/watch?v=F2oIGAzv38c": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：反手高遠沒力？原來該練的是這些肌群 ! 這幾個動作讓你輕鬆打到底線"
     },
     "https://www.youtube.com/watch?v=CByxMKTxG34": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：完整的羽球雙打規則# 羽球雙打# 羽毛球雙打"
     },
     "https://www.youtube.com/watch?v=wR2D2Q65TI0": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽毛球单打发球规则详解，新手入坑必修课！"
     },
     "https://www.youtube.com/watch?v=jlsXfWUQYME": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：【羽球雙打規則新手懶人包】羽球雙打發球規則｜誰發球？站哪發球？發球範圍在哪？別再"
     },
     "https://www.youtube.com/watch?v=RxXZpqBiIsY": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽毛球双打发球规则详解，新手入门必修课！"
     },
     "https://www.youtube.com/watch?v=LS1Ni_RFCLc": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：久奈司JNICE羽球學堂 | 新手如何挑選羽球拍?？ 挑羽球拍要看重量、平衡、中"
     },
     "https://www.youtube.com/watch?v=em6OCKX4UFc": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：中價位羽球拍推薦【勝利篇】｜戴資穎出道戰拍💜｜高CP值選項🌟｜凱將開講｜凱將體育"
     },
     "https://www.youtube.com/watch?v=V9XHnH-ejc0": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽毛球要買貴的還是便宜的？"
     },
     "https://www.youtube.com/watch?v=DeqAHWN7IMI": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：羽球新手到底該不該用高階拍？｜羽球新手必看｜原來這種球拍誰都行｜"
     },
     "https://www.youtube.com/watch?v=7TD4pnpdzF0": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：【新手羽球裝備懶人包】第一隻羽球拍怎麼買？掌握五大重點 才不會花冤望錢！買適合自"
     },
     "https://www.youtube.com/watch?v=yDD1jyHvP1Q": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：［要不要系列EP1］要不要穿高磅｜磅數的迷思｜羽球拍磅數 ｜不要再穿這磅數｜原來"
     },
     "https://www.youtube.com/watch?v=NhcSiokG_ys": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：歡迎收看穿線密碼｜這集含金量很高｜阿哲準備上靠X羽球|朱教練不是很重要｜穿線Q&"
     },
     "https://www.youtube.com/watch?v=LROYY_oUWuQ": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：球拍穿線問題,一次全看懂#羽球拍#羽球拍線#王齊麟#李哲輝"
     },
     "https://www.youtube.com/watch?v=hvcD7GJB9ts": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：专业穿线师深度解析:如何选择最适合的羽毛球拍磅数 | 从入门到精通 - ERR "
     },
     "https://www.youtube.com/watch?v=eX5ldvj9xBU": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：【一線入魂羽球概念店~小劇場】羽毛球新手須知~史上最正確購買羽球鞋須知～讓你告別"
     },
     "https://www.youtube.com/watch?v=EbNdVtq9GRk": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：看羽球密碼長知識｜羽球運動一定要穿羽球鞋｜台灣新國球｜羽球運動盛行｜別再穿休閒鞋"
     },
     "https://www.youtube.com/watch?v=cKNT_HGrqP8": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：体育运动 【羽毛球鞋测评】2026年9月羽毛球鞋年度盘点！20款热门球鞋怎么选、"
     },
     "https://www.youtube.com/watch?v=4A3UoE74DZY": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：要不要系列EP5｜要不要穿羽球鞋｜一秒認出羽球鞋｜高階羽球鞋竟然還有這特異功能｜"
     },
     "https://www.youtube.com/watch?v=wKUzgf-2wio": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：健康50 - 羽球的運動傷害與預防"
     },
     "https://www.youtube.com/watch?v=9Wqv0i1i4cs": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：打羽球 必做熱身！預防運動傷害 穩定踝 膝 髖關節 這樣動！ 健康2.0 精華 "
     },
     "https://www.youtube.com/watch?v=y8NCH0U4IQ8": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：SEM Taiwan 09/2021 羽球運動傷害預防計畫 Update by "
     },
     "https://www.youtube.com/watch?v=gS5YamTs4XM": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：運動傷害預防-培養打羽球的五個好習慣"
     },
     "https://www.youtube.com/watch?v=fvf3qzJOHtg": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：全新企劃｜運動傷害防護報你ㄗㄞFeat王博醫師｜為什麼會有運動傷害｜舊傷一直好不"
     },
     "https://www.youtube.com/watch?v=CHykVFOp_9E": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：Alfian/Fikri vs Liang/Wang | Intense exc"
     },
     "https://www.youtube.com/watch?v=XNXx963NXPM": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：HYLO Open 2026 | Top Smashes of the Week"
     },
     "https://www.youtube.com/watch?v=MaH_J70s2hw": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：Toft/Kudsk vs Gicquel/Delrue | An all-ou"
     },
     "https://www.youtube.com/watch?v=DfOFBAiT2XU": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：Jonatan Christie vs Lakshya Sen | Mainta"
     },
     "https://www.youtube.com/watch?v=1PfJqdMfVDs": {
       "s": "ok",
       "code": 200,
-      "at": "2026-11-05T08:28:18+08:00",
+      "at": "2026-11-09T06:44:27+08:00",
       "fails": 0,
       "label": "影片：Line Højmark Kjærsfeldt vs Pusarla V. Si"
     }

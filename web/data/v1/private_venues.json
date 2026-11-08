@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T06:07:46+08:00",
+  "updatedAt": "2026-11-09T06:43:41+08:00",
   "sources": [
     "Overture Maps",
     "OpenStreetMap",
@@ -375,23 +375,6 @@
       "alsoIn": [
         "OpenStreetMap"
       ]
-    },
-    {
-      "id": "osm-n3846491461",
-      "name": "明德羽球場",
-      "city": "臺北市",
-      "district": "士林區",
-      "address": "",
-      "tel": "",
-      "lat": 25.083393,
-      "lng": 121.529388,
-      "kind": "private",
-      "rent": "付費",
-      "open": "",
-      "website": "",
-      "facilities": "羽球場",
-      "source": "https://www.openstreetmap.org/node/3846491461",
-      "sourceName": "OpenStreetMap"
     },
     {
       "id": "osm-w271670275",
@@ -6422,7 +6405,10 @@
       "kind": "private",
       "rent": "付費",
       "open": "",
-      "facilities": "羽球場"
+      "facilities": "羽球場",
+      "alsoIn": [
+        "OpenStreetMap"
+      ]
     },
     {
       "id": "ovt-a000f99e45",

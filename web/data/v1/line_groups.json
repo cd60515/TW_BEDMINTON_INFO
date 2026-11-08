@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T06:10:25+08:00",
+  "updatedAt": "2026-11-09T06:39:38+08:00",
   "source": "LINE 社群公開介紹頁",
   "items": [
     {
@@ -179,7 +179,7 @@
       "desc": "中壢羽球館，提供專業地墊、燈光及舒適休息區，讓球友們有更好的題驗，暢快揮拍，盡情流汗",
       "members": 2461,
       "city": "桃園市",
-      "lastActive": "2026-11-08",
+      "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/pH6wQoLwBpd7O83OYNIC3QejtibigpF1SayCnm90L89OdvPrZLMXU1f_8II"
     },
     {
@@ -267,9 +267,9 @@
       "id": "oc-9a3d3d1ae0",
       "name": "🔰中壢威肯羽球俱樂部🔰",
       "desc": "🏸威肯羽球俱樂部🏸 ▪️本館場地收費方式 平日白天 8:00-17:00 $240/小時 平日晚上 18:00-打烊 $400/小時 假日全天皆為 $400/小時 預約租場須提前匯款 或提前至球館繳交費用 如有臨時取消退款方式 兩天（含）以上 退100% 前一天取消 退費50% 當天取消 退費25% 長期租場及包場活…",
-      "members": 2146,
+      "members": 2145,
       "city": "桃園市",
-      "lastActive": "2026-11-08",
+      "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/6UbAVuwVBFZ9aDEf1IASZHIi-YqxefS_t4tSDbzLI-06vGziURCEXX0PCNs"
     },
     {
@@ -402,7 +402,7 @@
       "id": "oc-da2eec93db",
       "name": "九聚陽光☀️歡樂羽球團",
       "desc": "大家好～我是九聚陽光團長 溫蒂👸🏻 每週早上9:00-12:00 板橋羽球館 每週一 團主 溫蒂Wendy 每週二 團主 UU 每週三 團主 古早味蘿蔔糕 每週四 團主 RBC 每週五 團主 漢娜",
-      "members": 1566,
+      "members": 1565,
       "city": "新北市",
       "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/QrWlfaiH4Pc53lecZLOvZ49qrtzGUOK4ARZ4DoDX0jAWjERpqLdtkHJeKbw"
@@ -519,7 +519,7 @@
       "id": "oc-2f839fbbb7",
       "name": "PF羽球概念館臨打群",
       "desc": "#真新手歡樂 #臨打可體驗發球機 #常態性開團 #羽球 #高雄 #臨打",
-      "members": 1234,
+      "members": 1235,
       "city": "高雄市",
       "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/Z7uaTfvXmEuQwkZX0AOLIGEBZn21fypDGKJKp0sVfpCI-6epv2x0baBwvhM"
@@ -840,15 +840,6 @@
       "url": "https://openchat.line.me/tw/cover/El0c4sMZ9_8jHOoNMuAamJVV3ZmuvkFd9gm_xNUVhExO68QWhT7AW2mOPJk"
     },
     {
-      "id": "oc-eaa2c43ad5",
-      "name": "羽冠羽球館（原大將羽球館）",
-      "desc": "大將羽球運動會館",
-      "members": 893,
-      "city": "",
-      "lastActive": "2026-11-09",
-      "url": "https://openchat.line.me/tw/cover/g9XZ80gI6GURo0RiUxkRqRXjco8XaZ0YqkHgS9y0l9KU0IOXqp-gWc1Z-aY"
-    },
-    {
       "id": "oc-4fbf0d4e80",
       "name": "拓源羽球俱樂部 TY Badminton Club",
       "desc": "我們是一間以通勤便利為核心的實用型室內#羽球館。 球館距捷運丹鳳站步行3分鐘，開放時間（09:00-23:00），採用專業地墊與抗眩燈光，確保擊球軌跡清晰穩定。 提供空調、飲水機、飲料、淋浴間以及備用球具租借等服務。 #季租#零打、教學合作，歡迎洽詢。",
@@ -856,6 +847,15 @@
       "city": "",
       "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/IzTrEc-WwMQZbdgnQIpak8Ccp7Sc-gQoRFOy70gmM33B6rHbyuKKHE-AL8o"
+    },
+    {
+      "id": "oc-eaa2c43ad5",
+      "name": "羽冠羽球館（原大將羽球館）",
+      "desc": "大將羽球運動會館",
+      "members": 892,
+      "city": "",
+      "lastActive": "2026-11-09",
+      "url": "https://openchat.line.me/tw/cover/g9XZ80gI6GURo0RiUxkRqRXjco8XaZ0YqkHgS9y0l9KU0IOXqp-gWc1Z-aY"
     },
     {
       "id": "oc-3e5e7286f2",
@@ -1131,9 +1131,9 @@
       "id": "oc-6d3e350cf6",
       "name": "Yuni羽球館零打團",
       "desc": "開團資訊可以由這邊參考，報名及取消都請在這裡留言",
-      "members": 616,
+      "members": 615,
       "city": "",
-      "lastActive": "2026-11-08",
+      "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/uldpZZ83xwA6eeZy_bGFl50zbNqwz4pAsofSt4Yn65-CmKNRGpj2NRPhhmI"
     },
     {
@@ -1194,9 +1194,9 @@
       "id": "oc-2f4de6e356",
       "name": "✨🏸 飛煥羽球隊🏸✨",
       "desc": "⭐週二19-22/新市新力 ⭐臨打$👨280 👩🏻‍🦱 220 ⭐磁鐵排點/程度不限 #台南羽球#磁鐵排點#羽潮#新力 #南科羽球 #新市羽球 #善化羽球 #羽球教學 #打球 #歡樂團 #程度不限",
-      "members": 566,
+      "members": 565,
       "city": "臺南市",
-      "lastActive": "2026-11-08",
+      "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/FzFWf86Q9o_5DSNoZnuYVdGPgbQSv0xEPilFw1V0FWJ4y6ZSPFU8mOnnyCU"
     },
     {
@@ -1709,7 +1709,7 @@
       "desc": "#羽球 #台北羽球 #新北羽球 #僑中羽球館 #歡樂羽球 #新手羽球 #24小時羽球 #夜貓族 #深夜羽球 #固定羽球 #快樂羽球 #約打羽球 #睡不著 #運動",
       "members": 292,
       "city": "臺北市",
-      "lastActive": "2026-11-08",
+      "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/4G2pZ83h_sS0-nlnrA-67vj3GcFmaGAEtcsO7dVaCZYCj8uEQlUBLqWWFCc"
     },
     {
@@ -1776,15 +1776,6 @@
       "url": "https://openchat.line.me/tw/cover/NOmv4Prdj0YR2vL23oWl5C0FqSPmL_glCLT_j_tIXR9NqoGC0R6BlF5n8F4"
     },
     {
-      "id": "oc-0716d7808f",
-      "name": "高雄羽球交流社群版",
-      "desc": "高雄羽球：「揪團」、「找咖」、「交流」、「活動」、「比賽」、「聯誼」。 #羽球 #羽球團 #羽球比賽 #活動 #揪團 #運動 #羽球競技 #奧運羽球 #羽球團長 #休閒 #家庭運動 #聯誼 #興趣 #娛樂 #健康",
-      "members": 266,
-      "city": "高雄市",
-      "lastActive": "2026-11-08",
-      "url": "https://openchat.line.me/tw/cover/6ufW3Ku6iSlUa0PzEPHADDBQwEqxI0MWGDh3pdjky3BBCJRjuJh5sQNxz9k"
-    },
-    {
       "id": "oc-ebf7de4459",
       "name": "彰化和美伸港線西羽毛球𣈱打群",
       "desc": "#羽毛球#彰化羽毛球#和美羽毛球#伸港羽毛球#線西羽毛球#𣈱打",
@@ -1792,6 +1783,15 @@
       "city": "彰化縣",
       "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/uYvA7AV35vnc9-Or-B5jaR5r9ELrbHENJeuJUhUZkl81sMmBUWgU_PHSz3s"
+    },
+    {
+      "id": "oc-0716d7808f",
+      "name": "高雄羽球交流社群版",
+      "desc": "高雄羽球：「揪團」、「找咖」、「交流」、「活動」、「比賽」、「聯誼」。 #羽球 #羽球團 #羽球比賽 #活動 #揪團 #運動 #羽球競技 #奧運羽球 #羽球團長 #休閒 #家庭運動 #聯誼 #興趣 #娛樂 #健康",
+      "members": 265,
+      "city": "高雄市",
+      "lastActive": "2026-11-09",
+      "url": "https://openchat.line.me/tw/cover/6ufW3Ku6iSlUa0PzEPHADDBQwEqxI0MWGDh3pdjky3BBCJRjuJh5sQNxz9k"
     },
     {
       "id": "oc-3cb991183a",
@@ -1932,7 +1932,7 @@
       "id": "oc-335823273e",
       "name": "馬尼拉羽球揪團(MBC Manila badminton club)已轉至小飛機@fredc9",
       "desc": "菲律賓羽球 揪團 臨時想打羽毛球，來這邊揪團就對了👍 群轉已移轉至小飛機@Fredc9 #羽毛球 #羽球 #badminton #BGC #makati #pasay",
-      "members": 227,
+      "members": 226,
       "city": "",
       "lastActive": "2026-11-08",
       "url": "https://openchat.line.me/tw/cover/NKFlkvhx3UHohkoKPELRAzwfywphahcjvjIDM9mlCNV0NvXY8-V8dmmYeWQ"
@@ -2384,7 +2384,7 @@
       "desc": "尋找想一起打球的你/妳們 🏸 不定期開團，歡迎新朋友一起來玩！ 📍地點目前以彰南國運為主 想找球友、一起流流汗、打球交朋友都歡迎🙌",
       "members": 90,
       "city": "彰化縣",
-      "lastActive": "",
+      "lastActive": "2026-11-09",
       "url": "https://openchat.line.me/tw/cover/lsiJlC0Pv4mx4s-8AGI9oE923A1KFkLiH3AR26tqdhpcSuhH-K2tyovIbcA"
     },
     {
@@ -3423,15 +3423,6 @@
       "url": "https://openchat.line.me/tw/cover/Bw9ZE8KpcXkOMNK_xFCthMhIno6P7LL1ZN9wgiiB90V0EXw-MKHAo9OQSoo"
     },
     {
-      "id": "oc-f7ad81fe0d",
-      "name": "游泳羽毛球愛好者棲息地",
-      "desc": "熱愛運動的你，對了就是你歡迎加入 關於游泳及羽毛球的事項都能分享喔！ 本人是游泳教練也是區域羽球委員會總幹事，超級喜歡運動因此想藉由群組裡的老手分享訊息提供給新手漸入佳境不走冤枉路，也歡迎新手提問有關游泳及羽毛球任何方面的問題，預祝各位朋友都能得到自己想要的答案並感謝分享的朋友。",
-      "members": 4,
-      "city": "",
-      "lastActive": "",
-      "url": "https://openchat.line.me/tw/cover/bxvzBeOuBipJFf2id_kFOT-z4rEMcGfxtu-UmQbpTyZ2ivygY-g2W_VcuAU"
-    },
-    {
       "id": "oc-58b00ba247",
       "name": "週六下午打羽毛球",
       "desc": "🌈 嗨， 我叫YOYO 偶爾週六會去打羽毛球運動流汗 有志同道合的人，希望能從朋友認識聊天了解彼此^_^",
@@ -3439,6 +3430,15 @@
       "city": "",
       "lastActive": "",
       "url": "https://openchat.line.me/tw/cover/a5jQ1zJQSHXMC51FyC9qAAW1klPa87klPQ6qvPpqeg81a8zDbATOP0nEh4o"
+    },
+    {
+      "id": "oc-f7ad81fe0d",
+      "name": "游泳羽毛球愛好者棲息地",
+      "desc": "熱愛運動的你，對了就是你歡迎加入 關於游泳及羽毛球的事項都能分享喔！ 本人是游泳教練也是區域羽球委員會總幹事，超級喜歡運動因此想藉由群組裡的老手分享訊息提供給新手漸入佳境不走冤枉路，也歡迎新手提問有關游泳及羽毛球任何方面的問題，預祝各位朋友都能得到自己想要的答案並感謝分享的朋友。",
+      "members": 4,
+      "city": "",
+      "lastActive": "",
+      "url": "https://openchat.line.me/tw/cover/bxvzBeOuBipJFf2id_kFOT-z4rEMcGfxtu-UmQbpTyZ2ivygY-g2W_VcuAU"
     },
     {
       "id": "oc-4192e44532",
@@ -3522,15 +3522,6 @@
       "url": "https://openchat.line.me/tw/cover/F3RHPp9C8VHOdGEConGhngzOwZQt8AgO07X21VEWR8eK4TAtcVCyU0YR3pI"
     },
     {
-      "id": "oc-2786666cd6",
-      "name": "台北新北羽球團練🏸",
-      "desc": "#羽球 #場地 #運動 #組隊 #零打 #報名",
-      "members": 3,
-      "city": "臺北市",
-      "lastActive": "",
-      "url": "https://openchat.line.me/tw/cover/9AjI1Qbo53ntbVTunGzyzOg7YgcyJU93WAToeMhvFDBdU-NNLSxhqT79VgA"
-    },
-    {
       "id": "oc-3bbfcdcd79",
       "name": "大台北羽球零打團",
       "desc": "#羽球#台北",
@@ -3538,6 +3529,15 @@
       "city": "臺北市",
       "lastActive": "",
       "url": "https://openchat.line.me/tw/cover/H_s4M2EMJG3We7JD0P00yla_0pojaayik23k76VJ9LsLnsQ_rcWNSKAaRlQ"
+    },
+    {
+      "id": "oc-2786666cd6",
+      "name": "台北新北羽球團練🏸",
+      "desc": "#羽球 #場地 #運動 #組隊 #零打 #報名",
+      "members": 3,
+      "city": "臺北市",
+      "lastActive": "",
+      "url": "https://openchat.line.me/tw/cover/9AjI1Qbo53ntbVTunGzyzOg7YgcyJU93WAToeMhvFDBdU-NNLSxhqT79VgA"
     },
     {
       "id": "oc-ada3025347",
@@ -3648,6 +3648,15 @@
       "url": "https://openchat.line.me/tw/cover/dNrKHmpOCZ9yKE_tagNDnoqyoBipMpRFUAmKJcHcb2kd_BwdOtYa6BdUUhQ"
     },
     {
+      "id": "oc-b45f25e4c8",
+      "name": "喝勝羽球團",
+      "desc": "#台南 #羽球 歡迎台南愛打球的朋友加入唷",
+      "members": 2,
+      "city": "臺南市",
+      "lastActive": "",
+      "url": "https://openchat.line.me/tw/cover/wFsrAxVU_GhKzlcsBAUS5SkCZYWwIayLYR5RgFrFRF9jB-fYchcDaHkI1_4"
+    },
+    {
       "id": "oc-758865da49",
       "name": "羽客多-智慧羽球課程聊天室",
       "desc": "#智慧羽球 #羽球 #台南 #夏令營 #羽球課程",
@@ -3673,15 +3682,6 @@
       "city": "",
       "lastActive": "",
       "url": "https://openchat.line.me/tw/cover/LOZS2xQw-g3F9r--F4dRIhm1Xw7wVNpsgiDyJguiHkDHFd2F-inx6eMSt5s"
-    },
-    {
-      "id": "oc-b45f25e4c8",
-      "name": "喝勝羽球團",
-      "desc": "#台南 #羽球 歡迎台南愛打球的朋友加入唷",
-      "members": 2,
-      "city": "臺南市",
-      "lastActive": "",
-      "url": "https://openchat.line.me/tw/cover/wFsrAxVU_GhKzlcsBAUS5SkCZYWwIayLYR5RgFrFRF9jB-fYchcDaHkI1_4"
     },
     {
       "id": "oc-39e4590978",
@@ -3792,15 +3792,6 @@
       "url": "https://openchat.line.me/tw/cover/_3yf1YSym4WLcl5mLQ5qDiBASFTagcRm1Z0mAR1JD_-ZM6SbZiY92me9quc"
     },
     {
-      "id": "oc-03bd37e501",
-      "name": "台南羽球新手研究社",
-      "desc": "",
-      "members": 1,
-      "city": "臺南市",
-      "lastActive": "",
-      "url": "https://openchat.line.me/tw/cover/9zeuGrPd9XDs0S-hfwf35-q51-q4BMVG6cjE7iK8csd-mLnZ-1KK2teVxtE"
-    },
-    {
       "id": "oc-1dfaf0d263",
       "name": "高雄、台南羽球相關團購",
       "desc": "",
@@ -3808,6 +3799,15 @@
       "city": "臺南市",
       "lastActive": "",
       "url": "https://openchat.line.me/tw/cover/JvJgp3DzkxI85Ic0ijcv4GR8_TJOG5g0i5-2IqozylmnYZRxYA_RUpwLdCQ"
+    },
+    {
+      "id": "oc-03bd37e501",
+      "name": "台南羽球新手研究社",
+      "desc": "",
+      "members": 1,
+      "city": "臺南市",
+      "lastActive": "",
+      "url": "https://openchat.line.me/tw/cover/9zeuGrPd9XDs0S-hfwf35-q51-q4BMVG6cjE7iK8csd-mLnZ-1KK2teVxtE"
     },
     {
       "id": "oc-2135c074a9",
@@ -3837,15 +3837,6 @@
       "url": "https://openchat.line.me/tw/cover/-BECZ21pMzFttKU-KkozuJKRNDUYxNo2lB1mdiI4J3dwxfpZzrJQMLaJt6Q"
     },
     {
-      "id": "oc-086791042d",
-      "name": "PF羽球課社群(早鳥.日間)",
-      "desc": "#羽球 #教練課 #高雄羽球 #屏東羽球",
-      "members": 1,
-      "city": "高雄市",
-      "lastActive": "",
-      "url": "https://openchat.line.me/tw/cover/UOogwlGFLDChI-KEdJqJMe0Or2OF7mlfgITEQVM8mJU5nknI8om7LcaG3pc"
-    },
-    {
       "id": "oc-416f0dd235",
       "name": "KL凱隆羽球教練社群",
       "desc": "屏東高雄羽球教練",
@@ -3862,6 +3853,15 @@
       "city": "臺北市",
       "lastActive": "",
       "url": "https://openchat.line.me/tw/cover/gaageFFBhEr3-Ar5fbOnoYCGcMLtnp0dWu8hD9aeXeWHSY7PeDh3I9VjA6U"
+    },
+    {
+      "id": "oc-086791042d",
+      "name": "PF羽球課社群(早鳥.日間)",
+      "desc": "#羽球 #教練課 #高雄羽球 #屏東羽球",
+      "members": 1,
+      "city": "高雄市",
+      "lastActive": "",
+      "url": "https://openchat.line.me/tw/cover/UOogwlGFLDChI-KEdJqJMe0Or2OF7mlfgITEQVM8mJU5nknI8om7LcaG3pc"
     }
   ]
 }
