@@ -1,13 +1,22 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-09T14:38:12+08:00",
+  "updatedAt": "2026-11-10T06:24:31+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794237286.A.8B3.html",
+      "title": "[Live] 2026 熊本及高雄大師賽賽事討論區",
+      "tag": "Live",
+      "cat": "news",
+      "city": "高雄市",
+      "author": "adamsuit",
+      "postedAt": "2026-11-09T23:14:46+08:00"
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1794132016.A.E9C.html",
       "title": "[新聞] 沈伯洋、李洋「雙洋合體」談台北運動驛站",
@@ -142,15 +151,6 @@
       "city": "",
       "author": "charles0939",
       "postedAt": "2026-10-26T11:12:26+08:00"
-    },
-    {
-      "url": "https://www.ptt.cc/bbs/Badminton/M.1792939847.A.374.html",
-      "title": "[新聞] 安洗瑩法國公開賽三連霸50連勝寫歷史新",
-      "tag": "新聞",
-      "cat": "news",
-      "city": "",
-      "author": "iamshana",
-      "postedAt": "2026-10-25T22:50:47+08:00"
     },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1792425556.A.DBB.html",
