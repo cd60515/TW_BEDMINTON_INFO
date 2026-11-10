@@ -1,7 +1,7 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-10T06:24:31+08:00",
+  "updatedAt": "2026-11-10T15:23:12+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
@@ -124,33 +124,6 @@
         "venue": "南港高中",
         "longTerm": true
       }
-    },
-    {
-      "url": "https://www.ptt.cc/bbs/Badminton/M.1792987177.A.305.html",
-      "title": "[分享] 台灣羽球紀錄片《奪牌之路 誰羽爭鋒》",
-      "tag": "分享",
-      "cat": "news",
-      "city": "",
-      "author": "ronytw",
-      "postedAt": "2026-10-26T11:59:37+08:00"
-    },
-    {
-      "url": "https://www.ptt.cc/bbs/Badminton/M.1792984526.A.149.html",
-      "title": "[新聞] 80年漫長等待 終於又有地主男單冠軍",
-      "tag": "新聞",
-      "cat": "news",
-      "city": "",
-      "author": "charles0939",
-      "postedAt": "2026-10-26T11:15:26+08:00"
-    },
-    {
-      "url": "https://www.ptt.cc/bbs/Badminton/M.1792984346.A.298.html",
-      "title": "[新聞] 安洗瑩太狂了！法國公開賽三連霸 本季第",
-      "tag": "新聞",
-      "cat": "news",
-      "city": "",
-      "author": "charles0939",
-      "postedAt": "2026-10-26T11:12:26+08:00"
     },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1792425556.A.DBB.html",
