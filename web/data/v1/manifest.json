@@ -1,6 +1,6 @@
 {
   "apiVersion": "v1",
-  "generatedAt": "2026-11-16T02:54:29+08:00",
+  "generatedAt": "2026-11-16T07:24:31+08:00",
   "counts": {
     "venues": 1747,
     "videos": 96,
@@ -9,23 +9,23 @@
     "shops": 73,
     "clubs": 37,
     "pickups": 108,
-    "lineGroups": 428,
+    "lineGroups": 429,
     "threads": 0,
     "groups": 0,
     "ptt": 17
   },
   "links": {
     "total": 576,
-    "ok": 257,
+    "ok": 255,
     "restricted": 295,
-    "broken": 3,
-    "checkedAt": "2026-11-09T06:44:27+08:00"
+    "broken": 23,
+    "checkedAt": "2026-11-16T07:24:31+08:00"
   },
   "files": {
     "clubs.json": {
-      "sha": "e71a9b5993fa68b5",
+      "sha": "afe9e7935d2f70ae",
       "bytes": 22095,
-      "updatedAt": "2026-11-09T06:43:41+08:00",
+      "updatedAt": "2026-11-16T07:23:38+08:00",
       "count": 37
     },
     "community_venues.json": {
@@ -53,33 +53,33 @@
       "count": 18
     },
     "line_groups.json": {
-      "sha": "0bba0a8d07e76083",
-      "bytes": 180545,
-      "updatedAt": "2026-11-16T02:54:29+08:00",
-      "count": 428
+      "sha": "c205da2df05e4f31",
+      "bytes": 180946,
+      "updatedAt": "2026-11-16T07:19:31+08:00",
+      "count": 429
     },
     "link_status.json": {
-      "sha": "83de116e5562b78e",
-      "bytes": 126839,
-      "updatedAt": "2026-11-09T06:44:27+08:00",
+      "sha": "af29230269bd14f1",
+      "bytes": 126827,
+      "updatedAt": "2026-11-16T07:24:31+08:00",
       "count": null
     },
     "pickups.json": {
-      "sha": "3e4fc64fc36edf16",
+      "sha": "b29a0b7490520095",
       "bytes": 92722,
-      "updatedAt": "2026-11-16T02:53:45+08:00",
+      "updatedAt": "2026-11-16T07:18:50+08:00",
       "count": 108
     },
     "private_venues.json": {
-      "sha": "0bc5d6e81a248bb3",
+      "sha": "ab5bafe335505a8a",
       "bytes": 203374,
-      "updatedAt": "2026-11-09T06:43:41+08:00",
+      "updatedAt": "2026-11-16T07:23:38+08:00",
       "count": 312
     },
     "ptt.json": {
-      "sha": "50c9af515b5d9ae6",
+      "sha": "d7bd705a315528ad",
       "bytes": 6128,
-      "updatedAt": "2026-11-16T02:53:34+08:00",
+      "updatedAt": "2026-11-16T07:18:38+08:00",
       "count": 17
     },
     "shops.json": {
@@ -89,9 +89,9 @@
       "count": 0
     },
     "shops_auto.json": {
-      "sha": "fafe7f538dd63e57",
+      "sha": "67ba3d3293a5f22f",
       "bytes": 42800,
-      "updatedAt": "2026-11-09T06:43:41+08:00",
+      "updatedAt": "2026-11-16T07:23:38+08:00",
       "count": 73
     },
     "sources.json": {
@@ -113,40 +113,40 @@
       "count": 96
     },
     "venues/index.json": {
-      "sha": "45925b29aaa28fc9",
+      "sha": "731f29a06468e904",
       "bytes": 2470,
-      "updatedAt": "2026-11-09T06:41:36+08:00",
+      "updatedAt": "2026-11-16T07:21:20+08:00",
       "count": null
     },
     "venues/all.json": {
-      "sha": "f22ae54a50bbaa54",
-      "bytes": 487017,
-      "updatedAt": "2026-11-16T02:54:29+08:00",
+      "sha": "62ab5b5c5848cc19",
+      "bytes": 487099,
+      "updatedAt": "2026-11-16T07:24:31+08:00",
       "count": 1747
     },
     "iplay": {
-      "updatedAt": "2026-11-09T06:41:36+08:00"
+      "updatedAt": "2026-11-16T07:21:20+08:00"
     },
     "osm": {
-      "updatedAt": "2026-11-09T06:43:41+08:00"
+      "updatedAt": "2026-11-16T07:23:38+08:00"
     },
     "overture": {
-      "updatedAt": "2026-11-09T06:43:41+08:00"
+      "updatedAt": "2026-11-16T07:23:38+08:00"
     },
     "far": {
-      "updatedAt": "2026-11-16T02:53:45+08:00"
+      "updatedAt": "2026-11-16T07:18:50+08:00"
     },
     "grass": {
-      "updatedAt": "2026-11-16T02:53:45+08:00"
+      "updatedAt": "2026-11-16T07:18:50+08:00"
     },
     "line": {
-      "updatedAt": "2026-11-16T02:54:29+08:00"
+      "updatedAt": "2026-11-16T07:19:31+08:00"
     },
     "threads": {
       "updatedAt": "2026-11-06T07:30:52+08:00"
     },
     "ptt": {
-      "updatedAt": "2026-11-16T02:53:34+08:00"
+      "updatedAt": "2026-11-16T07:18:38+08:00"
     },
     "youtube": {
       "updatedAt": "2026-11-05T07:00:00+08:00"
