@@ -1,13 +1,31 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-16T14:34:36+08:00",
+  "updatedAt": "2026-11-17T06:07:57+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794841116.A.E2F.html",
+      "title": "[Live] 2026 香港公開賽賽事討論區",
+      "tag": "Live",
+      "cat": "news",
+      "city": "",
+      "author": "adamsuit",
+      "postedAt": "2026-11-16T22:58:36+08:00"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794825660.A.02D.html",
+      "title": "[新聞] 深夜羽球團變性愛密會 女師驚爆不倫激戰",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "charles0939",
+      "postedAt": "2026-11-16T18:41:00+08:00"
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1794794070.A.90B.html",
       "title": "[揪人] 長期（六）三重運動中心 1200-1400",
