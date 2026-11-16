@@ -1,13 +1,31 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-16T07:18:38+08:00",
+  "updatedAt": "2026-11-16T14:34:36+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794794070.A.90B.html",
+      "title": "[揪人] 長期（六）三重運動中心 1200-1400",
+      "tag": "揪人",
+      "cat": "group",
+      "city": "新北市",
+      "author": "seen",
+      "postedAt": "2026-11-16T09:54:30+08:00",
+      "group": {
+        "weekdays": [
+          6
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "venue": "三重運動中心",
+        "longTerm": true
+      }
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1794754274.A.45D.html",
       "title": "[新聞] 先後擊敗中國陳雨菲、王祉怡 山口茜捍衛",
@@ -124,24 +142,6 @@
       "city": "",
       "author": "hihihihehehe",
       "postedAt": "2026-11-02T18:35:36+08:00"
-    },
-    {
-      "url": "https://www.ptt.cc/bbs/Badminton/M.1793017181.A.BD1.html",
-      "title": "[揪人] 長期（六）三重運動中心 1200-1400",
-      "tag": "揪人",
-      "cat": "group",
-      "city": "新北市",
-      "author": "seen",
-      "postedAt": "2026-10-26T20:19:41+08:00",
-      "group": {
-        "weekdays": [
-          6
-        ],
-        "start": "12:00",
-        "end": "14:00",
-        "venue": "三重運動中心",
-        "longTerm": true
-      }
     },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1793008934.A.9FC.html",
