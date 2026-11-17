@@ -1,13 +1,22 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-17T06:07:57+08:00",
+  "updatedAt": "2026-11-17T15:57:52+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1794885510.A.726.html",
+      "title": "[新聞] 2年狂打149場身體亮紅燈！世界球后安洗瑩",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "zkow",
+      "postedAt": "2026-11-17T11:18:30+08:00"
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1794841116.A.E2F.html",
       "title": "[Live] 2026 香港公開賽賽事討論區",
