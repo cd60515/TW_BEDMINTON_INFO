@@ -1,13 +1,31 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-23T07:58:16+08:00",
+  "updatedAt": "2026-11-23T15:43:35+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1795399063.A.D90.html",
+      "title": "[揪人] 長期（六）三重運動中心 1200-1400",
+      "tag": "揪人",
+      "cat": "group",
+      "city": "新北市",
+      "author": "seen",
+      "postedAt": "2026-11-23T09:57:43+08:00",
+      "group": {
+        "weekdays": [
+          6
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "venue": "三重運動中心",
+        "longTerm": true
+      }
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1795255349.A.BDA.html",
       "title": "[新聞] 羽球年終賽門檻多變態？只取8強奪冠有望",
@@ -99,24 +117,6 @@
       "postedAt": "2026-11-16T18:41:00+08:00"
     },
     {
-      "url": "https://www.ptt.cc/bbs/Badminton/M.1794794070.A.90B.html",
-      "title": "[揪人] 長期（六）三重運動中心 1200-1400",
-      "tag": "揪人",
-      "cat": "group",
-      "city": "新北市",
-      "author": "seen",
-      "postedAt": "2026-11-16T09:54:30+08:00",
-      "group": {
-        "weekdays": [
-          6
-        ],
-        "start": "12:00",
-        "end": "14:00",
-        "venue": "三重運動中心",
-        "longTerm": true
-      }
-    },
-    {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1794754274.A.45D.html",
       "title": "[新聞] 先後擊敗中國陳雨菲、王祉怡 山口茜捍衛",
       "tag": "新聞",
@@ -196,15 +196,6 @@
       "city": "臺北市",
       "author": "charles0939",
       "postedAt": "2026-11-08T18:00:16+08:00"
-    },
-    {
-      "url": "https://www.ptt.cc/bbs/Badminton/M.1794120171.A.74A.html",
-      "title": "[新聞] 南韓羽球公開賽封后 An喜迎本季第11座冠",
-      "tag": "新聞",
-      "cat": "news",
-      "city": "",
-      "author": "iamshana",
-      "postedAt": "2026-11-08T14:42:51+08:00"
     },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1793008934.A.9FC.html",
