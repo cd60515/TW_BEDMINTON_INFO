@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T07:23:38+08:00",
+  "updatedAt": "2026-11-23T08:03:49+08:00",
   "source": "Overture Maps",
   "items": [
     {
@@ -14,31 +14,11 @@
       "website": "http://www.tsbadminton.url.tw/",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.48,
-      "_rev": {
-        "city": "臺北市",
-        "district": "中山區",
-        "road": "興安街"
-      },
-      "type": "球隊／俱樂部"
-    },
-    {
-      "id": "ovt-0a0232d631",
-      "name": "中華民國羽球協會",
-      "city": "臺北市",
-      "district": "中山區",
-      "address": "臺北市中山區朱崙街20號",
-      "tel": "0287711440",
-      "lat": 25.049885,
-      "lng": 121.53936,
-      "website": "http://www.ctb.org.tw/index.asp",
-      "source": "https://overturemaps.org/",
-      "sourceName": "Overture Maps",
       "confidence": 0.46,
       "_rev": {
         "city": "臺北市",
         "district": "中山區",
-        "road": "朱崙街"
+        "road": "興安街"
       },
       "type": "球隊／俱樂部"
     },
@@ -54,7 +34,7 @@
       "website": "https://www.facebook.com/217956522074307",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.76,
+      "confidence": 0.7,
       "_rev": {
         "city": "臺北市",
         "district": "萬華區",
@@ -74,7 +54,7 @@
       "website": "https://www.facebook.com/125968630598890",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.88,
+      "confidence": 0.89,
       "_rev": {
         "city": "新北市",
         "district": "新店區",
@@ -94,7 +74,7 @@
       "website": "https://www.facebook.com/632415239949330",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.72,
+      "confidence": 0.71,
       "_rev": {
         "city": "新北市",
         "district": "新莊區",
@@ -114,7 +94,7 @@
       "website": "https://line.me/ti/g2/MYmEKsx8XPQ1rHqX44wvgBdbQKHHtvmU7Yi2fQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.51,
+      "confidence": 0.56,
       "_rev": {
         "city": "新北市",
         "district": "板橋區",
@@ -134,7 +114,7 @@
       "website": "https://www.facebook.com/1915857041976857",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.69,
+      "confidence": 0.67,
       "_rev": {
         "city": "新北市",
         "district": "林口區",
@@ -154,7 +134,7 @@
       "website": "https://chillbadminton.com.tw/",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.75,
+      "confidence": 0.74,
       "_rev": {
         "city": "新北市",
         "district": "樹林區",
@@ -174,7 +154,7 @@
       "website": "https://www.facebook.com/335740916284368",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.87,
+      "confidence": 0.88,
       "_rev": {
         "city": "新北市",
         "district": "汐止區",
@@ -189,8 +169,8 @@
       "district": "永和區",
       "address": "新北市永和區竹林路",
       "tel": "",
-      "lat": 25.012825,
-      "lng": 121.519547,
+      "lat": 25.012747,
+      "lng": 121.519478,
       "website": "http://blog.xuite.net/changtengteam/twblog",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
@@ -214,7 +194,7 @@
       "website": "https://www.facebook.com/234825483334398",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.51,
+      "confidence": 0.47,
       "_rev": {
         "city": "新北市",
         "district": "蘆洲區",
@@ -234,7 +214,7 @@
       "website": "https://www.facebook.com/109501107460862",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.55,
+      "confidence": 0.54,
       "_rev": {
         "city": "基隆市",
         "district": "七堵區",
@@ -249,8 +229,8 @@
       "district": "信義區",
       "address": "基隆市信義區信二路40號",
       "tel": "0224570277",
-      "lat": 25.129198,
-      "lng": 121.756973,
+      "lat": 25.129171,
+      "lng": 121.756844,
       "website": "https://www.facebook.com/555897134274635",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
@@ -274,7 +254,7 @@
       "website": "https://www.facebook.com/2062430314077903",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.88,
+      "confidence": 0.85,
       "_rev": {
         "city": "基隆市",
         "district": "信義區",
@@ -289,8 +269,8 @@
       "district": "蘆竹區",
       "address": "桃園市蘆竹區中正北路599號",
       "tel": "0983825820",
-      "lat": 25.039188,
-      "lng": 121.281296,
+      "lat": 25.040232,
+      "lng": 121.280617,
       "website": "http://MINGJIA_BADMINTON.COM/",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
@@ -314,31 +294,11 @@
       "website": "https://www.facebook.com/2746430258720010",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.72,
+      "confidence": 0.74,
       "_rev": {
         "city": "桃園市",
         "district": "",
         "road": "內定八街"
-      },
-      "type": "球隊／俱樂部"
-    },
-    {
-      "id": "ovt-be8827d292",
-      "name": "尋羽球",
-      "city": "新竹縣",
-      "district": "新埔鎮",
-      "address": "新竹縣新埔鎮文山路黎頭山段492號",
-      "tel": "0963927580",
-      "lat": 24.830948,
-      "lng": 121.035965,
-      "website": "https://lin.ee/fUiF7XgP",
-      "source": "https://overturemaps.org/",
-      "sourceName": "Overture Maps",
-      "confidence": 0.48,
-      "_rev": {
-        "city": "新竹縣",
-        "district": "新埔鎮",
-        "road": "文山路犂頭山段"
       },
       "type": "球隊／俱樂部"
     },
@@ -354,7 +314,7 @@
       "website": "https://www.facebook.com/1590601777837488",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.6,
+      "confidence": 0.64,
       "_rev": {
         "city": "新竹縣",
         "district": "竹北市",
@@ -394,7 +354,7 @@
       "website": "http://www.metropolitan888.com/",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.97,
+      "confidence": 0.96,
       "_rev": {
         "city": "臺中市",
         "district": "北屯區",
@@ -414,7 +374,7 @@
       "website": "https://www.facebook.com/709510766170613",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.97,
+      "confidence": 0.96,
       "_rev": {
         "city": "臺中市",
         "district": "西屯區",
@@ -434,7 +394,7 @@
       "website": "https://www.facebook.com/1342007082587740",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.71,
+      "confidence": 0.72,
       "_rev": {
         "city": "臺中市",
         "district": "潭子區",
@@ -460,7 +420,10 @@
         "district": "西區",
         "road": "文化路"
       },
-      "type": "球隊／俱樂部"
+      "type": "球隊／俱樂部",
+      "alsoIn": [
+        "Overture Maps"
+      ]
     },
     {
       "id": "ovt-e196dd4505",
@@ -487,7 +450,7 @@
       "name": "羽球聯盟",
       "city": "臺南市",
       "district": "新營區",
-      "address": "臺南市新營區柳營路三段273-16號",
+      "address": "臺南市新營區柳營路三段273-15號",
       "tel": "0966821772",
       "lat": 23.288912,
       "lng": 120.311676,
@@ -534,7 +497,7 @@
       "website": "https://www.facebook.com/100197569334332",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.55,
+      "confidence": 0.49,
       "_rev": {
         "city": "高雄市",
         "district": "三民區",
@@ -554,7 +517,7 @@
       "website": "https://www.facebook.com/221434463210863",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.49,
+      "confidence": 0.47,
       "_rev": {
         "city": "高雄市",
         "district": "仁武區",
@@ -574,7 +537,7 @@
       "website": "https://www.facebook.com/207308429450765",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.59,
+      "confidence": 0.57,
       "_rev": {
         "city": "高雄市",
         "district": "小港區",
@@ -609,12 +572,12 @@
       "district": "鳥松區",
       "address": "高雄市鳥松區水管路2巷76號",
       "tel": "0989997733",
-      "lat": 22.64934,
-      "lng": 120.383995,
+      "lat": 22.649154,
+      "lng": 120.38694,
       "website": "https://www.facebook.com/111954823597393",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.97,
+      "confidence": 0.96,
       "_rev": {
         "city": "高雄市",
         "district": "鳥松區",
@@ -634,7 +597,7 @@
       "website": "https://www.facebook.com/553550094810340",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.6,
+      "confidence": 0.59,
       "_rev": {
         "city": "高雄市",
         "district": "鼓山區",
@@ -657,7 +620,7 @@
       "website": "http://taranisbadminton.com/",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.91,
+      "confidence": 0.89,
       "_rev": {
         "city": "高雄市",
         "district": "湖內區",
@@ -697,7 +660,7 @@
       "website": "https://www.facebook.com/155524517637978",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.49,
+      "confidence": 0.45,
       "_rev": {
         "city": "屏東縣",
         "district": "",
@@ -737,7 +700,7 @@
       "website": "https://www.facebook.com/449466038550190",
       "source": "https://overturemaps.org/",
       "sourceName": "Overture Maps",
-      "confidence": 0.57,
+      "confidence": 0.53,
       "_rev": {
         "city": "臺東縣",
         "district": "",
