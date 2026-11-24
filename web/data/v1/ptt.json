@@ -1,13 +1,22 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-24T07:56:13+08:00",
+  "updatedAt": "2026-11-24T17:57:26+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1795482680.A.6A6.html",
+      "title": "[Live] 2026 西德·莫迪羽球國際賽討論區",
+      "tag": "Live",
+      "cat": "news",
+      "city": "",
+      "author": "adamsuit",
+      "postedAt": "2026-11-24T09:11:20+08:00"
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1795399063.A.D90.html",
       "title": "[揪人] 長期（六）三重運動中心 1200-1400",
