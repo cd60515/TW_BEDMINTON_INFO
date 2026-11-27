@@ -1,13 +1,22 @@
 {
   "source": "PTT 羽球板",
   "sourceUrl": "https://www.ptt.cc/bbs/Badminton/index.html",
-  "updatedAt": "2026-11-27T16:39:10+08:00",
+  "updatedAt": "2026-11-28T05:21:01+08:00",
   "keepDays": {
     "group": 45,
     "market": 21,
     "news": 14
   },
   "items": [
+    {
+      "url": "https://www.ptt.cc/bbs/Badminton/M.1795797402.A.134.html",
+      "title": "[新聞] 王齊麟換搭檔拚奧運 李洋祝福：重大抉擇",
+      "tag": "新聞",
+      "cat": "news",
+      "city": "",
+      "author": "iamshana",
+      "postedAt": "2026-11-28T00:36:42+08:00"
+    },
     {
       "url": "https://www.ptt.cc/bbs/Badminton/M.1795621435.A.964.html",
       "title": "[新聞] 比肩IU、Jennie和宋慧喬！安洗瑩入亞太",
